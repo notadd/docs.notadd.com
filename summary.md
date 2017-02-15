@@ -1,6 +1,6 @@
 # Summary
 
-* [Notadd官方文档](readme.md)
+* [Notadd官方文档](README.md)
 * [序言](readme.md)
     * [关于](introductions/about.md)
     * 版本说明
@@ -16,7 +16,12 @@
 * [开发规范](standards/readme.md)
 * [常用类库](packages/readme.md)
 * [二次开发](develops/readme.md)
+ * [Administrator](develops/administrator.md)
+ * [路由](develops/exntension.md)
+ * [门面](develops/readme.md)
+ * [扩展](develops/router.md)
 * [模板和插件](extensions/readme.md)
 * [插件](extensions/extension.md)
 * [API 文档](apis/readme.md)
     * [API 结构](apis/api.md)
+
