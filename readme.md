@@ -93,10 +93,11 @@ https://git.oschina.net/notadd/notadd
 
 ## 联系我们
 
-Notadd官方交流群：321735506
-Notadd官方微博：http://weibo.com/u/5938031702
-电话：029-86479891
-地址：陕西省西安市高新二路陕西地建公寓楼2304
+Notadd官方交流群：321735506      
+Notadd官方微博：http://weibo.com/u/5938031702      
+电话：029-86479891       
+地址：陕西省西安市高新二路与光泰路十字   
+
 陕西本初网络科技有限公司·Notadd技术团队
 
 ##加入我们
@@ -109,4 +110,4 @@ PHP高级工程师
 
 ## 捐赠我们
 
-![](https://www.notadd.com/images/donation.png)
+[开源中国捐赠](https://git.oschina.net/notadd/notadd?donate=true)
