@@ -110,4 +110,4 @@ PHP高级工程师
 
 ## 捐赠我们
 
-[开源中国捐赠](https://git.oschina.net/notadd/notadd?donate=true)
+[Donate](https://git.oschina.net/notadd/notadd?donate=true" target="_blank)
