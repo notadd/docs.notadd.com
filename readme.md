@@ -110,6 +110,4 @@ PHP高级工程师
 
 ## 捐赠我们
 
-[Donate](https://git.oschina.net/notadd/notadd?donate=true" target="_blank)
-
-[你好。胖子](https://blog.itme.online" target="_blank)
+[Donate](https://git.oschina.net/notadd/notadd?donate=true)
