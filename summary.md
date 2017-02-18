@@ -3,7 +3,7 @@
 * [Notadd官方文档](README.md)
 * [序言](readme.md)
     * [关于](introductions/about.md)
-    * 版本说明
+    * [版本更新](introductions/versions.md)
     * [Apache 2.0 开源](apache.md)
     * [贡献](introductions/contributing.md)
 * [安装说明](installations/readme.md)
