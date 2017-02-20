@@ -1,7 +1,7 @@
 # 虚拟主机安装
 
 
-1. [下载安装包](download.ibenchu.com/notadd/Notadd_Atlantia_Beta1_Vhost.zip)
+1. [下载安装包]()   【敬请期待】
 
 2. 解压文件。
 

@@ -11,6 +11,8 @@
     * [首次安装](installations/first.md)
     * [VPS安装](installations/vps.md)
     * [虚拟主机安装](installations/vhost.md)
+    * [编译安装](installations/compile.md)
+    * [伪静态配置](installations/conf.md)
 * [技术结构](technologies/readme.md)
 * [目录结构规范](structures/readme.md)
 * [开发规范](standards/readme.md)
@@ -25,4 +27,3 @@
 * [模板和插件](extensions/readme.md)
 * [API 文档](apis/readme.md)
     * [API 结构](apis/api.md)
-
