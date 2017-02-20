@@ -7,4 +7,4 @@
 * 到目录 **modules/administration/resources/assets** 执行 **```npm install```** 命令；
 * 到目录 **modules/administration/resources/assets** 执行 **```npm run build```** 命令；
 * 到网站根目录执行命令 **```php notadd vendor:publish --tag=public --force```**；
-* 访问后台入口 **http://you-domain/admin**。
+* 访问后台入口 **http://yourdomain/admin**。
