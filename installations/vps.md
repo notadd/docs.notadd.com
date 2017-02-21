@@ -1,6 +1,6 @@
 # VPS及独立服务器安装
 
-1. [下载安装包](https://download.ibenchu.com/notadd/Notadd_Atlantia_Beta1_fix1.zip)
+1. [下载安装包](https://downloads.notadd.com/vps/)
 
 2. 解压文件。
 

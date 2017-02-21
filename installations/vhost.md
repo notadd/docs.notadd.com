@@ -1,7 +1,7 @@
 # 虚拟主机安装
 
 
-1. [下载安装包]()   【敬请期待】
+1. [下载安装包](https://downloads.notadd.com/vhost/)  
 
 2. 解压文件。
 
