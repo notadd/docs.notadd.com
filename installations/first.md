@@ -17,6 +17,6 @@
 
 # 需要的函数
 
-`proc_open` `proc_get_status`
+`exec`,`system`,`scandir`,`shell_exec`,`proc_open`,`proc_get_status`
 
 
