@@ -1,0 +1,11 @@
+{
+    "plugins": [
+        "duoshuo"
+    ],
+    "pluginsConfig": {
+        "duoshuo": {
+            "short_name": "notadddocs",
+            "theme": "default"
+        }
+    }
+}

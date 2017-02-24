@@ -14,6 +14,7 @@
     * [编译安装](installations/compile.md)
     * [伪静态配置](installations/conf.md)
 * [技术结构](technologies/readme.md)
+    * [SPA单页面web应用](technologies/spa/readme.md)
 * [目录结构规范](structures/readme.md)
 * [开发规范](standards/readme.md)
 * [常用类库](packages/readme.md)
