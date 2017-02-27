@@ -6,6 +6,7 @@
     * [版本更新](introductions/versions.md)
     * [Apache 2.0 开源](apache.md)
     * [贡献](introductions/contributing.md)
+    * [我们为什么要做Notadd](introductions/why.md)
 * [安装说明](installations/readme.md)
     * [环境要求](installations/readme.md)
     * [首次安装](installations/first.md)
