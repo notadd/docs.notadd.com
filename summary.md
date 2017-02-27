@@ -7,7 +7,7 @@
     * [Apache 2.0 开源](apache.md)
     * [贡献](introductions/contributing.md)
     * [我们为什么要做Notadd](introductions/why.md)
-    * [支持我们](introductions/supports.md)
+    * [支持我们](introductions/supportus.md)
 * [安装说明](installations/readme.md)
     * [首次安装](installations/first.md)
     * [VPS安装](installations/vps.md)
