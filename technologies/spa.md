@@ -35,5 +35,5 @@
 
 ## 我应该如何做
 
-#### [如何用Notadd 写出API](api.md)
-#### [如何用Vue2写出web单页应用](vue2.md)
+**[如何基于 Notadd 构建 API](/howtos/api.md)**
+**[如何用 Vue2 写出 web 单页应用](/howtos/vue2.md)**
