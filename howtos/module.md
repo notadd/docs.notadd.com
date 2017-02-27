@@ -9,6 +9,81 @@
 * 门面注入
 * CSRF注入
 
+## 模块安装
+
+对于模块的安装，目前 Notadd 支持的安装方式，仅为在 根项目 中对 模块 进行依赖。
+
+例如，需要安装模块 notadd/content ,可以修改根项目的文件 composer.json，参考代码如下：
+
+```json
+{
+    "name": "notadd/notadd",
+    "description": "The Notadd Framework.",
+    "keywords": [
+        "notadd",
+        "cms",
+        "foundation",
+        "framework"
+    ],
+    "homepage": "https://notadd.com",
+    "license": "Apache-2.0",
+    "type": "project",
+    "authors": [
+        {
+            "name": "twilroad",
+            "email": "269044570@qq.com"
+        }
+    ],
+    "autoload": {
+        "classmap": [
+            "storage/databases"
+        ]
+    },
+    "require": {
+        "php": ">=7.0",
+        "notadd/content": "0.1.*",
+        "wikimedia/composer-merge-plugin": "dev-master"
+    },
+    "require-dev": {
+        "fzaninotto/faker": "~1.4",
+        "mockery/mockery": "0.9.*",
+        "phpunit/phpunit": "~5.0",
+        "symfony/css-selector": "3.1.*",
+        "symfony/dom-crawler": "3.1.*"
+    },
+    "config": {
+        "preferred-install": "dist"
+    },
+    "scripts": {
+        "post-create-project-cmd": [
+            "php notadd key:generate"
+        ],
+        "post-install-cmd": [
+            "Notadd\\Foundation\\Composer\\ComposerScripts::postInstall",
+            "php notadd optimize"
+        ],
+        "post-update-cmd": [
+            "Notadd\\Foundation\\Composer\\ComposerScripts::postUpdate",
+            "php notadd optimize"
+        ]
+    },
+    "extra": {
+        "merge-plugin": {
+            "include": [
+                "extensions/*/*/composer.json"
+            ],
+            "recurse": true,
+            "replace": false,
+            "merge-dev": false
+        }
+    }
+}
+```
+
+更新文件 composer.json 后，执行 composer update 即可完成对模块的安装。
+
+完整示例代码，请参考项目 https://github.com/notadd/notadd
+
 ## 目录结构
 
 目录结构如下：
