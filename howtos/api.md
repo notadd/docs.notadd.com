@@ -1,4 +1,4 @@
-# 如何基于 Notadd 开发一个API
+# 如何基于 Notadd 构建 API
 
 Notadd 底层实现了 passport 机制，有统一的授权管理，主要支持两种方式进行 API 授权，一个是 client，领一个是 passport，这个在其他文档中有做详细的说明。
 
