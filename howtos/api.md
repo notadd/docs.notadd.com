@@ -38,8 +38,8 @@ Notadd 在实现 API 授权的时候，使用的是有 **路由中间件(middlew
 
 ```php
 $this->router->group(['middleware' => ['auth:api', 'web'], 'prefix' => 'api/setting'], function () {
-    $this->router->post('all', SettingController::class . '@all');
-    $this->router->post('set', SettingController::class . '@set');
+    $this->router->post('all', 'Notadd\Foundation\Setting\Controllers\SettingController@all');
+    $this->router->post('set', 'Notadd\Foundation\Setting\Controllers\SettingController@set');
 });
 ```
 
@@ -49,8 +49,8 @@ Notadd 针对需要跨域的 API 还提供了 cross 的路由中间件，以实�
 
 ```php
 $this->router->group(['middleware' => ['auth:api', 'cross', 'web'], 'prefix' => 'api/setting'], function () {
-    $this->router->post('all', SettingController::class . '@all');
-    $this->router->post('set', SettingController::class . '@set');
+    $this->router->post('all', 'Notadd\Foundation\Setting\Controllers\SettingController@all');
+    $this->router->post('set', 'Notadd\Foundation\Setting\Controllers\SettingController@set');
 });
 ```
 
@@ -61,6 +61,21 @@ $this->router->group(['middleware' => ['auth:api', 'cross', 'web'], 'prefix' => 
 例如，在前面路由调用的 SettingController 中，仅需要注入 AllHandler ，使用方法 toResponse 和 generateHttpResponse 来返回结果给前台，代码参考如下：
 
 ```php
+<?php
+/**
+ * This file is part of Notadd.
+ *
+ * @author TwilRoad <269044570@qq.com>
+ * @copyright (c) 2016, iBenchu.org
+ * @datetime 2016-11-08 17:01
+ */
+namespace Notadd\Foundation\Setting\Controllers;
+
+use Notadd\Foundation\Routing\Abstracts\Controller;
+use Notadd\Foundation\Setting\Contracts\SettingsRepository;
+use Notadd\Foundation\Setting\Handlers\AllHandler;
+use Notadd\Foundation\Setting\Handlers\SetHandler;
+
 /**
  * Class SettingController.
  */
@@ -125,6 +140,19 @@ class SettingController extends Controller
 AllHandler 的代码如下：
 
 ```php
+<?php
+/**
+ * This file is part of Notadd.
+ *
+ * @author TwilRoad <269044570@qq.com>
+ * @copyright (c) 2016, iBenchu.org
+ * @datetime 2016-11-23 14:44
+ */
+namespace Notadd\Foundation\Setting\Handlers;
+
+use Illuminate\Container\Container;
+use Notadd\Foundation\Passport\Abstracts\DataHandler;
+use Notadd\Foundation\Setting\Contracts\SettingsRepository;
 
 /**
  * Class AllHandler.
@@ -199,6 +227,19 @@ class AllHandler extends DataHandler
 SetHandler 的代码如下：
 
 ```php
+<?php
+/**
+ * This file is part of Notadd.
+ *
+ * @author TwilRoad <269044570@qq.com>
+ * @copyright (c) 2016, iBenchu.org
+ * @datetime 2016-11-23 15:09
+ */
+namespace Notadd\Foundation\Setting\Handlers;
+
+use Illuminate\Container\Container;
+use Notadd\Foundation\Passport\Abstracts\SetHandler as AbstractSetHandler;
+use Notadd\Foundation\Setting\Contracts\SettingsRepository;
 
 /**
  * Class SetHandler.
