@@ -10,22 +10,23 @@
 
 ## 扩展安装
 
-对于 扩展 的安装，仅需将扩展文件按照下面的目录结构，放置到目录 extensions 下，然后执行命令 composer update 即可。
+对于 扩展 的安装，仅需将扩展文件按照下面的目录结构，放置到插件根目录 extensions (wwwroot/extensions)下，然后执行命令 composer update 即可。
 
 ## 目录结构
 
 目录结构如下：
 
 ```
-vendor                                                       厂商目录
-    extension                                                插件目录
-        configuations                                        可加载配置文件目录
-        resources                                            资源目录
-            translations                                     翻译文件目录
-            views                                            视图目录
-        src                                                  源码目录
-            Extension                                        扩展服务提供者定义文件
-        composer.json                                        Composer 配置文件
+# wwwroot/extensions                              插件根目录
+    # vendor                                      厂商目录(目录名称仅为示例，开发时自行修改)
+        #  extension                              插件目录(目录名称仅为示例，开发时自行修改)
+            # configuations                       可加载配置文件目录
+            # resources                           资源目录
+                # translations                    翻译文件目录
+                # views                           视图目录
+            # src                                 源码目录
+                # Extension                       扩展服务提供者定义文件
+            # composer.json                       Composer 配置文件
 ```
 
 一个 Notadd 的扩展，是一个符合 composer 规范的包，所以，扩展对第三方代码有依赖时，可以在 composer.json 中的 require 节点中添加第三方的包。

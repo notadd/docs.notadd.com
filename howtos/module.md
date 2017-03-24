@@ -89,13 +89,13 @@
 目录结构如下：
 
 ```
-module                                             模块目录
-    resources                                      资源目录
-        translations                               翻译文件目录
-        views                                      视图目录
-    src                                            源码目录
-        ModuleServiceProvider.php                  模块服务提供者定义文件
-    composer.json                                  Composer 配置文件
+# module                                             模块目录
+    # resources                                      资源目录
+        # translations                               翻译文件目录
+        # views                                      视图目录
+    # src                                            源码目录
+        # ModuleServiceProvider.php                  模块服务提供者定义文件
+    # composer.json                                  Composer 配置文件
 ```
 
 一个 Notadd 的模块，是一个符合 composer 规范的包，所以，模块对第三方代码有依赖时，可以在 composer.json 中的 require 节点中添加第三方的包。
