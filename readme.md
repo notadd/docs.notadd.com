@@ -26,6 +26,20 @@ Notadd 像操作系统一样，你可以通过安装“软件”，成为适用�
 - 低耦合度，可“搭积木”
 - 同时支持所有平台（PC/平板/手机/APP/硬件）
 
+## 目前已有模块
+
+- [后台管理模块](https://github.com/notadd/administration)
+- [文章模块](https://github.com/notadd/content)
+- [用户模块](https://github.com/notadd/member)
+- [富文本编辑器](https://github.com/notadd/neditor)
+- [微信模块](https://github.com/notadd/wechat)
+- [通信模块](https://github.com/notadd/socket)
+
+## 目前已有插件
+
+- [多说评论](http://git.oschina.net/notadd/duoshuo)
+- [百度搜索](http://git.oschina.net/notadd/baidu)
+
 ## 文档
 
 https://docs.notadd.com/
