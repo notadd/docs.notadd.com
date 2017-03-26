@@ -1,0 +1,111 @@
+[
+  {
+    "name": "Notadd",
+    "md": "readme"
+  },
+  {
+    "name": "介绍",
+    "item": [
+      {
+        "name": "关于",
+        "md": "introductions/about"
+      },
+      {
+        "name": "版本更新",
+        "md": "introductions/versions"
+      },
+      {
+        "name": "贡献指南",
+        "md": "introductions/contributing"
+      },
+      {
+        "name": "支持我们",
+        "md": "introductions/supportus"
+      }
+        ]
+  },        
+  {
+      "name": "HOWTOs 文档",
+      "item": [
+        {
+          "name": "如何基于 Notadd 构建 API",
+          "md": "howtos/api"
+        },
+         {
+           "name": "如何开发一个 Notadd 模块",
+           "md": "installations/vps"
+        },
+        {
+           "name": "如何开发一个 Notadd 扩展",
+           "md": "howtos/extension"
+        },
+        {
+           "name": "如何开发一个 Notadd Administration 模块的前端扩展",
+           "md": "howtos/frontend"
+        },
+        {
+           "name": "如何用 Vue2 写出web单页应用",
+           "md": "howtos/vue2"
+        }
+       ]
+    },
+    {
+      "name": "技术结构",
+      "item": [
+        {
+          "name": "SPA单页面web应用",
+          "md": "technologies/spa"
+        }
+       ]
+    },
+    {
+      "name": "目录结构规范",
+      "md": "structures/readme"
+   },
+    {
+      "name": "开发规范",
+      "md": "standards/readme"
+   },
+    {
+      "name": "常用类库",
+      "md": "packages/readme"
+   },
+
+    {
+      "name": "二次开发",
+      "item": [
+        {
+          "name": "Administrator",
+          "md": "develops/administrator"
+        },
+         {
+           "name": "路由",
+           "md": "develops/router"
+        },
+        {
+           "name": "门面",
+           "md": "develops/readme"
+        },
+        {
+           "name": "扩展方式",
+           "md": "develops/exntension"
+        },
+        {
+           "name": "模块",
+           "md": "modules/readme"
+        },
+        {
+           "name": "插件",
+           "md": "extensions/extension"
+        }
+       ]
+    },
+    {
+      "name": "模板和插件",
+      "md": "extensions/readme"
+   }, 
+    {
+      "name": "API结构",
+      "md": "apis/api"
+   }
+]
