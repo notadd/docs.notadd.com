@@ -49,7 +49,11 @@
         },
         {
            "name": "Apache及Nginx 伪静态/路由配置",
-           "md": "hinstallations/conf"
+           "md": "installations/conf"
+        },
+        {
+           "name": "应用商店（临时）",
+           "md": "installations/appstore"
         }
        ]
     },
