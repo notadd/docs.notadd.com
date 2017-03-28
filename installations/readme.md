@@ -9,12 +9,12 @@ PHP版本 ： 7.0+
 数据库： PostgreSQL（推荐）/MariaDB/MySQL/SQLite3
 
 
-### [系统需要安装的拓展](/#/installations/first)
+### [系统需要安装的拓展](first)
 
-### [独立服务器及VPS安装](/#/installations/vps)
+### [独立服务器及VPS安装](vps)
 
-### [虚拟主机安装(暂未提供)](/#/installations/vhost)
+### [虚拟主机安装(暂未提供)](vhost)
 
-### [编译安装](/#/installations/compile.md)
+### [编译安装](compile.md)
 
-### [Apache及Nginx 伪静态/路由配置](/#/installations/conf)
+### [Apache及Nginx 伪静态/路由配置](conf)
