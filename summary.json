@@ -112,10 +112,6 @@
            "md": "develops/router"
         },
         {
-           "name": "门面",
-           "md": "develops/readme"
-        },
-        {
            "name": "扩展方式",
            "md": "develops/exntension"
         },

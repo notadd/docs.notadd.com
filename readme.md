@@ -55,15 +55,15 @@ PHP版本 ： 7.0+
 数据库： PostgreSQL（推荐）/MariaDB/MySQL/SQLite3
 
 
-**[系统需要安装的拓展](https://docs.notadd.com/installations/first.html)**
+**[系统需要安装的拓展](https://docs.notadd.com/#/v1.0/zh-CN/installations/first)**
 
 ## 安装
 
-**[独立服务器及VPS安装](https://docs.notadd.com/installations/vps.html)**
+**[独立服务器及VPS安装](https://docs.notadd.com/#/v1.0/zh-CN/installations/vps)**
 
-**[虚拟主机安装（暂不支持）](https://docs.notadd.com/installations/vhost.html)**
+**[虚拟主机安装（暂不支持）](https://docs.notadd.com/#/v1.0/zh-CN/installations/vhost)**
 
-**[编译安装](https://docs.notadd.com/installations/compile.html)**
+**[编译安装](https://docs.notadd.com/#/v1.0/zh-CN/installations/compile)**
 
 
 ## 贡献
@@ -90,8 +90,8 @@ Notadd官方微博：http://weibo.com/u/5938031702
 
 ##加入我们
 
-产品助理
-UI设计师
-Web前端工程师
-PHP高级工程师
+产品助理   
+UI设计师   
+Web前端工程师   
+PHP高级工程师   
 发送简历至hr@ibenchu.com
