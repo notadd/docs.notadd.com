@@ -16,6 +16,6 @@
     # composer.json                                  Composer 配置文件
 ```
 
-* [Resources](resources.md)
-* [Provider](provider.md)
-* [Composer](composer.md)
+* [Resources](/#/v1.0/zh-CN/modules/resources)
+* [Provider](/#/v1.0/zh-CN/modules/provider)
+* [Composer](/#/v1.0/zh-CN/modules/composer)

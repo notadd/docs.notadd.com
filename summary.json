@@ -104,6 +104,10 @@
       "name": "二次开发",
       "item": [
         {
+           "name": "说明",
+           "md": "develops/readme"
+        },
+        {
           "name": "Administrator",
           "md": "develops/administrator"
         },
@@ -122,6 +126,10 @@
         {
            "name": "插件",
            "md": "extensions/extension"
+        }
+        {
+           "name": "拓展",
+           "md": "extensions/expands"
         }
        ]
     },
