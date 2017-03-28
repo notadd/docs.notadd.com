@@ -24,6 +24,35 @@
       }
         ]
   },        
+   {
+      "name": "开始使用",
+      "item": [
+        {
+          "name": "安装说明",
+          "md": "installations/readme"
+        },
+         {
+           "name": "需要的拓展",
+           "md": "installations/first"
+        },
+        {
+           "name": "独立服务器及VPS安装",
+           "md": "installations/vps"
+        },
+        {
+           "name": "虚拟主机安装（暂未提供）",
+           "md": "installations/vhost"
+        },
+        {
+           "name": "编译安装",
+           "md": "installations/compile"
+        },
+        {
+           "name": "Apache及Nginx 伪静态/路由配置",
+           "md": "hinstallations/conf"
+        }
+       ]
+    },
   {
       "name": "HOWTOs 文档",
       "item": [
@@ -33,7 +62,7 @@
         },
          {
            "name": "如何开发一个 Notadd 模块",
-           "md": "installations/vps"
+           "md": "howtos/modules"
         },
         {
            "name": "如何开发一个 Notadd 扩展",
