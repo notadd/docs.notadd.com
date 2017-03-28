@@ -25,9 +25,9 @@
         # composer.json                              Composer 配置文件
 ```
 
-* [Extension](provider)
-* [Resources](resources)
-* [Composer](composer)
+* [Extension](/#/v1.0/zh-CN/extensions/provider)
+* [Resources](/#/v1.0/zh-CN/extensions/resources)
+* [Composer](/#/v1.0/zh-CN/extensions/composer)
 
 # 其他说明
 
