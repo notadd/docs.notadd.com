@@ -66,7 +66,7 @@
         },
          {
            "name": "如何开发一个 Notadd 模块",
-           "md": "howtos/modules"
+           "md": "howtos/module"
         },
         {
            "name": "如何开发一个 Notadd 扩展",
@@ -130,7 +130,7 @@
         {
            "name": "插件",
            "md": "extensions/extension"
-        }
+        },
         {
            "name": "拓展",
            "md": "extensions/expands"
