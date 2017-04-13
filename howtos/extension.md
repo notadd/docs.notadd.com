@@ -59,7 +59,7 @@
     },
     "require": {
         "php": ">=7.0",
-        "notadd/installers": "0.1.*"                                                // 必须依赖包 notadd/installers
+        "notadd/installers": "0.5.*"                                                // 必须依赖包 notadd/installers
     }
 }
 ```

@@ -33,7 +33,7 @@
     ],
     "require": {
         "php": ">=7.0",
-        "notadd/installers": "0.1.*"
+        "notadd/installers": "0.5.*"
     },
     "autoload": {
         "psr-4": {
