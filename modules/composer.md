@@ -10,6 +10,8 @@
 
 添加 notadd/installers 的 Package，才能调整 Composer 对该类型 Package 的默认处理逻辑，实现重定向安装目录的特性。
 
+介于，模块的安装方式有两种，一种方式是：将 Composer Package 写入程序根目录的 composer.json 文件，另一种方法是，单独初始化模块 Package，并以文件夹的形式放到 modules 目录，因此，包 notadd/installers 应放置在 require-dev 中。 
+
 ## 完整示例
 
 ```json
@@ -32,7 +34,9 @@
         }
     ],
     "require": {
-        "php": ">=7.0",
+        "php": ">=7.0"
+    },
+    "require-dev": {
         "notadd/installers": "0.5.*"
     },
     "autoload": {
