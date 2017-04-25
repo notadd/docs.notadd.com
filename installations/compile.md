@@ -6,7 +6,7 @@
 
 3. 执行 `composer install` 安装；
 
-4. 到网站根目录执行命令 **```php notadd vendor:publish --tag=public --force```**；
+4. 到网站根目录执行命令 **```php notadd vendor:publish --force```**；
 
 5. 浏览器访问所绑定域名进行安装；
 
