@@ -22,7 +22,7 @@ RewriteRule ^ index.php [L]
 ## caddy 配置
 
 ```
-    fastcgi / php-fpm:9000 php {
+    fastcgi / localhost:9000 php {
         index index.php
     }
 
