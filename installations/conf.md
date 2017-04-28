@@ -19,3 +19,19 @@ RewriteCond %{REQUEST_FILENAME} !-d
 RewriteCond %{REQUEST_FILENAME} !-f
 RewriteRule ^ index.php [L]
 ```
+## caddy 配置
+
+```
+    fastcgi / php-fpm:9000 php {
+        index index.php
+    }
+
+    # To handle .html extensions with laravel change ext to
+    # ext / .html
+
+    rewrite {
+        r .*
+        ext /
+        to /index.php?{query}
+    }
+ ```
