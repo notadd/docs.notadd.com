@@ -17,4 +17,4 @@ PHP版本 ： 7.0+
 
 ### [编译安装](/#/v1.0/zh-CN/installations/compile)
 
-### [Apache及Nginx 伪静态/路由配置](/#/v1.0/zh-CN/installations/conf)
+### [Apache、Nginx、Caddy 伪静态/路由配置](/#/v1.0/zh-CN/installations/conf)
