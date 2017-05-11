@@ -10,7 +10,7 @@
 
 ```bash
 cd notadd/modules
-git clone https://github.com/notadd/content.git --branch=develop
+git clone https://github.com/notadd/content.git
 ```
 
 2、模块初始化：
