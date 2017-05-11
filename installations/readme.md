@@ -15,6 +15,8 @@ PHP版本 ： 7.0+
 
 ### [虚拟主机安装(暂未提供)](/#/v1.0/zh-CN/installations/vhost)
 
+### [Apache、Nginx、Caddy 伪静态/路由配置](/#/v1.0/zh-CN/installations/conf)
+
 ### [编译安装](/#/v1.0/zh-CN/installations/compile)
 
-### [Apache、Nginx、Caddy 伪静态/路由配置](/#/v1.0/zh-CN/installations/conf)
+### [模块安装](/#/v1.0/zh-CN/installations/module)
