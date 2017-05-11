@@ -20,3 +20,5 @@ PHP版本 ： 7.0+
 ### [编译安装](/#/v1.0/zh-CN/installations/compile)
 
 ### [模块安装](/#/v1.0/zh-CN/installations/module)
+
+### [插件安装](/#/v1.0/zh-CN/installations/extension)
