@@ -9,8 +9,11 @@
 模块安装方式：上传到 modules目录，后台安装 或执行 composer update
 
 **[文章模块](https://pkg.notadd.com/Atlantia/modules/content/content_0.3.21.tar.xz)**  [`Github 地址`](https://github.com/notadd/content)
+
 **用户模块** （暂无下载地址） [`Github地址`](https://github.com/notadd/member)
+
 **商城模块** （暂无下载地址）[`Oschina地址`](https://git.oschina.net/meilande/ecommerce)
+
 **微信模块** （暂无下载地址）[`Github地址`](https://github.com/notadd/wechat)
 
 ## 插件
