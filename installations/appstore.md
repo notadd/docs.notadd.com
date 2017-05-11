@@ -29,7 +29,7 @@
  - 文章评论系统
 **网站sitemap插件** [`即将发布`](#)
  - 网站地图
-**百度主动推送(https://pkg.notadd.com/Atlantia/extensions/baidu-push/baidu-push_0.1.3.tar.xz)**
+**[百度主动推送](https://pkg.notadd.com/Atlantia/extensions/baidu-push/baidu-push_0.1.3.tar.xz)**
  - 推送网站新链接给百度搜索引擎
 **短信接口**（阿里大于）[`开发中`](https://www.zybuluo.com/zuohuadong/note/696008)
  - 用于发短信验证码、语音验证码
