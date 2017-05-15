@@ -66,7 +66,7 @@ $this->router->group(['middleware' => ['auth:api', 'cross', 'web'], 'prefix' => 
  * This file is part of Notadd.
  *
  * @author TwilRoad <269044570@qq.com>
- * @copyright (c) 2016, iBenchu.org
+ * @copyright (c) 2016, notadd.com
  * @datetime 2016-11-08 17:01
  */
 namespace Notadd\Foundation\Setting\Controllers;
@@ -145,7 +145,7 @@ AllHandler 的代码如下：
  * This file is part of Notadd.
  *
  * @author TwilRoad <269044570@qq.com>
- * @copyright (c) 2016, iBenchu.org
+ * @copyright (c) 2016, notadd.com
  * @datetime 2016-11-23 14:44
  */
 namespace Notadd\Foundation\Setting\Handlers;
@@ -232,7 +232,7 @@ SetHandler 的代码如下：
  * This file is part of Notadd.
  *
  * @author TwilRoad <269044570@qq.com>
- * @copyright (c) 2016, iBenchu.org
+ * @copyright (c) 2016, notadd.com
  * @datetime 2016-11-23 15:09
  */
 namespace Notadd\Foundation\Setting\Handlers;

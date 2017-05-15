@@ -153,7 +153,7 @@
  * This file is part of Notadd.
  *
  * @author TwilRoad <269044570@qq.com>
- * @copyright (c) 2016, iBenchu.org
+ * @copyright (c) 2016, notadd.com
  * @datetime 2016-10-08 17:12
  */
 namespace Notadd\Content;
@@ -191,7 +191,7 @@ class ModuleServiceProvider extends ServiceProvider
  * This file is part of Notadd.
  *
  * @author TwilRoad <269044570@qq.com>
- * @copyright (c) 2016, iBenchu.org
+ * @copyright (c) 2016, notadd.com
  * @datetime 2016-10-08 17:12
  */
 namespace Notadd\Content;
@@ -220,7 +220,7 @@ class ModuleServiceProvider extends ServiceProvider
  * This file is part of Notadd.
  *
  * @author TwilRoad <269044570@qq.com>
- * @copyright (c) 2016, iBenchu.org
+ * @copyright (c) 2016, notadd.com
  * @datetime 2016-10-08 18:30
  */
 namespace Notadd\Content\Listeners;
@@ -262,7 +262,7 @@ class RouteRegister extends AbstractRouteRegistrar
  * This file is part of Notadd.
  *
  * @author TwilRoad <269044570@qq.com>
- * @copyright (c) 2016, iBenchu.org
+ * @copyright (c) 2016, notadd.com
  * @datetime 2016-10-08 17:12
  */
 namespace Notadd\Content;
@@ -294,7 +294,7 @@ class ModuleServiceProvider extends ServiceProvider
  * This file is part of Notadd.
  *
  * @author TwilRoad <269044570@qq.com>
- * @copyright (c) 2017, iBenchu.org
+ * @copyright (c) 2017, notadd.com
  * @datetime 2017-01-22 12:20
  */
 namespace Notadd\Content\Listeners;
@@ -342,7 +342,7 @@ class FacadeRegister extends EventSubscriber
  * This file is part of Notadd.
  *
  * @author TwilRoad <269044570@qq.com>
- * @copyright (c) 2016, iBenchu.org
+ * @copyright (c) 2016, notadd.com
  * @datetime 2016-10-08 17:12
  */
 namespace Notadd\Content;
@@ -374,7 +374,7 @@ class ModuleServiceProvider extends ServiceProvider
  * This file is part of Notadd.
  *
  * @author TwilRoad <269044570@qq.com>
- * @copyright (c) 2017, iBenchu.org
+ * @copyright (c) 2017, notadd.com
  * @datetime 2017-02-10 11:04
  */
 namespace Notadd\Content\Listeners;

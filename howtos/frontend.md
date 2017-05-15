@@ -322,7 +322,7 @@ export default {
  * This file is part of Notadd.
  *
  * @author TwilRoad <269044570@qq.com>
- * @copyright (c) 2016, iBenchu.org
+ * @copyright (c) 2016, notadd.com
  * @datetime 2016-10-08 17:12
  */
 namespace Notadd\Content;
@@ -359,7 +359,7 @@ class ModuleServiceProvider extends ServiceProvider
  * This file is part of Notadd.
  *
  * @author TwilRoad <269044570@qq.com>
- * @copyright (c) 2016, iBenchu.org
+ * @copyright (c) 2016, notadd.com
  * @datetime 2016-10-08 17:12
  */
 namespace Notadd\Content;

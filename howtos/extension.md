@@ -78,7 +78,7 @@
  * This file is part of Notadd.
  *
  * @author TwilRoad <269044570@qq.com>
- * @copyright (c) 2017, iBenchu.org
+ * @copyright (c) 2017, notadd.com
  * @datetime 2017-02-21 11:28
  */
 namespace Notadd\Duoshuo;
@@ -113,7 +113,7 @@ class Extension extends AbstractExtension
  * This file is part of Notadd.
  *
  * @author TwilRoad <269044570@qq.com>
- * @copyright (c) 2017, iBenchu.org
+ * @copyright (c) 2017, notadd.com
  * @datetime 2017-02-21 11:28
  */
 namespace Notadd\Duoshuo;
@@ -145,7 +145,7 @@ class Extension extends AbstractExtension
  * This file is part of Notadd.
  *
  * @author TwilRoad <269044570@qq.com>
- * @copyright (c) 2017, iBenchu.org
+ * @copyright (c) 2017, notadd.com
  * @datetime 2017-02-21 11:50
  */
 namespace Notadd\Duoshuo\Listeners;
@@ -184,7 +184,7 @@ class RouteRegister extends AbstractRouteRegistrar
  * This file is part of Notadd.
  *
  * @author TwilRoad <269044570@qq.com>
- * @copyright (c) 2017, iBenchu.org
+ * @copyright (c) 2017, notadd.com
  * @datetime 2017-02-21 11:28
  */
 namespace Notadd\Duoshuo;
@@ -216,7 +216,7 @@ class Extension extends AbstractExtension
  * This file is part of Notadd.
  *
  * @author TwilRoad <269044570@qq.com>
- * @copyright (c) 2017, iBenchu.org
+ * @copyright (c) 2017, notadd.com
  * @datetime 2017-02-23 19:38
  */
 namespace Notadd\Duoshuo\Listeners;
