@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Gettingtarteds on Notad 官方文档 Docs</title>
+    <link>http://127.0.0.1/gettingtarted/</link>
+    <description>Recent content in Gettingtarteds on Notad 官方文档 Docs</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-cn</language>
+    <copyright>Released under the Apache2 license</copyright>
+    
+	<atom:link href="http://127.0.0.1/gettingtarted/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title></title>
+      <link>http://127.0.0.1/gettingtarted/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://127.0.0.1/gettingtarted/</guid>
+      <description>环境要求 需要的扩展  PHP 必须大于 7.0.0 必须安装 PHP 扩展 dom 必须安装 PHP 扩展 fileinfo 必须安装 PHP 扩展 gd 必须安装 PHP 扩展 json 必须安装 PHP 扩展 mbstring 必须安装 PHP 扩展 openssl 使用 Mysql 数据库引擎则必须安装PHP扩展 pdo_mysql 使用 Pgsql 数据库引擎则必须安装PHP扩展 pdo_pgsql 使用 Sqlite 数据库引擎则必须安装PHP扩展 pdo_sqlite  需要的函数 exec,system,scandir,shell_exec,proc_open,proc_get_status
+安装说明 系统环境 操作系统： Linux（推荐）/Mac OS/ Windows 2008+
+PHP版本 ： 7.0+
+数据库： PostgreSQL（推荐）/MariaDB/MySQL/SQLite3
+系统需要安装的拓展 独立服务器及VPS安装 虚拟主机安装(暂未提供) Apache、Nginx、Caddy 伪静态/路由配置 编译安装 模块安装 插件安装 Nginx/Apache/Caddy Nginx 配置 location / { try_files $uri $uri/ /index.</description>
+    </item>
+    
+  </channel>
+</rss>

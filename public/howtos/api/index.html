@@ -1,0 +1,753 @@
+<!DOCTYPE html>
+  
+  
+  
+  
+   <html class="no-js"> 
+
+  <head lang="zh-cn">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,user-scalable=no,initial-scale=1,maximum-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="IE=10" />
+    <title> - Notad 官方文档 Docs</title>
+    <meta name="generator" content="Hugo 0.20.7" />
+
+    
+    <meta name="description" content="基于Laravel的下一代PHP开发框架">
+    
+    <link rel="canonical" href="https://0.0.0.0/howtos/api/">
+    
+    <meta name="author" content="notadd">
+    
+
+    <meta property="og:url" content="https://0.0.0.0/howtos/api/">
+    <meta property="og:title" content="Notad 官方文档 Docs">
+    <meta property="og:image" content="https://0.0.0.0/images/logo.png">
+    <meta name="apple-mobile-web-app-title" content="Notad 官方文档 Docs">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+
+    <link rel="shortcut icon" type="image/x-icon" href="https://0.0.0.0/images/favicon.ico">
+    <link rel="icon" type="image/x-icon" href="https://0.0.0.0/images/favicon.ico">
+
+    <style>
+      @font-face {
+        font-family: 'Icon';
+        src: url('https://0.0.0.0/fonts/icon.eot');
+        src: url('https://0.0.0.0/fonts/icon.eot')
+               format('embedded-opentype'),
+             url('https://0.0.0.0/fonts/icon.woff')
+               format('woff'),
+             url('https://0.0.0.0/fonts/icon.ttf')
+               format('truetype'),
+             url('https://0.0.0.0/fonts/icon.svg')
+               format('svg');
+        font-weight: normal;
+        font-style: normal;
+      }
+    </style>
+
+    <link rel="stylesheet" href="https://0.0.0.0/stylesheets/application.css">
+    <link rel="stylesheet" href="https://0.0.0.0/stylesheets/temporary.css">
+    <link rel="stylesheet" href="https://0.0.0.0/stylesheets/palettes.css">
+    <link rel="stylesheet" href="https://0.0.0.0/stylesheets/highlight/highlight.css">
+
+    
+    
+    
+    <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Ubuntu:400,700|Ubuntu&#43;Mono">
+    <style>
+      body, input {
+        font-family: 'Ubuntu', Helvetica, Arial, sans-serif;
+      }
+      pre, code {
+        font-family: 'Ubuntu Mono', 'Courier New', 'Courier', monospace;
+      }
+    </style>
+
+    
+    <script src="https://0.0.0.0/javascripts/modernizr.js"></script>
+
+    
+
+  </head>
+  <body class="palette-primary-red palette-accent-teal">
+
+
+
+	
+	
+
+
+<div class="backdrop">
+	<div class="backdrop-paper"></div>
+</div>
+
+<input class="toggle" type="checkbox" id="toggle-drawer">
+<input class="toggle" type="checkbox" id="toggle-search">
+<label class="toggle-button overlay" for="toggle-drawer"></label>
+
+<header class="header">
+	<nav aria-label="Header">
+  <div class="bar default">
+    <div class="button button-menu" role="button" aria-label="Menu">
+      <label class="toggle-button icon icon-menu" for="toggle-drawer">
+        <span></span>
+      </label>
+    </div>
+    <div class="stretch">
+      <div class="title">
+        
+      </div>
+    </div>
+
+    
+
+    
+    <div class="button button-github" role="button" aria-label="GitHub">
+      <a href="https://github.com/notadd" title="@notadd on GitHub" target="_blank" class="toggle-button icon icon-github"></a>
+    </div>
+    
+    
+        
+  </div>
+  <div class="bar search">
+    <div class="button button-close" role="button" aria-label="Close">
+      <label class="toggle-button icon icon-back" for="toggle-search"></label>
+    </div>
+    <div class="stretch">
+      <div class="field">
+        <input class="query" type="text" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck>
+      </div>
+    </div>
+    <div class="button button-reset" role="button" aria-label="Search">
+      <button class="toggle-button icon icon-close" id="reset-search"></button>
+    </div>
+  </div>
+</nav>
+</header>
+
+<main class="main">
+	<div class="drawer">
+		<nav aria-label="Navigation">
+  <a href="https://github.com/notadd/notadd" class="project">
+    <div class="banner">
+      
+        <div class="logo">
+          <img src="https://0.0.0.0/images/logo.png">
+        </div>
+      
+      <div class="name">
+        <strong>Notad 官方文档 Docs <span class="version">0.5.2</span></strong>
+        
+          <br>
+          notadd/notadd
+        
+      </div>
+    </div>
+  </a>
+
+  <div class="scrollable">
+    <div class="wrapper">
+      
+        <ul class="repo">
+          <li class="repo-download">
+            <a href="https://github.com/notadd/notadd/archive/master.zip" target="_blank" title="Download" data-action="download">
+              <i class="icon icon-download"></i> Download
+            </a>
+          </li>
+          <li class="repo-stars">
+            <a href="https://github.com/notadd/notadd/stargazers" target="_blank" title="Stargazers" data-action="star">
+              <i class="icon icon-star"></i> Stars
+              <span class="count">&ndash;</span>
+            </a>
+          </li>
+        </ul>
+        <hr>
+      
+
+      <div class="toc">
+        
+        <ul>
+          
+
+
+
+
+<li>
+  
+    
+
+
+
+<a  title="Hello dog" href="https://0.0.0.0/dog/">
+	
+	Hello dog
+</a>
+
+
+
+  
+</li>
+
+
+
+<li>
+  
+    
+
+
+
+<a  title="Adding content" href="https://0.0.0.0/adding-content/">
+	
+	Adding content
+</a>
+
+
+
+  
+</li>
+
+
+
+<li>
+  
+    
+
+
+
+<a  title="Roadmap" href="https://0.0.0.0/roadmap/">
+	
+	Roadmap
+</a>
+
+
+
+  
+</li>
+
+
+
+<li>
+  
+    
+
+
+
+<a  title="License" href="https://0.0.0.0/license/">
+	
+	License
+</a>
+
+
+
+  
+</li>
+
+
+
+<li>
+  
+    
+
+
+
+<a  title="Notadd" href="https://0.0.0.0/">
+	
+	Notadd
+</a>
+
+
+
+  
+</li>
+
+
+        </ul>
+        
+
+        
+        <hr>
+        <span class="section">The author</span>
+        
+        <ul>
+          
+
+          
+          <li>
+            <a href="https://github.com/notadd" target="_blank" title="@notadd on GitHub">
+              @notadd on GitHub
+            </a>
+          </li>
+          
+
+          
+          <li>
+            <a href="mailto:notadd@ibenchu.com" title="Email of notadd@ibenchu.com">
+              Contact via email
+            </a>
+          </li>
+          
+        </ul>
+        
+      </div>
+    </div>
+  </div>
+</nav>
+
+	</div>
+
+	<article class="article">
+		<div class="wrapper">
+			<h1> </h1>
+
+			
+
+<h1 id="如何基于-notadd-构建-api">如何基于 Notadd 构建 API</h1>
+
+<p>Notadd 底层实现了 passport 机制，有统一的授权管理，主要支持两种方式进行 API 授权，一个是 client，领一个是 passport，这个在其他文档中有做详细的说明。</p>
+
+<p>这里主要说的是，如何基于 Notadd 进行 API 接口的开发。</p>
+
+<h2 id="业务逻辑">业务逻辑</h2>
+
+<p>熟悉 Laravel 的同学都应该知道，Laravel 遵循这样的业务逻辑实现：</p>
+
+<pre><code class="language-text">路由(route) -&gt; 控制器(controller) -&gt; 业务逻辑(model) -&gt; 数据输出(view)
+</code></pre>
+
+<p>而 Notadd 的 API 业务逻辑实现同样遵循类似的流程：</p>
+
+<pre><code class="language-text">路由(route) -&gt; 控制器(controller) -&gt; API 处理器(handler) -&gt; 模型(model) -&gt; 数据输出(json)
+</code></pre>
+
+<p>其中，主要的差异在于，API 处理器提供了对数据输出格式的输出，返回的数据格式统一为：</p>
+
+<pre><code class="language-php">[
+    'code' =&gt; 200,             // API 接口返回的状态码，默认为 200
+    'data' =&gt; [],              // API 接口返回的数据，主要为数组形式
+    'message' =&gt; 'success！',  // API 接口返回的提示信息，可以包含错误信息或成功信息
+]
+</code></pre>
+
+<h2 id="路由">路由</h2>
+
+<p>Notadd 在实现 API 授权的时候，使用的是有 <strong>路由中间件(middleware)</strong> 的方式来实现的。</p>
+
+<p>具体实现方式，是在路由的中间配置参数中添加 <strong>auth:api</strong> 。</p>
+
+<p>例如，在实现 api/setting/all 和 api/setting/set 两个 API 的时候，添加 auth:api 的中间件，代码参考如下：</p>
+
+<pre><code class="language-php">$this-&gt;router-&gt;group(['middleware' =&gt; ['auth:api', 'web'], 'prefix' =&gt; 'api/setting'], function () {
+    $this-&gt;router-&gt;post('all', 'Notadd\Foundation\Setting\Controllers\SettingController@all');
+    $this-&gt;router-&gt;post('set', 'Notadd\Foundation\Setting\Controllers\SettingController@set');
+});
+</code></pre>
+
+<p>Notadd 针对需要跨域的 API 还提供了 cross 的路由中间件，以实现 API 跨域的功能。</p>
+
+<p>例如，为前两个 API 提供跨域的功能实现，代码参考如下：</p>
+
+<pre><code class="language-php">$this-&gt;router-&gt;group(['middleware' =&gt; ['auth:api', 'cross', 'web'], 'prefix' =&gt; 'api/setting'], function () {
+    $this-&gt;router-&gt;post('all', 'Notadd\Foundation\Setting\Controllers\SettingController@all');
+    $this-&gt;router-&gt;post('set', 'Notadd\Foundation\Setting\Controllers\SettingController@set');
+});
+</code></pre>
+
+<h2 id="控制器">控制器</h2>
+
+<p>由于有了独立的 API处理器 ，控制器层可以制作简单处理，仅需向控制器注入 handler，并由 handler 提供的辅助方法返回 API 数据给前台，即可。</p>
+
+<p>例如，在前面路由调用的 SettingController 中，仅需要注入 AllHandler ，使用方法 toResponse 和 generateHttpResponse 来返回结果给前台，代码参考如下：</p>
+
+<pre><code class="language-php">&lt;?php
+/**
+ * This file is part of Notadd.
+ *
+ * @author TwilRoad &lt;269044570@qq.com&gt;
+ * @copyright (c) 2016, notadd.com
+ * @datetime 2016-11-08 17:01
+ */
+namespace Notadd\Foundation\Setting\Controllers;
+
+use Notadd\Foundation\Routing\Abstracts\Controller;
+use Notadd\Foundation\Setting\Contracts\SettingsRepository;
+use Notadd\Foundation\Setting\Handlers\AllHandler;
+use Notadd\Foundation\Setting\Handlers\SetHandler;
+
+/**
+ * Class SettingController.
+ */
+class SettingController extends Controller
+{
+    /**
+     * @var \Notadd\Foundation\Setting\Contracts\SettingsRepository
+     */
+    protected $settings;
+
+    /**
+     * SettingController constructor.
+     *
+     * @param \Notadd\Foundation\Setting\Contracts\SettingsRepository $settings
+     *
+     * @throws \Illuminate\Contracts\Container\BindingResolutionException
+     */
+    public function __construct(SettingsRepository $settings)
+    {
+        parent::__construct();
+        $this-&gt;settings = $settings;
+    }
+
+    /**
+     * All handler.
+     *
+     * @param \Notadd\Foundation\Setting\Handlers\AllHandler $handler
+     *
+     * @return \Notadd\Foundation\Passport\Responses\ApiResponse
+     * @throws \Exception
+     */
+    public function all(AllHandler $handler)
+    {
+        return $handler-&gt;toResponse()-&gt;generateHttpResponse();
+    }
+
+    /**
+     * Set handler.
+     *
+     * @param \Notadd\Foundation\Setting\Handlers\SetHandler $handler
+     *
+     * @return \Notadd\Foundation\Passport\Responses\ApiResponse
+     * @throws \Exception
+     */
+    public function set(SetHandler $handler)
+    {
+        return $handler-&gt;toResponse()-&gt;generateHttpResponse();
+    }
+}
+</code></pre>
+
+<h2 id="api-handler-和模型">API Handler 和模型</h2>
+
+<p>在 API Handler中提供了模型的操作接口。</p>
+
+<p>在 Notadd 中，提供了两类 API Handler，一类是 DataHandler，另一类是 SetHandler，顾名思义，DataHandler 仅提供数据返回接口，而 SetHandler 不仅提供数据返回接口，还提供其他操作处理的接口。</p>
+
+<p>具体差异体现在，DataHandler 在返回数据接口时仅调用方法 data，而 SetHandler 在调用 data 方法前还有调用 execute 方法。</p>
+
+<p>例如，在前面的 SettingController 中使用的 AllHandler 为 DataHandler 类 Handler，提供返回所有 配置项 的 API 功能，SetHandler 为 SetHandler 类 Handler，提供 修改配置项 并返回所有 配置项 的 API 功能。</p>
+
+<p>AllHandler 的代码如下：</p>
+
+<pre><code class="language-php">&lt;?php
+/**
+ * This file is part of Notadd.
+ *
+ * @author TwilRoad &lt;269044570@qq.com&gt;
+ * @copyright (c) 2016, notadd.com
+ * @datetime 2016-11-23 14:44
+ */
+namespace Notadd\Foundation\Setting\Handlers;
+
+use Illuminate\Container\Container;
+use Notadd\Foundation\Passport\Abstracts\DataHandler;
+use Notadd\Foundation\Setting\Contracts\SettingsRepository;
+
+/**
+ * Class AllHandler.
+ */
+class AllHandler extends DataHandler
+{
+    /**
+     * @var \Notadd\Foundation\Setting\Contracts\SettingsRepository
+     */
+    protected $settings;
+
+    /**
+     * AllHandler constructor.
+     *
+     * @param \Illuminate\Container\Container                         $container
+     * @param \Notadd\Foundation\Setting\Contracts\SettingsRepository $settings
+     */
+    public function __construct(
+        Container $container,
+        SettingsRepository $settings
+    ) {
+        parent::__construct($container);
+        $this-&gt;settings = $settings;
+    }
+
+    /**
+     * Http code.
+     *
+     * @return int
+     */
+    public function code()                                                 // 定义 API 操作结果的状态码
+    {
+        return 200;
+    }
+
+    /**
+     * Data for handler.
+     *
+     * @return array
+     */
+    public function data()                                                  // 定义 API 返回的数据
+    {
+        return $this-&gt;settings-&gt;all()-&gt;toArray();
+    }
+
+    /**
+     * Errors for handler.
+     *
+     * @return array
+     */
+    public function errors()                                                // 定义 API 操作失败时返回的信息
+    {
+        return [
+            '获取全局设置失败！',
+        ];
+    }
+
+    /**
+     * Messages for handler.
+     *
+     * @return array
+     */
+    public function messages()                                             // 定义 API 操作成功时返回的信息
+    {
+        return [
+            '获取全局设置成功！',
+        ];
+    }
+}
+</code></pre>
+
+<p>SetHandler 的代码如下：</p>
+
+<pre><code class="language-php">&lt;?php
+/**
+ * This file is part of Notadd.
+ *
+ * @author TwilRoad &lt;269044570@qq.com&gt;
+ * @copyright (c) 2016, notadd.com
+ * @datetime 2016-11-23 15:09
+ */
+namespace Notadd\Foundation\Setting\Handlers;
+
+use Illuminate\Container\Container;
+use Notadd\Foundation\Passport\Abstracts\SetHandler as AbstractSetHandler;
+use Notadd\Foundation\Setting\Contracts\SettingsRepository;
+
+/**
+ * Class SetHandler.
+ */
+class SetHandler extends AbstractSetHandler
+{
+    /**
+     * @var \Notadd\Foundation\Setting\Contracts\SettingsRepository
+     */
+    protected $settings;
+
+    /**
+     * SetHandler constructor.
+     *
+     * @param \Illuminate\Container\Container                         $container
+     * @param \Notadd\Foundation\Setting\Contracts\SettingsRepository $settings
+     */
+    public function __construct(
+        Container $container,
+        SettingsRepository $settings
+    ) {
+        parent::__construct($container);
+        $this-&gt;settings = $settings;
+    }
+
+    /**
+     * Data for handler.
+     *
+     * @return array
+     */
+    public function data()                                                                    // 定义 API 返回的数据
+    {
+        return $this-&gt;settings-&gt;all()-&gt;toArray();
+    }
+
+    /**
+     * Errors for handler.
+     *
+     * @return array
+     */
+    public function errors()                                                                  // 定义 API 操作失败时返回的信息
+    {
+        return [
+            '修改设置失败！',
+        ];
+    }
+
+    /**
+     * Execute Handler.
+     *
+     * @return bool
+     */
+    public function execute()                                                                 // 定义 API 执行的修改操作
+    {
+        $this-&gt;settings-&gt;set('site.enabled', $this-&gt;request-&gt;input('enabled'));
+        $this-&gt;settings-&gt;set('site.name', $this-&gt;request-&gt;input('name'));
+        $this-&gt;settings-&gt;set('site.domain', $this-&gt;request-&gt;input('domain'));
+        $this-&gt;settings-&gt;set('site.beian', $this-&gt;request-&gt;input('beian'));
+        $this-&gt;settings-&gt;set('site.company', $this-&gt;request-&gt;input('company'));
+        $this-&gt;settings-&gt;set('site.copyright', $this-&gt;request-&gt;input('copyright'));
+        $this-&gt;settings-&gt;set('site.statistics', $this-&gt;request-&gt;input('statistics'));
+
+        return true;
+    }
+
+    /**
+     * Messages for handler.
+     *
+     * @return array
+     */
+    public function messages()                                                                // 定义 API 操作成功时返回的信息
+    {
+        return [
+            '修改设置成功!',
+        ];
+    }
+}
+</code></pre>
+
+<h2 id="数据输出">数据输出</h2>
+
+<p>API 结果的数据输出，已经在 控制器(controller) 中做了处理。</p>
+
+<p>至此，一个完整的 API 开发完成。</p>
+
+
+			<aside class="copyright" role="note">
+				
+				&copy; 2017 Released under the Apache2 license &ndash;
+				
+				Documentation built with
+				<a href="https://www.gohugo.io" target="_blank">Hugo</a>
+				using the
+				<a href="http://github.com/digitalcraftsman/hugo-material-docs" target="_blank">Material</a> theme.
+			</aside>
+
+			<footer class="footer">
+				
+
+<nav class="pagination" aria-label="Footer">
+  <div class="previous">
+  
+      <a href="https://0.0.0.0/extensions/resources/" title="">
+        <span class="direction">
+          Previous
+        </span>
+        <div class="page">
+          <div class="button button-previous" role="button" aria-label="Previous">
+            <i class="icon icon-back"></i>
+          </div>
+          <div class="stretch">
+            <div class="title">
+              
+            </div>
+          </div>
+        </div>
+      </a>
+  
+  </div>
+
+  <div class="next">
+  
+      <a href="https://0.0.0.0/howtos/dashboard/" title="">
+        <span class="direction">
+          Next
+        </span>
+        <div class="page">
+          <div class="stretch">
+            <div class="title">
+              
+            </div>
+          </div>
+          <div class="button button-next" role="button" aria-label="Next">
+            <i class="icon icon-forward"></i>
+          </div>
+        </div>
+      </a>
+  
+  </div>
+</nav>
+
+
+
+
+
+			</footer>
+		</div>
+	</article>
+
+	<div class="results" role="status" aria-live="polite">
+		<div class="scrollable">
+			<div class="wrapper">
+				<div class="meta"></div>
+				<div class="list"></div>
+			</div>
+		</div>
+	</div>
+</main>
+
+    <script>
+    
+      var base_url = 'https:\/\/0.0.0.0\/';
+      var repo_id  = 'notadd\/notadd';
+    
+    </script>
+
+    <script src="https://0.0.0.0/javascripts/application.js"></script>
+    
+
+    <script>
+      /* Add headers to scrollspy */
+      var headers   = document.getElementsByTagName("h2");
+      var scrollspy = document.getElementById('scrollspy');
+
+      if(scrollspy) {
+        if(headers.length > 0) {
+          for(var i = 0; i < headers.length; i++) {
+            var li = document.createElement("li");
+            li.setAttribute("class", "anchor");
+
+            var a  = document.createElement("a");
+            a.setAttribute("href", "#" + headers[i].id);
+            a.setAttribute("title", headers[i].innerHTML);
+            a.innerHTML = headers[i].innerHTML;
+
+            li.appendChild(a)
+            scrollspy.appendChild(li);
+          }
+        } else {
+          scrollspy.parentElement.removeChild(scrollspy)
+        }
+
+
+        /* Add permanent link next to the headers */
+        var headers = document.querySelectorAll("h1, h2, h3, h4, h5, h6");
+
+        for(var i = 0; i < headers.length; i++) {
+            var a = document.createElement("a");
+            a.setAttribute("class", "headerlink");
+            a.setAttribute("href", "#" + headers[i].id);
+            a.setAttribute("title", "Permanent link")
+            a.innerHTML = "#";
+            headers[i].appendChild(a);
+        }
+      }
+    </script>
+
+    
+
+    <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.8.0/highlight.min.js"></script>
+    <script>hljs.initHighlightingOnLoad();</script>
+  </body>
+</html>
+

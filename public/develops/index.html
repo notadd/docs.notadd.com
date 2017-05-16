@@ -1,0 +1,1152 @@
+<!DOCTYPE html>
+  
+  
+  
+  
+   <html class="no-js"> 
+
+  <head lang="zh-cn">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,user-scalable=no,initial-scale=1,maximum-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="IE=10" />
+    <title> - Notad 官方文档 Docs</title>
+    <meta name="generator" content="Hugo 0.20.7" />
+
+    
+    <meta name="description" content="基于Laravel的下一代PHP开发框架">
+    
+    <link rel="canonical" href="http://127.0.0.1/develops/">
+    
+    <meta name="author" content="notadd">
+    
+
+    <meta property="og:url" content="http://127.0.0.1/develops/">
+    <meta property="og:title" content="Notad 官方文档 Docs">
+    <meta property="og:image" content="http://127.0.0.1/images/logo.png">
+    <meta name="apple-mobile-web-app-title" content="Notad 官方文档 Docs">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+
+    <link rel="shortcut icon" type="image/x-icon" href="http://127.0.0.1/images/favicon.ico">
+    <link rel="icon" type="image/x-icon" href="http://127.0.0.1/images/favicon.ico">
+
+    <style>
+      @font-face {
+        font-family: 'Icon';
+        src: url('http://127.0.0.1/fonts/icon.eot');
+        src: url('http://127.0.0.1/fonts/icon.eot')
+               format('embedded-opentype'),
+             url('http://127.0.0.1/fonts/icon.woff')
+               format('woff'),
+             url('http://127.0.0.1/fonts/icon.ttf')
+               format('truetype'),
+             url('http://127.0.0.1/fonts/icon.svg')
+               format('svg');
+        font-weight: normal;
+        font-style: normal;
+      }
+    </style>
+
+    <link rel="stylesheet" href="http://127.0.0.1/stylesheets/application.css">
+    <link rel="stylesheet" href="http://127.0.0.1/stylesheets/temporary.css">
+    <link rel="stylesheet" href="http://127.0.0.1/stylesheets/palettes.css">
+    <link rel="stylesheet" href="http://127.0.0.1/stylesheets/highlight/highlight.css">
+
+    
+    
+    
+    <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Ubuntu:400,700|Ubuntu&#43;Mono">
+    <style>
+      body, input {
+        font-family: 'Ubuntu', Helvetica, Arial, sans-serif;
+      }
+      pre, code {
+        font-family: 'Ubuntu Mono', 'Courier New', 'Courier', monospace;
+      }
+    </style>
+
+    
+    <script src="http://127.0.0.1/javascripts/modernizr.js"></script>
+
+    
+
+  </head>
+  <body class="palette-primary-teal palette-accent-teal">
+
+
+
+	
+	
+
+
+<div class="backdrop">
+	<div class="backdrop-paper"></div>
+</div>
+
+<input class="toggle" type="checkbox" id="toggle-drawer">
+<input class="toggle" type="checkbox" id="toggle-search">
+<label class="toggle-button overlay" for="toggle-drawer"></label>
+
+<header class="header">
+	<nav aria-label="Header">
+  <div class="bar default">
+    <div class="button button-menu" role="button" aria-label="Menu">
+      <label class="toggle-button icon icon-menu" for="toggle-drawer">
+        <span></span>
+      </label>
+    </div>
+    <div class="stretch">
+      <div class="title">
+        
+      </div>
+    </div>
+
+    
+
+    
+    <div class="button button-github" role="button" aria-label="GitHub">
+      <a href="https://github.com/notadd" title="@notadd on GitHub" target="_blank" class="toggle-button icon icon-github"></a>
+    </div>
+    
+    
+        
+  </div>
+  <div class="bar search">
+    <div class="button button-close" role="button" aria-label="Close">
+      <label class="toggle-button icon icon-back" for="toggle-search"></label>
+    </div>
+    <div class="stretch">
+      <div class="field">
+        <input class="query" type="text" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck>
+      </div>
+    </div>
+    <div class="button button-reset" role="button" aria-label="Search">
+      <button class="toggle-button icon icon-close" id="reset-search"></button>
+    </div>
+  </div>
+</nav>
+</header>
+
+<main class="main">
+	<div class="drawer">
+		<nav aria-label="Navigation">
+  <a href="https://github.com/notadd/notadd" class="project">
+    <div class="banner">
+      
+        <div class="logo">
+          <img src="http://127.0.0.1/images/logo.png">
+        </div>
+      
+      <div class="name">
+        <strong>Notad 官方文档 Docs <span class="version">0.5.2</span></strong>
+        
+          <br>
+          notadd/notadd
+        
+      </div>
+    </div>
+  </a>
+
+  <div class="scrollable">
+    <div class="wrapper">
+      
+        <ul class="repo">
+          <li class="repo-download">
+            <a href="https://github.com/notadd/notadd/archive/master.zip" target="_blank" title="Download" data-action="download">
+              <i class="icon icon-download"></i> Download
+            </a>
+          </li>
+          <li class="repo-stars">
+            <a href="https://github.com/notadd/notadd/stargazers" target="_blank" title="Stargazers" data-action="star">
+              <i class="icon icon-star"></i> Stars
+              <span class="count">&ndash;</span>
+            </a>
+          </li>
+        </ul>
+        <hr>
+      
+
+      <div class="toc">
+        
+        <ul>
+          
+
+
+
+
+<li>
+  
+    
+
+
+
+<a  title="关于" href="http://127.0.0.1/introductions/">
+	
+	关于
+</a>
+
+
+
+  
+</li>
+
+
+
+<li>
+  
+    
+
+
+
+<a  title="开始使用" href="http://127.0.0.1/gettingtarted/">
+	
+	开始使用
+</a>
+
+
+
+  
+</li>
+
+
+
+<li>
+  
+    
+
+
+
+<a  title="HOWTO文档" href="http://127.0.0.1/howtos/">
+	
+	HOWTO文档
+</a>
+
+
+
+  
+</li>
+
+
+
+<li>
+  
+    
+
+
+
+<a  title="相关技术" href="http://127.0.0.1/technologies/">
+	
+	相关技术
+</a>
+
+
+
+  
+</li>
+
+
+
+<li>
+  
+    
+
+
+
+<a class="current" title="二次开发" href="http://127.0.0.1/develops/">
+	
+	二次开发
+</a>
+
+
+<ul id="scrollspy">
+</ul>
+
+
+  
+</li>
+
+
+
+<li>
+  
+    
+
+
+
+<a  title="API 结构" href="http://127.0.0.1/apis/">
+	
+	API 结构
+</a>
+
+
+
+  
+</li>
+
+
+        </ul>
+        
+
+        
+        <hr>
+        <span class="section">The author</span>
+        
+        <ul>
+          
+
+          
+          <li>
+            <a href="https://github.com/notadd" target="_blank" title="@notadd on GitHub">
+              @notadd on GitHub
+            </a>
+          </li>
+          
+
+          
+          <li>
+            <a href="mailto:notadd@ibenchu.com" title="Email of notadd@ibenchu.com">
+              Contact via email
+            </a>
+          </li>
+          
+        </ul>
+        
+      </div>
+    </div>
+  </div>
+</nav>
+
+	</div>
+
+	<article class="article">
+		<div class="wrapper">
+			<h1> </h1>
+
+			
+
+<h1 id="二次开发">二次开发</h1>
+
+<h2 id="什么是二次开发">什么是二次开发</h2>
+
+<p>所谓二次开发，即是在 Notadd Framework 的基础上，对 Notadd Framework 的原有结构、原有功能进行调整或增强。</p>
+
+<h3 id="notadd-framework-支持进行的二次开发内容">Notadd Framework 支持进行的二次开发内容。</h3>
+
+<h4 id="功能性扩展说明列表">功能性扩展说明列表</h4>
+
+<ul>
+<li><a href="http://127.0.0.1/#/v1.0/zh-CN/develops/administrator">Administrator</a></li>
+<li><a href="http://127.0.0.1/#/v1.0/zh-CN/develops/router">路由</a></li>
+<li><a href="http://127.0.0.1/#/v1.0/zh-CN/modules/readme">模块</a>  大功能，诸如商城、文章、微信</li>
+<li><a href="http://127.0.0.1/#/v1.0/zh-CN/extensions/extension">插件</a>  功能增强，诸如 全局短信，全局验证码。</li>
+<li><a href="http://127.0.0.1/#/v1.0/zh-CN/expands">拓展</a>  特定环境拓展， 诸如 swoole拓展，PostgreSQL增强拓展</li>
+</ul>
+
+<h2 id="administrator">Administrator</h2>
+
+<p>Administrator 作为唯一的网站管理实例，有着控制管理入口、分配管理职责等功能。</p>
+
+<p>Notadd 的实现方式：</p>
+
+<h3 id="类-administration">类 Administration</h3>
+
+<pre><code class="language-php">namespace Notadd\Foundation\Administration;
+
+use Illuminate\Container\Container;
+use Illuminate\Events\Dispatcher;
+use InvalidArgumentException;
+use Notadd\Foundation\Administration\Abstracts\Administrator;
+
+/**
+ * Class Administration.
+ */
+class Administration
+{
+    /**
+     * @var \Notadd\Foundation\Administration\Abstracts\Administrator
+     */
+    protected $administrator;
+
+    /**
+     * @var \Illuminate\Container\Container
+     */
+    protected $container;
+
+    /**
+     * @var \Illuminate\Events\Dispatcher
+     */
+    protected $events;
+
+    /**
+     * Administration constructor.
+     *
+     * @param \Illuminate\Container\Container $container
+     * @param \Illuminate\Events\Dispatcher   $events
+     */
+    public function __construct(Container $container, Dispatcher $events)
+    {
+        $this-&gt;container = $container;
+        $this-&gt;events = $events;
+    }
+
+    /**
+     * Get administrator.
+     *
+     * @return \Notadd\Foundation\Administration\Abstracts\Administrator
+     */
+    public function getAdministrator()
+    {
+        return $this-&gt;administrator;
+    }
+
+    /**
+     * Status of administrator's instance.
+     *
+     * @return bool
+     */
+    public function hasAdministrator()
+    {
+        return is_null($this-&gt;administrator) ? false : true;
+    }
+
+    /**
+     * Set administrator instance.
+     *
+     * @param \Notadd\Foundation\Administration\Abstracts\Administrator $administrator
+     *
+     * @throws \InvalidArgumentException
+     */
+    public function setAdministrator(Administrator $administrator)
+    {
+        if (is_object($this-&gt;administrator)) {
+            throw new InvalidArgumentException('Administrator has been Registered!');
+        }
+        if ($administrator instanceof Administrator) {
+            $this-&gt;administrator = $administrator;
+            $this-&gt;administrator-&gt;init();
+        } else {
+            throw new InvalidArgumentException('Administrator must be instanceof ' . Administrator::class . '!');
+        }
+    }
+}
+</code></pre>
+
+<h3 id="抽象类-administrator">抽象类 Administrator</h3>
+
+<pre><code class="language-php">namespace Notadd\Foundation\Administration\Abstracts;
+
+use Illuminate\Events\Dispatcher;
+use Illuminate\Routing\Router;
+use InvalidArgumentException;
+
+/**
+ * Class Administrator.
+ */
+abstract class Administrator
+{
+    /**
+     * @var \Illuminate\Events\Dispatcher
+     */
+    protected $events;
+
+    /**
+     * @var mixed
+     */
+    protected $handler;
+
+    /**
+     * @var string
+     */
+    protected $path;
+
+    /**
+     * @var \Illuminate\Routing\Router
+     */
+    protected $router;
+
+    /**
+     * Administrator constructor.
+     *
+     * @param \Illuminate\Events\Dispatcher $events
+     * @param \Illuminate\Routing\Router    $router
+     */
+    public function __construct(Dispatcher $events, Router $router)
+    {
+        $this-&gt;events = $events;
+        $this-&gt;router = $router;
+    }
+
+    /**
+     * Get administration handler.
+     *
+     * @return mixed
+     */
+    public function getHandler()
+    {
+        return $this-&gt;handler;
+    }
+
+    /**
+     * Administration route path.
+     *
+     * @return string
+     */
+    public function getPath()
+    {
+        return $this-&gt;path;
+    }
+
+    /**
+     * Init administrator.
+     *
+     * @throws \InvalidArgumentException
+     */
+    final public function init()
+    {
+        if (is_null($this-&gt;path) || is_null($this-&gt;handler)) {
+            throw new InvalidArgumentException('Handler or Path must be Setted!');
+        }
+        $this-&gt;router-&gt;group(['middleware' =&gt; 'web'], function () {
+            $this-&gt;router-&gt;get($this-&gt;path, $this-&gt;handler);
+        });
+    }
+
+    /**
+     * Register administration handler.
+     *
+     * @param $handler
+     */
+    public function registerHandler($handler)
+    {
+        $this-&gt;handler = $handler;
+    }
+
+    /**
+     * Register administration route path.
+     *
+     * @param string $path
+     */
+    public function registerPath($path)
+    {
+        $this-&gt;path = $path;
+    }
+}
+</code></pre>
+
+<h3 id="ioc-实例注册方式">IOC 实例注册方式</h3>
+
+<pre><code class="language-php">namespace Notadd\Administration;
+
+use Illuminate\Support\ServiceProvider;
+use Notadd\Administration\Controllers\AdminController;
+use Notadd\Foundation\Administration\Administration;
+
+/**
+ * Class Extension.
+ */
+class ModuleServiceProvider extends ServiceProvider
+{
+    /**
+     * Boot service provider.
+     *
+     * @param \Notadd\Foundation\Administration\Administration $administration
+     */
+    public function boot(Administration $administration)
+    {
+        $administrator = new Administrator($this-&gt;app['events'], $this-&gt;app['router']);
+        $administrator-&gt;registerPath('admin');
+        $administrator-&gt;registerHandler(AdminController::class . '@handle');
+        $administration-&gt;setAdministrator($administrator);
+    }
+}
+</code></pre>
+
+<h2 id="路由">路由</h2>
+
+<p>可编程路由是 <strong>Laravel</strong> 的一大特性，而在 <strong>Notadd</strong> 中，允许以 <strong>Event</strong> 的形式进行扩展。</p>
+
+<h3 id="扩展示例">扩展示例</h3>
+
+<h4 id="第一步">第一步：</h4>
+
+<p>在 Module 的 ModuleServiceProvider 入口类或 Extension 的 Extension 入口类 中订阅 RouteRegister 事件：</p>
+
+<pre><code class="language-php">$this-&gt;app-&gt;make(Dispatcher::class)-&gt;subscribe(RouteRegister::class);
+</code></pre>
+
+<h4 id="第二步">第二步：</h4>
+
+<p>在类 RouteRegister 实现 router 定义，示例代码如下：</p>
+
+<pre><code class="language-php">namespace Notadd\Content\Listeners;
+
+use Notadd\Content\Controllers\Api\Article\ArticleController as ArticleApiController;
+use Notadd\Content\Controllers\Api\Article\ArticleTemplateController as ArticleTemplateApiController;
+use Notadd\Content\Controllers\Api\Category\CategoryController as CategoryApiController;
+use Notadd\Content\Controllers\Api\Category\CategoryTemplateController as CategoryTemplateApiController;
+use Notadd\Content\Controllers\Api\Category\CategoryTypeController as CategoryTypeApiController;
+use Notadd\Content\Controllers\Api\Page\PageController as PageApiController;
+use Notadd\Content\Controllers\Api\Page\PageTemplateController as PageTemplateApiController;
+use Notadd\Content\Controllers\Api\Page\PageTypeController as PageTypeApiController;
+use Notadd\Content\Controllers\ArticleController;
+use Notadd\Content\Controllers\Api\Article\ArticleTypeController as ArticleTypeApiController;
+use Notadd\Content\Controllers\CategoryController;
+use Notadd\Content\Controllers\PageController;
+use Notadd\Foundation\Routing\Abstracts\RouteRegistrar as AbstractRouteRegistrar;
+
+/**
+ * Class RouteRegister.
+ */
+class RouteRegister extends AbstractRouteRegistrar
+{
+    /**
+     * Handle Route Registrar.
+     */
+    public function handle()
+    {
+        $this-&gt;router-&gt;group(['middleware' =&gt; ['auth:api', 'web'], 'prefix' =&gt; 'api/article'], function () {
+            $this-&gt;router-&gt;resource('template', ArticleTemplateApiController::class);
+            $this-&gt;router-&gt;resource('type', ArticleTypeApiController::class);
+            $this-&gt;router-&gt;resource('/', ArticleApiController::class);
+        });
+        $this-&gt;router-&gt;group(['middleware' =&gt; ['auth:api', 'web'], 'prefix' =&gt; 'api/category'], function () {
+            $this-&gt;router-&gt;resource('template', CategoryTemplateApiController::class);
+            $this-&gt;router-&gt;resource('type', CategoryTypeApiController::class);
+            $this-&gt;router-&gt;resource('/', CategoryApiController::class);
+        });
+        $this-&gt;router-&gt;group(['middleware' =&gt; ['auth:api', 'web'], 'prefix' =&gt; 'api/page'], function () {
+            $this-&gt;router-&gt;resource('template', PageTemplateApiController::class);
+            $this-&gt;router-&gt;resource('type', PageTypeApiController::class);
+            $this-&gt;router-&gt;resource('/', PageApiController::class);
+        });
+        $this-&gt;router-&gt;group(['middleware' =&gt; 'web', 'prefix' =&gt; 'article'], function () {
+            $this-&gt;router-&gt;resource('/', ArticleController::class);
+        });
+        $this-&gt;router-&gt;group(['middleware' =&gt; 'web', 'prefix' =&gt; 'category'], function () {
+            $this-&gt;router-&gt;resource('/', CategoryController::class);
+        });
+        $this-&gt;router-&gt;group(['middleware' =&gt; 'web', 'prefix' =&gt; 'page'], function () {
+            $this-&gt;router-&gt;resource('/', PageController::class);
+        });
+    }
+}
+</code></pre>
+
+<h2 id="notadd-推荐的扩展方式">Notadd 推荐的扩展方式</h2>
+
+<p>Notadd 是朝着可扩展功能和可扩展组件的方向发展的，但是这和传统的 Laravel 支持的扩展方式有所区别。</p>
+
+<h3 id="传统的-laravel-的扩展方式">传统的 Laravel 的扩展方式</h3>
+
+<ul>
+<li>独立的 routes.php 实现路由的增加和修改</li>
+<li>构建一个 service package ，通过 Service Provider的方式进行功能扩展和 IOC 容器实例注入</li>
+</ul>
+
+<p>从以上两种方式可以看出，Laravel 具备很强的自扩展能力，但是也存在以下几个弊端：</p>
+
+<ul>
+<li>必须修改默认代码，包括 routes 相关配置文件和 configuration 相关配置文件</li>
+<li>无法彻底修改 Laravel 的功能实现</li>
+</ul>
+
+<h3 id="notadd-推荐的扩展方式-1">Notadd 推荐的扩展方式</h3>
+
+<p>以独立的 package 形式存在的 Laravel 扩展包，传承了 composer 包管理的思想，但是没有针对可插拔做出实现，而 Notadd 的存在，正式为了解决这个问题。</p>
+
+<ul>
+<li>遵循 composer 包管理规范的 package</li>
+<li>不需要对源代码做出过多的修改，即可达到 package 的加载</li>
+<li>Module 和 Extension 两个级别的功能扩展级别</li>
+</ul>
+
+<h2 id="模块">模块</h2>
+
+<p><strong>模块</strong>是 Notadd 的功能实体，是区别于 <strong>notadd/framework</strong> 来说的，<strong>notadd/framework</strong> 仅是承载 Notadd 体系的逻辑实现，并没有包含功能性代码。</p>
+
+<h2 id="目录结构">目录结构</h2>
+
+<p><strong>模块</strong>位于目录 <strong>modules</strong> 下，每个模块在一个独立的文件夹内，模块内部的目录结构如下：</p>
+
+<pre><code># module                                             模块目录
+    # resources                                      资源目录
+        # translations                               翻译文件目录
+        # views                                      视图目录
+    # src                                            源码目录
+        # ModuleServiceProvider.php                  模块服务提供者定义文件
+    # composer.json                                  Composer 配置文件
+</code></pre>
+
+<ul>
+<li><a href="http://127.0.0.1/#/v1.0/zh-CN/modules/resources">Resources</a></li>
+<li><a href="http://127.0.0.1/#/v1.0/zh-CN/modules/provider">Provider</a></li>
+<li><a href="http://127.0.0.1/#/v1.0/zh-CN/modules/composer">Composer</a></li>
+</ul>
+
+<h2 id="resources">Resources</h2>
+
+<p>Resources 目录是 Module 的资源类文件放置的目录，包含如下几个类型目录：</p>
+
+<ul>
+<li>assets</li>
+<li>translations</li>
+<li>views</li>
+</ul>
+
+<h3 id="assets">Assets</h3>
+
+<p>assets 目录为前端相关资源或项目的放置目录。</p>
+
+<h3 id="translations">Translations</h3>
+
+<p>translations 目录为多语言资源文件的放置目录。</p>
+
+<h3 id="views">Views</h3>
+
+<p>views 目录为视图资源文件的放置目录。</p>
+
+<h3 id="moduleserviceprovider">ModuleServiceProvider</h3>
+
+<p>ModuleServiceProvider 是 Module 的模块入口文件，也 Module 的所有功能容器示例注册、路由注入等一系列功能注册及组件启动的服务提供者。</p>
+
+<h3 id="完整示例">完整示例</h3>
+
+<pre><code class="language-php">namespace Notadd\Content;
+
+use Illuminate\Events\Dispatcher;
+use Illuminate\Support\ServiceProvider;
+use Notadd\Content\Events\RegisterArticleTemplate;
+use Notadd\Content\Events\RegisterArticleType;
+use Notadd\Content\Events\RegisterCategoryTemplate;
+use Notadd\Content\Events\RegisterCategoryType;
+use Notadd\Content\Events\RegisterPageTemplate;
+use Notadd\Content\Events\RegisterPageType;
+use Notadd\Content\Listeners\CsrfTokenRegister;
+use Notadd\Content\Listeners\RouteRegister;
+use Notadd\Content\Managers\ArticleManager;
+use Notadd\Content\Managers\CategoryManager;
+use Notadd\Content\Managers\PageManager;
+
+/**
+ * Class Module.
+ */
+class ModuleServiceProvider extends ServiceProvider
+{
+    /**
+     * Boot service provider.
+     */
+    public function boot()
+    {
+        $this-&gt;app-&gt;make(Dispatcher::class)-&gt;subscribe(CsrfTokenRegister::class);
+        $this-&gt;app-&gt;make(Dispatcher::class)-&gt;subscribe(RouteRegister::class);
+        $this-&gt;loadMigrationsFrom(realpath(__DIR__ . '/../databases/migrations'));
+        $this-&gt;loadTranslationsFrom(realpath(__DIR__ . '/../resources/translations'), 'content');
+    }
+
+    /**
+     * Register services.
+     */
+    public function register()
+    {
+        $this-&gt;app-&gt;alias('article.manager', ArticleManager::class);
+        $this-&gt;app-&gt;alias('category.manager', CategoryManager::class);
+        $this-&gt;app-&gt;alias('page.manager', PageManager::class);
+        $this-&gt;app-&gt;singleton('article.manager', function ($app) {
+            $manager = new ArticleManager($app, $app['events']);
+            $this-&gt;app-&gt;make(Dispatcher::class)-&gt;fire(new RegisterArticleTemplate($app, $manager));
+            $this-&gt;app-&gt;make(Dispatcher::class)-&gt;fire(new RegisterArticleType($app, $manager));
+
+            return $manager;
+        });
+        $this-&gt;app-&gt;singleton('category.manager', function ($app) {
+            $manager = new CategoryManager($app, $app['events']);
+            $this-&gt;app-&gt;make(Dispatcher::class)-&gt;fire(new RegisterCategoryTemplate($app, $manager));
+            $this-&gt;app-&gt;make(Dispatcher::class)-&gt;fire(new RegisterCategoryType($app, $manager));
+
+            return $manager;
+        });
+        $this-&gt;app-&gt;singleton('page.manager', function ($app) {
+            $manager = new PageManager($app, $app['events']);
+            $this-&gt;app-&gt;make(Dispatcher::class)-&gt;fire(new RegisterPageTemplate($app, $manager));
+            $this-&gt;app-&gt;make(Dispatcher::class)-&gt;fire(new RegisterPageType($app, $manager));
+
+            return $manager;
+        });
+    }
+}
+</code></pre>
+
+<h2 id="moduleserviceprovider-1">ModuleServiceProvider</h2>
+
+<p>ModuleServiceProvider 是 Module 的模块入口文件，也 Module 的所有功能容器示例注册、路由注入等一系列功能注册及组件启动的服务提供者。</p>
+
+<h3 id="完整示例-1">完整示例</h3>
+
+<pre><code class="language-php">namespace Notadd\Content;
+
+use Illuminate\Events\Dispatcher;
+use Illuminate\Support\ServiceProvider;
+use Notadd\Content\Events\RegisterArticleTemplate;
+use Notadd\Content\Events\RegisterArticleType;
+use Notadd\Content\Events\RegisterCategoryTemplate;
+use Notadd\Content\Events\RegisterCategoryType;
+use Notadd\Content\Events\RegisterPageTemplate;
+use Notadd\Content\Events\RegisterPageType;
+use Notadd\Content\Listeners\CsrfTokenRegister;
+use Notadd\Content\Listeners\RouteRegister;
+use Notadd\Content\Managers\ArticleManager;
+use Notadd\Content\Managers\CategoryManager;
+use Notadd\Content\Managers\PageManager;
+
+/**
+ * Class Module.
+ */
+class ModuleServiceProvider extends ServiceProvider
+{
+    /**
+     * Boot service provider.
+     */
+    public function boot()
+    {
+        $this-&gt;app-&gt;make(Dispatcher::class)-&gt;subscribe(CsrfTokenRegister::class);
+        $this-&gt;app-&gt;make(Dispatcher::class)-&gt;subscribe(RouteRegister::class);
+        $this-&gt;loadMigrationsFrom(realpath(__DIR__ . '/../databases/migrations'));
+        $this-&gt;loadTranslationsFrom(realpath(__DIR__ . '/../resources/translations'), 'content');
+    }
+
+    /**
+     * Register services.
+     */
+    public function register()
+    {
+        $this-&gt;app-&gt;alias('article.manager', ArticleManager::class);
+        $this-&gt;app-&gt;alias('category.manager', CategoryManager::class);
+        $this-&gt;app-&gt;alias('page.manager', PageManager::class);
+        $this-&gt;app-&gt;singleton('article.manager', function ($app) {
+            $manager = new ArticleManager($app, $app['events']);
+            $this-&gt;app-&gt;make(Dispatcher::class)-&gt;fire(new RegisterArticleTemplate($app, $manager));
+            $this-&gt;app-&gt;make(Dispatcher::class)-&gt;fire(new RegisterArticleType($app, $manager));
+
+            return $manager;
+        });
+        $this-&gt;app-&gt;singleton('category.manager', function ($app) {
+            $manager = new CategoryManager($app, $app['events']);
+            $this-&gt;app-&gt;make(Dispatcher::class)-&gt;fire(new RegisterCategoryTemplate($app, $manager));
+            $this-&gt;app-&gt;make(Dispatcher::class)-&gt;fire(new RegisterCategoryType($app, $manager));
+
+            return $manager;
+        });
+        $this-&gt;app-&gt;singleton('page.manager', function ($app) {
+            $manager = new PageManager($app, $app['events']);
+            $this-&gt;app-&gt;make(Dispatcher::class)-&gt;fire(new RegisterPageTemplate($app, $manager));
+            $this-&gt;app-&gt;make(Dispatcher::class)-&gt;fire(new RegisterPageType($app, $manager));
+
+            return $manager;
+        });
+    }
+}
+</code></pre>
+
+<h3 id="composer">Composer</h3>
+
+<p>通过对 Composer 的自定义，可以实现 Notadd 风格的目录结构。</p>
+
+<h3 id="type">Type</h3>
+
+<p>配置 type 属性为 notadd-module，会告诉 Composer Installer 将该 Package 安装到目录 modules 下，而非默认目录 vendor 下。</p>
+
+<h3 id="require">Require</h3>
+
+<p>添加 notadd/installers 的 Package，才能调整 Composer 对该类型 Package 的默认处理逻辑，实现重定向安装目录的特性。</p>
+
+<p>介于，模块的安装方式有两种，一种方式是：将 Composer Package 写入程序根目录的 composer.json 文件，另一种方法是，单独初始化模块 Package，并以文件夹的形式放到 modules 目录，因此，包 notadd/installers 应放置在 require-dev 中。</p>
+
+<h3 id="完整示例-2">完整示例</h3>
+
+<pre><code class="language-json">{
+    &quot;name&quot;: &quot;notadd/content&quot;,
+    &quot;description&quot;: &quot;Notadd's Content Module.&quot;,
+    &quot;keywords&quot;: [
+        &quot;notadd&quot;,
+        &quot;cms&quot;,
+        &quot;framework&quot;,
+        &quot;content&quot;
+    ],
+    &quot;homepage&quot;: &quot;https://notadd.com&quot;,
+    &quot;license&quot;: &quot;Apache-2.0&quot;,
+    &quot;type&quot;: &quot;notadd-module&quot;,
+    &quot;authors&quot;: [
+        {
+            &quot;name&quot;: &quot;twilroad&quot;,
+            &quot;email&quot;: &quot;269044570@qq.com&quot;
+        }
+    ],
+    &quot;require&quot;: {
+        &quot;php&quot;: &quot;&gt;=7.0&quot;
+    },
+    &quot;require-dev&quot;: {
+        &quot;notadd/installers&quot;: &quot;0.5.*&quot;
+    },
+    &quot;autoload&quot;: {
+        &quot;psr-4&quot;: {
+            &quot;Notadd\\Content\\&quot;: &quot;src/&quot;
+        }
+    }
+}
+</code></pre>
+
+<h2 id="extension">Extension</h2>
+
+<h3 id="说明">说明</h3>
+
+<p><strong>Extension</strong> 作为 Notadd Framework 的一个特性存在，允许通过 Extension 的方式对 Notadd Framework 进行功能或模板的扩展。
+<strong>Extension</strong> 的机制类似于 <strong>Laravel</strong> 中 <strong>Service Provider</strong> 的机制，提供了一种实现组件化的机制，并可以实现传统插件机制中的安装、卸载以及插件启动过程。</p>
+
+<h3 id="基本结构">基本结构</h3>
+
+<p>一个完整的 Notadd Extension ，必然是遵循 <strong>Composer</strong> 相关规范的 <strong>Package</strong>。</p>
+
+<h4 id="目录结构-1">目录结构</h4>
+
+<p><strong>插件</strong>位于目录 <strong>extensions</strong> 下，插件目录结构如下</p>
+
+<pre><code># vendor                                             厂商目录
+    # extension                                      插件目录
+        # configuations                              可加载配置文件目录
+        # resources                                  资源目录
+            # translations                           翻译文件目录
+            # views                                  视图目录
+        # src                                        源码目录
+            # Extension                              扩展服务提供者定义文件
+        # composer.json                              Composer 配置文件
+</code></pre>
+
+<ul>
+<li><a href="http://127.0.0.1/#/v1.0/zh-CN/extensions/provider">Extension</a></li>
+<li><a href="http://127.0.0.1/#/v1.0/zh-CN/extensions/resources">Resources</a></li>
+<li><a href="http://127.0.0.1/#/v1.0/zh-CN/extensions/composer">Composer</a></li>
+</ul>
+
+<h3 id="其他说明">其他说明</h3>
+
+<ul>
+<li><strong>composer.json</strong> 中需定义 <strong>type</strong> 为 <strong>notadd-extension</strong></li>
+<li><strong>composer.json</strong> 中需依赖 <strong>package</strong> 为 <strong>notadd/installers</strong></li>
+</ul>
+
+<h1 id="extension-结构">Extension 结构</h1>
+
+<p>Extension 的机制类似于 <strong>Laravel</strong> 中 <strong>Service Provider</strong> 的机制，提供了一种实现组件化的机制，并可以实现传统插件机制中的安装、卸载以及插件启动过程。</p>
+
+<h3 id="基本结构-1">基本结构</h3>
+
+<p>一个完整的 Notadd Extension ，必然是遵循 <strong>Composer</strong> 相关规范的 <strong>Package</strong>。</p>
+
+<h4 id="目录结构-2">目录结构</h4>
+
+<p><strong>插件</strong>位于目录 <strong>extensions</strong> 下，插件目录结构如下</p>
+
+<pre><code># vendor                                                       厂商目录
+    # extension                                                插件目录
+        # configuations                                        可加载配置文件目录
+        # resources                                            资源目录
+            # translations                                     翻译文件目录
+            # views                                            视图目录
+        # src                                                  源码目录
+        # bootstrap.php                                        插件启动脚本
+        # composer.json                                        Composer 配置文件
+</code></pre>
+
+<h3 id="其他说明-1">其他说明</h3>
+
+<ul>
+<li><strong>composer.json</strong> 中需定义 <strong>type</strong> 为 <strong>notadd-module</strong></li>
+<li><strong>composer.json</strong> 中需依赖 <strong>package</strong> 为 <strong>notadd/installers</strong></li>
+</ul>
+
+<h2 id="composer-1">Composer</h2>
+
+<p>通过对 Composer 的自定义，可以实现 Composer 自动加载 Extension 定义的依赖项。</p>
+
+<h3 id="type-1">Type</h3>
+
+<p>配置 type 属性为 notadd-extension。</p>
+
+<h3 id="require-1">Require</h3>
+
+<p>添加 notadd/installers 的 Package，才能实现 Composer 自动加载 Extension 定义的依赖项。</p>
+
+<h3 id="完整示例-3">完整示例</h3>
+
+<pre><code class="language-json">{
+    &quot;name&quot;: &quot;notadd/extension-demo&quot;,
+    &quot;description&quot;: &quot;Notadd's Demo Extension.&quot;,
+    &quot;type&quot;: &quot;notadd-extension&quot;,
+    &quot;keywords&quot;: [&quot;notadd&quot;, &quot;demo&quot;, &quot;extension&quot;],
+    &quot;homepage&quot;: &quot;https://notadd.com&quot;,
+    &quot;license&quot;: &quot;Apache-2.0&quot;,
+    &quot;authors&quot;: [
+        {
+            &quot;name&quot;: &quot;twilroad&quot;,
+            &quot;email&quot;: &quot;269044570@qq.com&quot;
+        }
+    ],
+    &quot;autoload&quot;: {
+        &quot;psr-4&quot;: {
+            &quot;Notadd\\Demo\\&quot;: &quot;src/&quot;
+        }
+    },
+    &quot;require&quot;: {
+        &quot;php&quot;: &quot;&gt;=7.0&quot;,
+        &quot;notadd/installers&quot;: &quot;0.5.*&quot;
+    }
+}
+</code></pre>
+
+<h2 id="模板">模板</h2>
+
+<p><strong>模板</strong>是 Notadd 的模板扩展机制，允许基于现有功能实现多套模板，并切换。</p>
+
+<h3 id="目录结构-3">目录结构</h3>
+
+<p><strong>模板</strong>位于 <strong><code>themes</code></strong> 目录下，目录结构如下：</p>
+
+<pre><code># theme                                                        模板目录
+    # composer.json                                            Composer 配置文件
+</code></pre>
+
+<h2 id="拓展-expand">拓展 expand</h2>
+
+<p>拓展一般需要在特定环境下实现，比如swoole拓展，需要安装swoole。</p>
+
+<p>（拓展文档有待更新）</p>
+
+
+			<aside class="copyright" role="note">
+				
+				&copy; 2017 Released under the Apache2 license &ndash;
+				
+				Documentation built with
+				<a href="https://www.gohugo.io" target="_blank">Hugo</a>
+				using the
+				<a href="http://github.com/digitalcraftsman/hugo-material-docs" target="_blank">Material</a> theme.
+			</aside>
+
+			<footer class="footer">
+				
+
+<nav class="pagination" aria-label="Footer">
+  <div class="previous">
+  
+      <a href="http://127.0.0.1/apis/" title="">
+        <span class="direction">
+          Previous
+        </span>
+        <div class="page">
+          <div class="button button-previous" role="button" aria-label="Previous">
+            <i class="icon icon-back"></i>
+          </div>
+          <div class="stretch">
+            <div class="title">
+              
+            </div>
+          </div>
+        </div>
+      </a>
+  
+  </div>
+
+  <div class="next">
+  
+      <a href="http://127.0.0.1/gettingtarted/" title="">
+        <span class="direction">
+          Next
+        </span>
+        <div class="page">
+          <div class="stretch">
+            <div class="title">
+              
+            </div>
+          </div>
+          <div class="button button-next" role="button" aria-label="Next">
+            <i class="icon icon-forward"></i>
+          </div>
+        </div>
+      </a>
+  
+  </div>
+</nav>
+
+
+
+
+
+			</footer>
+		</div>
+	</article>
+
+	<div class="results" role="status" aria-live="polite">
+		<div class="scrollable">
+			<div class="wrapper">
+				<div class="meta"></div>
+				<div class="list"></div>
+			</div>
+		</div>
+	</div>
+</main>
+
+    <script>
+    
+      var base_url = 'http:\/\/127.0.0.1\/';
+      var repo_id  = 'notadd\/notadd';
+    
+    </script>
+
+    <script src="http://127.0.0.1/javascripts/application.js"></script>
+    
+
+    <script>
+      /* Add headers to scrollspy */
+      var headers   = document.getElementsByTagName("h2");
+      var scrollspy = document.getElementById('scrollspy');
+
+      if(scrollspy) {
+        if(headers.length > 0) {
+          for(var i = 0; i < headers.length; i++) {
+            var li = document.createElement("li");
+            li.setAttribute("class", "anchor");
+
+            var a  = document.createElement("a");
+            a.setAttribute("href", "#" + headers[i].id);
+            a.setAttribute("title", headers[i].innerHTML);
+            a.innerHTML = headers[i].innerHTML;
+
+            li.appendChild(a)
+            scrollspy.appendChild(li);
+          }
+        } else {
+          scrollspy.parentElement.removeChild(scrollspy)
+        }
+
+
+        /* Add permanent link next to the headers */
+        var headers = document.querySelectorAll("h1, h2, h3, h4, h5, h6");
+
+        for(var i = 0; i < headers.length; i++) {
+            var a = document.createElement("a");
+            a.setAttribute("class", "headerlink");
+            a.setAttribute("href", "#" + headers[i].id);
+            a.setAttribute("title", "Permanent link")
+            a.innerHTML = "#";
+            headers[i].appendChild(a);
+        }
+      }
+    </script>
+
+    
+
+    <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.8.0/highlight.min.js"></script>
+    <script>hljs.initHighlightingOnLoad();</script>
+  </body>
+</html>
+

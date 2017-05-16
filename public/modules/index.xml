@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Modules on Notad 官方文档 Docs</title>
+    <link>https://0.0.0.0/modules/</link>
+    <description>Recent content in Modules on Notad 官方文档 Docs</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-cn</language>
+    <copyright>Released under the Apache2 license</copyright>
+    
+	<atom:link href="https://0.0.0.0/modules/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title></title>
+      <link>https://0.0.0.0/modules/composer/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://0.0.0.0/modules/composer/</guid>
+      <description>Composer 通过对 Composer 的自定义，可以实现 Notadd 风格的目录结构。
+Type 配置 type 属性为 notadd-module，会告诉 Composer Installer 将该 Package 安装到目录 modules 下，而非默认目录 vendor 下。
+Require 添加 notadd/installers 的 Package，才能调整 Composer 对该类型 Package 的默认处理逻辑，实现重定向安装目录的特性。
+介于，模块的安装方式有两种，一种方式是：将 Composer Package 写入程序根目录的 composer.json 文件，另一种方法是，单独初始化模块 Package，并以文件夹的形式放到 modules 目录，因此，包 notadd/installers 应放置在 require-dev 中。
+完整示例 { &amp;quot;name&amp;quot;: &amp;quot;notadd/content&amp;quot;, &amp;quot;description&amp;quot;: &amp;quot;Notadd&#39;s Content Module.&amp;quot;, &amp;quot;keywords&amp;quot;: [ &amp;quot;notadd&amp;quot;, &amp;quot;cms&amp;quot;, &amp;quot;framework&amp;quot;, &amp;quot;content&amp;quot; ], &amp;quot;homepage&amp;quot;: &amp;quot;https://notadd.com&amp;quot;, &amp;quot;license&amp;quot;: &amp;quot;Apache-2.0&amp;quot;, &amp;quot;type&amp;quot;: &amp;quot;notadd-module&amp;quot;, &amp;quot;authors&amp;quot;: [ { &amp;quot;name&amp;quot;: &amp;quot;twilroad&amp;quot;, &amp;quot;email&amp;quot;: &amp;quot;269044570@qq.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://0.0.0.0/modules/provider/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://0.0.0.0/modules/provider/</guid>
+      <description>ModuleServiceProvider ModuleServiceProvider 是 Module 的模块入口文件，也 Module 的所有功能容器示例注册、路由注入等一系列功能注册及组件启动的服务提供者。
+完整示例 namespace Notadd\Content; use Illuminate\Events\Dispatcher; use Illuminate\Support\ServiceProvider; use Notadd\Content\Events\RegisterArticleTemplate; use Notadd\Content\Events\RegisterArticleType; use Notadd\Content\Events\RegisterCategoryTemplate; use Notadd\Content\Events\RegisterCategoryType; use Notadd\Content\Events\RegisterPageTemplate; use Notadd\Content\Events\RegisterPageType; use Notadd\Content\Listeners\CsrfTokenRegister; use Notadd\Content\Listeners\RouteRegister; use Notadd\Content\Managers\ArticleManager; use Notadd\Content\Managers\CategoryManager; use Notadd\Content\Managers\PageManager; /** * Class Module. */ class ModuleServiceProvider extends ServiceProvider { /** * Boot service provider. */ public function boot() { $this-&amp;gt;app-&amp;gt;make(Dispatcher::class)-&amp;gt;subscribe(CsrfTokenRegister::class); $this-&amp;gt;app-&amp;gt;make(Dispatcher::class)-&amp;gt;subscribe(RouteRegister::class); $this-&amp;gt;loadMigrationsFrom(realpath(__DIR__ . &#39;/../databases/migrations&#39;)); $this-&amp;gt;loadTranslationsFrom(realpath(__DIR__ . &#39;/../resources/translations&#39;), &#39;content&#39;); } /** * Register services.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://0.0.0.0/modules/readme/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://0.0.0.0/modules/readme/</guid>
+      <description> 模块 模块是 Notadd 的功能实体，是区别于 notadd/framework 来说的，notadd/framework 仅是承载 Notadd 体系的逻辑实现，并没有包含功能性代码。
+目录结构 模块位于目录 modules 下，每个模块在一个独立的文件夹内，模块内部的目录结构如下：
+# module 模块目录 # resources 资源目录 # translations 翻译文件目录 # views 视图目录 # src 源码目录 # ModuleServiceProvider.php 模块服务提供者定义文件 # composer.json Composer 配置文件   Resources Provider Composer  </description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://0.0.0.0/modules/resources/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://0.0.0.0/modules/resources/</guid>
+      <description>Resources Resources 目录是 Module 的资源类文件放置的目录，包含如下几个类型目录：
+ assets translations views  Assets assets 目录为前端相关资源或项目的放置目录。
+Translations translations 目录为多语言资源文件的放置目录。
+Views views 目录为视图资源文件的放置目录。</description>
+    </item>
+    
+  </channel>
+</rss>

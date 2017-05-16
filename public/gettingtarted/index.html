@@ -1,0 +1,794 @@
+<!DOCTYPE html>
+  
+  
+  
+  
+   <html class="no-js"> 
+
+  <head lang="zh-cn">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,user-scalable=no,initial-scale=1,maximum-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="IE=10" />
+    <title> - Notad 官方文档 Docs</title>
+    <meta name="generator" content="Hugo 0.20.7" />
+
+    
+    <meta name="description" content="基于Laravel的下一代PHP开发框架">
+    
+    <link rel="canonical" href="http://127.0.0.1/gettingtarted/">
+    
+    <meta name="author" content="notadd">
+    
+
+    <meta property="og:url" content="http://127.0.0.1/gettingtarted/">
+    <meta property="og:title" content="Notad 官方文档 Docs">
+    <meta property="og:image" content="http://127.0.0.1/images/logo.png">
+    <meta name="apple-mobile-web-app-title" content="Notad 官方文档 Docs">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+
+    <link rel="shortcut icon" type="image/x-icon" href="http://127.0.0.1/images/favicon.ico">
+    <link rel="icon" type="image/x-icon" href="http://127.0.0.1/images/favicon.ico">
+
+    <style>
+      @font-face {
+        font-family: 'Icon';
+        src: url('http://127.0.0.1/fonts/icon.eot');
+        src: url('http://127.0.0.1/fonts/icon.eot')
+               format('embedded-opentype'),
+             url('http://127.0.0.1/fonts/icon.woff')
+               format('woff'),
+             url('http://127.0.0.1/fonts/icon.ttf')
+               format('truetype'),
+             url('http://127.0.0.1/fonts/icon.svg')
+               format('svg');
+        font-weight: normal;
+        font-style: normal;
+      }
+    </style>
+
+    <link rel="stylesheet" href="http://127.0.0.1/stylesheets/application.css">
+    <link rel="stylesheet" href="http://127.0.0.1/stylesheets/temporary.css">
+    <link rel="stylesheet" href="http://127.0.0.1/stylesheets/palettes.css">
+    <link rel="stylesheet" href="http://127.0.0.1/stylesheets/highlight/highlight.css">
+
+    
+    
+    
+    <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Ubuntu:400,700|Ubuntu&#43;Mono">
+    <style>
+      body, input {
+        font-family: 'Ubuntu', Helvetica, Arial, sans-serif;
+      }
+      pre, code {
+        font-family: 'Ubuntu Mono', 'Courier New', 'Courier', monospace;
+      }
+    </style>
+
+    
+    <script src="http://127.0.0.1/javascripts/modernizr.js"></script>
+
+    
+
+  </head>
+  <body class="palette-primary-teal palette-accent-teal">
+
+
+
+	
+	
+
+
+<div class="backdrop">
+	<div class="backdrop-paper"></div>
+</div>
+
+<input class="toggle" type="checkbox" id="toggle-drawer">
+<input class="toggle" type="checkbox" id="toggle-search">
+<label class="toggle-button overlay" for="toggle-drawer"></label>
+
+<header class="header">
+	<nav aria-label="Header">
+  <div class="bar default">
+    <div class="button button-menu" role="button" aria-label="Menu">
+      <label class="toggle-button icon icon-menu" for="toggle-drawer">
+        <span></span>
+      </label>
+    </div>
+    <div class="stretch">
+      <div class="title">
+        
+      </div>
+    </div>
+
+    
+
+    
+    <div class="button button-github" role="button" aria-label="GitHub">
+      <a href="https://github.com/notadd" title="@notadd on GitHub" target="_blank" class="toggle-button icon icon-github"></a>
+    </div>
+    
+    
+        
+  </div>
+  <div class="bar search">
+    <div class="button button-close" role="button" aria-label="Close">
+      <label class="toggle-button icon icon-back" for="toggle-search"></label>
+    </div>
+    <div class="stretch">
+      <div class="field">
+        <input class="query" type="text" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck>
+      </div>
+    </div>
+    <div class="button button-reset" role="button" aria-label="Search">
+      <button class="toggle-button icon icon-close" id="reset-search"></button>
+    </div>
+  </div>
+</nav>
+</header>
+
+<main class="main">
+	<div class="drawer">
+		<nav aria-label="Navigation">
+  <a href="https://github.com/notadd/notadd" class="project">
+    <div class="banner">
+      
+        <div class="logo">
+          <img src="http://127.0.0.1/images/logo.png">
+        </div>
+      
+      <div class="name">
+        <strong>Notad 官方文档 Docs <span class="version">0.5.2</span></strong>
+        
+          <br>
+          notadd/notadd
+        
+      </div>
+    </div>
+  </a>
+
+  <div class="scrollable">
+    <div class="wrapper">
+      
+        <ul class="repo">
+          <li class="repo-download">
+            <a href="https://github.com/notadd/notadd/archive/master.zip" target="_blank" title="Download" data-action="download">
+              <i class="icon icon-download"></i> Download
+            </a>
+          </li>
+          <li class="repo-stars">
+            <a href="https://github.com/notadd/notadd/stargazers" target="_blank" title="Stargazers" data-action="star">
+              <i class="icon icon-star"></i> Stars
+              <span class="count">&ndash;</span>
+            </a>
+          </li>
+        </ul>
+        <hr>
+      
+
+      <div class="toc">
+        
+        <ul>
+          
+
+
+
+
+<li>
+  
+    
+
+
+
+<a  title="关于" href="http://127.0.0.1/introductions/">
+	
+	关于
+</a>
+
+
+
+  
+</li>
+
+
+
+<li>
+  
+    
+
+
+
+<a class="current" title="开始使用" href="http://127.0.0.1/gettingtarted/">
+	
+	开始使用
+</a>
+
+
+<ul id="scrollspy">
+</ul>
+
+
+  
+</li>
+
+
+
+<li>
+  
+    
+
+
+
+<a  title="HOWTO文档" href="http://127.0.0.1/howtos/">
+	
+	HOWTO文档
+</a>
+
+
+
+  
+</li>
+
+
+
+<li>
+  
+    
+
+
+
+<a  title="相关技术" href="http://127.0.0.1/technologies/">
+	
+	相关技术
+</a>
+
+
+
+  
+</li>
+
+
+
+<li>
+  
+    
+
+
+
+<a  title="二次开发" href="http://127.0.0.1/develops/">
+	
+	二次开发
+</a>
+
+
+
+  
+</li>
+
+
+
+<li>
+  
+    
+
+
+
+<a  title="API 结构" href="http://127.0.0.1/apis/">
+	
+	API 结构
+</a>
+
+
+
+  
+</li>
+
+
+        </ul>
+        
+
+        
+        <hr>
+        <span class="section">The author</span>
+        
+        <ul>
+          
+
+          
+          <li>
+            <a href="https://github.com/notadd" target="_blank" title="@notadd on GitHub">
+              @notadd on GitHub
+            </a>
+          </li>
+          
+
+          
+          <li>
+            <a href="mailto:notadd@ibenchu.com" title="Email of notadd@ibenchu.com">
+              Contact via email
+            </a>
+          </li>
+          
+        </ul>
+        
+      </div>
+    </div>
+  </div>
+</nav>
+
+	</div>
+
+	<article class="article">
+		<div class="wrapper">
+			<h1> </h1>
+
+			
+
+<h2 id="环境要求">环境要求</h2>
+
+<h3 id="需要的扩展">需要的扩展</h3>
+
+<ul>
+<li>PHP 必须大于 7.0.0</li>
+<li>必须安装 PHP 扩展 dom</li>
+<li>必须安装 PHP 扩展 fileinfo</li>
+<li>必须安装 PHP 扩展 gd</li>
+<li>必须安装 PHP 扩展 json</li>
+<li>必须安装 PHP 扩展 mbstring</li>
+<li>必须安装 PHP 扩展 openssl</li>
+<li>使用 Mysql 数据库引擎则必须安装PHP扩展 pdo_mysql</li>
+<li>使用 Pgsql 数据库引擎则必须安装PHP扩展 pdo_pgsql</li>
+<li>使用 Sqlite 数据库引擎则必须安装PHP扩展 pdo_sqlite</li>
+</ul>
+
+<h3 id="需要的函数">需要的函数</h3>
+
+<p><code>exec</code>,<code>system</code>,<code>scandir</code>,<code>shell_exec</code>,<code>proc_open</code>,<code>proc_get_status</code></p>
+
+<h2 id="安装说明">安装说明</h2>
+
+<h3 id="系统环境">系统环境</h3>
+
+<p>操作系统： Linux（推荐）/Mac OS/ Windows 2008+</p>
+
+<p>PHP版本 ： 7.0+</p>
+
+<p>数据库： PostgreSQL（推荐）/MariaDB/MySQL/SQLite3</p>
+
+<h3 id="系统需要安装的拓展-v1-0-zh-cn-installations-first"><a href="http://127.0.0.1/#/v1.0/zh-CN/installations/first">系统需要安装的拓展</a></h3>
+
+<h3 id="独立服务器及vps安装-v1-0-zh-cn-installations-vps"><a href="http://127.0.0.1/#/v1.0/zh-CN/installations/vps">独立服务器及VPS安装</a></h3>
+
+<h3 id="虚拟主机安装-暂未提供-v1-0-zh-cn-installations-vhost"><a href="http://127.0.0.1/#/v1.0/zh-CN/installations/vhost">虚拟主机安装(暂未提供)</a></h3>
+
+<h3 id="apache-nginx-caddy-伪静态-路由配置-v1-0-zh-cn-installations-conf"><a href="http://127.0.0.1/#/v1.0/zh-CN/installations/conf">Apache、Nginx、Caddy 伪静态/路由配置</a></h3>
+
+<h3 id="编译安装-v1-0-zh-cn-installations-compile"><a href="http://127.0.0.1/#/v1.0/zh-CN/installations/compile">编译安装</a></h3>
+
+<h3 id="模块安装-v1-0-zh-cn-installations-module"><a href="http://127.0.0.1/#/v1.0/zh-CN/installations/module">模块安装</a></h3>
+
+<h3 id="插件安装-v1-0-zh-cn-installations-extension"><a href="http://127.0.0.1/#/v1.0/zh-CN/installations/extension">插件安装</a></h3>
+
+<h2 id="nginx-apache-caddy">Nginx/Apache/Caddy</h2>
+
+<h3 id="nginx-配置">Nginx 配置</h3>
+
+<pre><code>location / {
+    try_files $uri $uri/ /index.php?$query_string;
+}
+</code></pre>
+
+<h3 id="apache-配置">Apache 配置</h3>
+
+<p>Apache 下一般public（服务器）/根目录（虚拟主机） 下都有附带的 <code>.htaccess</code> 文件，
+如果在你的Apache环境中不起作用，请尝试下面这个版本：</p>
+
+<pre><code>Options +FollowSymLinks
+RewriteEngine On
+
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteRule ^ index.php [L]
+</code></pre>
+
+<h3 id="caddy-配置">caddy 配置</h3>
+
+<pre><code>    fastcgi / localhost:9000 php {
+        index index.php
+    }
+
+    # To handle .html extensions with laravel change ext to
+    # ext / .html
+
+    rewrite {
+        r .*
+        ext /
+        to /index.php?{query}
+    }
+</code></pre>
+
+<h2 id="编译安装流程">编译安装流程</h2>
+
+<h3 id="1-下载源代码">1. 下载源代码</h3>
+
+<pre><code class="language-bash">$ git clone https://github.com/notadd/notadd.git
+</code></pre>
+
+<h3 id="2-修改-public-storage-目录权限">2. 修改 public、storage 目录权限</h3>
+
+<p>设置为 php-fpm 的用户及用户组(部分一键安装包为 <code>www:www</code> )，Windows 请跳过此步</p>
+
+<pre><code class="language-bash">$ chown -R www-data:www-data notadd
+</code></pre>
+
+<p>或</p>
+
+<pre><code class="language-bash">$ chmod 755 notadd/public notadd/storage
+</code></pre>
+
+<h3 id="3-安装">3. 安装</h3>
+
+<pre><code class="language-bash">$ cd notadd
+$ composer install
+$ php notadd vendor:publish --force
+</code></pre>
+
+<p>将域名绑定到 <code>notadd/public</code> 目录，并访问该域名进行安装。</p>
+
+<p>访问后台入口 <code>http://yourdomain/admin</code>。</p>
+
+<h2 id="vps及独立服务器安装">VPS及独立服务器安装</h2>
+
+<ol>
+<li><p><a href="https://downloads.notadd.com/vps/">下载安装包</a></p></li>
+
+<li><p>解压文件。 （Linux 下可通过 <code>tar -Jxvf [文件名]</code> 解压  ）</p></li>
+
+<li><p>将网站根目录指定到public目录即可。</p></li>
+</ol>
+
+<p><strong><code>public</code> 必须为根目录! <code>public</code> 必须为根目录! <code>public</code> 必须为根目录</strong></p>
+
+<h2 id="模块的安装">模块的安装</h2>
+
+<p>以内容管理模块为例。</p>
+
+<h3 id="github源码安装方式">GitHub源码安装方式：</h3>
+
+<p>1、克隆仓库的develop分支：</p>
+
+<pre><code class="language-bash">cd notadd/modules
+git clone https://github.com/notadd/content.git
+</code></pre>
+
+<p>2、模块初始化：</p>
+
+<pre><code class="language-bash">cd content
+composer install --no-dev
+</code></pre>
+
+<p>3、到 <strong>后台/全局/应用管理/模块配置/本地安装</strong> 进行模块的安装。</p>
+
+<h3 id="压缩包文件安装方式">压缩包文件安装方式：</h3>
+
+<p>1、获取文件，从 <a href="https://pkg.notadd.com/Atlantia/modules/content/content_0.3.21.tar.xz">https://pkg.notadd.com/Atlantia/modules/content/content_0.3.21.tar.xz</a> 下载文件，并解压缩到目录 notadd/modules 。</p>
+
+<p>2、模块初始化：</p>
+
+<pre><code class="language-bash">cd notadd/modules/content
+composer install --no-dev
+</code></pre>
+
+<p>3、到 <strong>后台/全局/应用管理/模块配置/本地安装</strong> 进行模块的安装。</p>
+
+<h2 id="插件安装">插件安装</h2>
+
+<p>以百度推送插件为例。</p>
+
+<p>GitHub 源码安装方式：</p>
+
+<p>1、克隆仓库：</p>
+
+<pre><code class="language-bash">cd notadd/extensions
+## 若没有厂商目录，则新建一个，已存在则忽略下面一条命令：
+mkdir notadd
+git clone https://github.com/notadd/baidu-push.git
+</code></pre>
+
+<p>2、插件初始化：</p>
+
+<pre><code class="language-bash">cd baidu-push
+composer install --no-dev
+</code></pre>
+
+<p>3、到 <strong>后台/全局/应用管理/插件配置/本地安装</strong> 进行模块的安装。</p>
+
+<p>压缩包文件安装方式：</p>
+
+<p>1、获取文件，从 <a href="https://pkg.notadd.com/Atlantia/extensions/baidu-push/baidu-push_0.1.3.tar.xz">https://pkg.notadd.com/Atlantia/extensions/baidu-push/baidu-push_0.1.3.tar.xz</a> 下载文件，并解压缩到目录 notadd/extensions 。</p>
+
+<p>解压缩文件后，需确保对应插件目录有两层目录，第一层目录为厂商目录，第二层目录为插件目录，例如百度推送的目录层次为： notadd/extensions/notadd/baidu-push 。</p>
+
+<p>2、模块初始化：</p>
+
+<pre><code class="language-bash">cd notadd/extensions/notadd/baidu-push
+composer install --no-dev
+</code></pre>
+
+<p>3、到 <strong>后台/全局/应用管理/插件配置/本地安装</strong> 进行模块的安装。</p>
+
+<h2 id="应用商店">应用商店</h2>
+
+<p><strong>下载带宽由 <a href="http://www.meihouyun.com/">美猴云</a> 提供</strong></p>
+
+<p>（Linux 下可通过 <code>tar -Jxvf [文件名]</code> 解压xz文件  ）</p>
+
+<h3 id="模块">模块</h3>
+
+<p>模块安装方式：上传到 modules目录，后台安装 或执行 composer update</p>
+
+<p><strong><a href="https://pkg.notadd.com/Atlantia/modules/content/content_0.3.21.tar.xz">文章模块</a></strong>  <a href="https://github.com/notadd/content"><code>Github 地址</code></a></p>
+
+<p><strong>用户模块</strong> （暂无下载地址） <a href="https://github.com/notadd/member"><code>Github地址</code></a></p>
+
+<p><strong>商城模块</strong> （暂无下载地址）<a href="https://git.oschina.net/meilande/ecommerce"><code>Oschina地址</code></a></p>
+
+<p><strong>微信模块</strong> （暂无下载地址）<a href="https://github.com/notadd/wechat"><code>Github地址</code></a></p>
+
+<h3 id="插件">插件</h3>
+
+<p>插件安装方式：上传到 extensions， 后台安装 或执行 composer update</p>
+
+<h3 id="全局">全局</h3>
+
+<p><strong>导航栏</strong> <a href="#"><code>即将发布</code></a>
+ - 系统导航栏插件</p>
+
+<p><strong>多说插件</strong> <a href="#"><code>即将发布</code></a>
+ - 文章评论系统</p>
+
+<p><strong>网站sitemap插件</strong> <a href="#"><code>即将发布</code></a>
+ - 网站地图</p>
+
+<p><strong><a href="https://pkg.notadd.com/Atlantia/extensions/baidu-push/baidu-push_0.1.3.tar.xz">百度主动推送</a></strong>
+ - 推送网站新链接给百度搜索引擎</p>
+
+<p><strong>短信接口</strong>（阿里大于）<a href="https://www.zybuluo.com/zuohuadong/note/696008"><code>开发中</code></a>
+ - 用于发短信验证码、语音验证码</p>
+
+<p><strong>幻灯片</strong> <a href="#"><code>开发中</code></a>
+ - 首页幻灯片</p>
+
+<p><strong>云存储</strong> <a href="#"><code>开发中</code></a>
+ - 不经过服务器的七牛云存储插件</p>
+
+<p><strong>验证码</strong> <a href="https://www.zybuluo.com/zuohuadong/note/638706"><code>开发中</code></a>
+ - 系统全局验证码</p>
+
+<p><strong>极验验证</strong> <a href="#"><code>开发中</code></a>
+ - 第三方验证码系统</p>
+
+<p><strong>邮件插件</strong>（sendcloud/阿里邮件推送） <a href="#"><code>开发中</code></a>
+ - 第三方邮件发送，替代不安全的smtp和sendmail</p>
+
+<p>**Markdown 小型编辑器
+ - 支持Markdown语法的简单编辑器</p>
+
+<p><strong>支付插件</strong> <a href="#"><code>开发中</code></a>
+ - 支付宝、微信、银联、paypal支付</p>
+
+<p>**内置搜索
+ - 简单的notadd全文搜索引擎</p>
+
+<p>**百度API搜索
+ - 基于百度的API搜索引擎</p>
+
+<p>**增强搜索
+ - 基于 xunsearch 的增强搜索</p>
+
+<h4 id="用户">用户</h4>
+
+<p>**单点登录
+ - 支持QQ、微信、新浪、百度 账号登录</p>
+
+<p>**推荐好友（分销）
+ - 推荐好友，返积分（可结合其他功能实现分销推广）</p>
+
+<p>**资料审核
+ - 资料认证审核流程
+ - 用户复审流程</p>
+
+<p>**认证设置
+ - 认证用户对应的用户组及时间（自动）
+ - 到达时间后用户复审所在用户组</p>
+
+<p>**用户消息通讯
+ - 用户聊天
+ - 群聊</p>
+
+<h4 id="多用户商城">多用户商城</h4>
+
+<p>**秒杀插件
+ - 开始时间、结束时间、份数、优惠方式： 定额</p>
+
+<p>**优惠券插件
+ - 商城优惠券系统</p>
+
+<p>**包邮插件
+ - 满多少包邮</p>
+
+<p>**商品自提点插件
+ - 商品自提
+ - 依赖于二维码验证插件</p>
+
+<p>**二维码验证插件
+ - 自提核验，线下核验</p>
+
+<p>**For微信插件
+ - 允许商城在微信中使用（需要安装微信模块）</p>
+
+<p>**渠道上货插件
+ - 渠道商上货，商家可快速添加</p>
+
+<p>**图片空间
+ - 商城图片管理</p>
+
+<p>**打印发货单
+ - 发货单打印</p>
+
+<h4 id="微信">微信</h4>
+
+<p>**投票活动
+ - 投票拿奖活动</p>
+
+<p>**自动回复
+ - 用户关注回复、关键词回复</p>
+
+<p>**微信机器人
+ - 根据消息回复用户</p>
+
+<h3 id="模板">模板</h3>
+
+<p><strong>Notadd 后台管理模板</strong> <a href="https://github.com/notadd/administration"><code>Github地址</code></a>
+ - 基于iView2 的Notadd管理后台</p>
+
+<h3 id="拓展">拓展</h3>
+
+<p><strong>PostgreSQL数据库增强拓展</strong>
+ - 充分使用PostgreSQL 特性</p>
+
+<p><strong>源码加密增强拓展</strong>
+ - 适合加密插件</p>
+
+<p><strong>swoole 增强拓展</strong>
+ - swoole的增强拓展</p>
+
+
+			<aside class="copyright" role="note">
+				
+				&copy; 2017 Released under the Apache2 license &ndash;
+				
+				Documentation built with
+				<a href="https://www.gohugo.io" target="_blank">Hugo</a>
+				using the
+				<a href="http://github.com/digitalcraftsman/hugo-material-docs" target="_blank">Material</a> theme.
+			</aside>
+
+			<footer class="footer">
+				
+
+<nav class="pagination" aria-label="Footer">
+  <div class="previous">
+  
+      <a href="http://127.0.0.1/develops/" title="">
+        <span class="direction">
+          Previous
+        </span>
+        <div class="page">
+          <div class="button button-previous" role="button" aria-label="Previous">
+            <i class="icon icon-back"></i>
+          </div>
+          <div class="stretch">
+            <div class="title">
+              
+            </div>
+          </div>
+        </div>
+      </a>
+  
+  </div>
+
+  <div class="next">
+  
+      <a href="http://127.0.0.1/howtos/" title="">
+        <span class="direction">
+          Next
+        </span>
+        <div class="page">
+          <div class="stretch">
+            <div class="title">
+              
+            </div>
+          </div>
+          <div class="button button-next" role="button" aria-label="Next">
+            <i class="icon icon-forward"></i>
+          </div>
+        </div>
+      </a>
+  
+  </div>
+</nav>
+
+
+
+
+
+			</footer>
+		</div>
+	</article>
+
+	<div class="results" role="status" aria-live="polite">
+		<div class="scrollable">
+			<div class="wrapper">
+				<div class="meta"></div>
+				<div class="list"></div>
+			</div>
+		</div>
+	</div>
+</main>
+
+    <script>
+    
+      var base_url = 'http:\/\/127.0.0.1\/';
+      var repo_id  = 'notadd\/notadd';
+    
+    </script>
+
+    <script src="http://127.0.0.1/javascripts/application.js"></script>
+    
+
+    <script>
+      /* Add headers to scrollspy */
+      var headers   = document.getElementsByTagName("h2");
+      var scrollspy = document.getElementById('scrollspy');
+
+      if(scrollspy) {
+        if(headers.length > 0) {
+          for(var i = 0; i < headers.length; i++) {
+            var li = document.createElement("li");
+            li.setAttribute("class", "anchor");
+
+            var a  = document.createElement("a");
+            a.setAttribute("href", "#" + headers[i].id);
+            a.setAttribute("title", headers[i].innerHTML);
+            a.innerHTML = headers[i].innerHTML;
+
+            li.appendChild(a)
+            scrollspy.appendChild(li);
+          }
+        } else {
+          scrollspy.parentElement.removeChild(scrollspy)
+        }
+
+
+        /* Add permanent link next to the headers */
+        var headers = document.querySelectorAll("h1, h2, h3, h4, h5, h6");
+
+        for(var i = 0; i < headers.length; i++) {
+            var a = document.createElement("a");
+            a.setAttribute("class", "headerlink");
+            a.setAttribute("href", "#" + headers[i].id);
+            a.setAttribute("title", "Permanent link")
+            a.innerHTML = "#";
+            headers[i].appendChild(a);
+        }
+      }
+    </script>
+
+    
+
+    <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.8.0/highlight.min.js"></script>
+    <script>hljs.initHighlightingOnLoad();</script>
+  </body>
+</html>
+

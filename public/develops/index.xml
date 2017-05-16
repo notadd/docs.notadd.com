@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Develops on Notad 官方文档 Docs</title>
+    <link>http://127.0.0.1/develops/</link>
+    <description>Recent content in Develops on Notad 官方文档 Docs</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-cn</language>
+    <copyright>Released under the Apache2 license</copyright>
+    
+	<atom:link href="http://127.0.0.1/develops/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title></title>
+      <link>http://127.0.0.1/develops/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://127.0.0.1/develops/</guid>
+      <description>二次开发 什么是二次开发 所谓二次开发，即是在 Notadd Framework 的基础上，对 Notadd Framework 的原有结构、原有功能进行调整或增强。
+Notadd Framework 支持进行的二次开发内容。 功能性扩展说明列表  Administrator 路由 模块 大功能，诸如商城、文章、微信 插件 功能增强，诸如 全局短信，全局验证码。 拓展 特定环境拓展， 诸如 swoole拓展，PostgreSQL增强拓展  Administrator Administrator 作为唯一的网站管理实例，有着控制管理入口、分配管理职责等功能。
+Notadd 的实现方式：
+类 Administration namespace Notadd\Foundation\Administration; use Illuminate\Container\Container; use Illuminate\Events\Dispatcher; use InvalidArgumentException; use Notadd\Foundation\Administration\Abstracts\Administrator; /** * Class Administration. */ class Administration { /** * @var \Notadd\Foundation\Administration\Abstracts\Administrator */ protected $administrator; /** * @var \Illuminate\Container\Container */ protected $container; /** * @var \Illuminate\Events\Dispatcher */ protected $events; /** * Administration constructor.</description>
+    </item>
+    
+  </channel>
+</rss>

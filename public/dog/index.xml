@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Dogs on Material Docs</title>
+    <link>https://0.0.0.0/dog/</link>
+    <description>Recent content in Dogs on Material Docs</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-cn</language>
+    <copyright>Released under the MIT license</copyright>
+    <lastBuildDate>Tue, 16 May 2017 15:44:50 +0800</lastBuildDate>
+    
+	<atom:link href="https://0.0.0.0/dog/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>index</title>
+      <link>https://0.0.0.0/dog/</link>
+      <pubDate>Tue, 16 May 2017 15:44:50 +0800</pubDate>
+      
+      <guid>https://0.0.0.0/dog/</guid>
+      <description> dog heshudong
+var hsd =&#39;dog&#39;  Note
+Nothing to see here, move along.
+ hello Don&amp;#39;t try this at home
+Nothing to see here, move along.
+ </description>
+    </item>
+    
+  </channel>
+</rss>

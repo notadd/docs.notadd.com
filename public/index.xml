@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Notad 官方文档 Docs</title>
+    <link>http://127.0.0.1/</link>
+    <description>Recent content on Notad 官方文档 Docs</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-cn</language>
+    <copyright>Released under the Apache2 license</copyright>
+    <lastBuildDate>Tue, 16 May 2017 20:53:19 +0800</lastBuildDate>
+    
+	<atom:link href="http://127.0.0.1/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Notadd</title>
+      <link>http://127.0.0.1/readme/</link>
+      <pubDate>Tue, 16 May 2017 20:53:19 +0800</pubDate>
+      
+      <guid>http://127.0.0.1/readme/</guid>
+      <description>序言 Notadd是什么 Notadd 是基于Laravel 和 Vue 的开源PHP框架， 由于其本身的灵活性和先进的技术架构，使得你通过模块（主功能）、插件（功能增强）、模板（前端样式）像搭积木一样组合成你想要的，诸如：商城、CMS、微信、论坛&amp;hellip; 快速完成开发。 Notadd 像操作系统一样，你可以通过安装“软件”，成为适用于你的“电脑”。
+先进的技术方案，使得你无需担心后期功能拓展与迭代问题，大大降低了维护成本。对于一个超过三年生命周期的项目来说，Notadd 最适合不过。
+总之，Notadd 是新的技术方向标，能让每个web艺术家像构建工程一样构建程序。
+相关技术  PHP7 Laravel VueJS单页面web应用 Composer  特点  前后端完全分离 前端渲染模板，大大降低后端负载 页面无刷新，响应速度快 低耦合度，可“搭积木” 同时支持所有平台（PC/平板/手机/APP/硬件）  目前已有模块  后台管理模块 文章模块 用户模块 富文本编辑器 微信模块 通信模块  目前已有插件  多说评论 百度搜索  文档 https://docs.notadd.com/
+官方交流Q群：321735506
+系统环境 操作系统： Linux（推荐）/Mac OS/ Windows 2008+
+PHP版本 ： 7.0+
+数据库： PostgreSQL（推荐）/MariaDB/MySQL/SQLite3
+系统需要安装的拓展
+安装 独立服务器及VPS安装
+虚拟主机安装（暂不支持）
+编译安装
+贡献 贡献代码
+捐赠
+github地址 https://github.com/notadd/notadd
+oschina地址 https://git.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>http://127.0.0.1/apis/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://127.0.0.1/apis/</guid>
+      <description>API 结构 为了提供一个统一API的实现方式和使用方式，将会做出一系列实现和使用的规范
+身份验证 API 使用基于令牌的身份验证机制。某些终端不需要身份验证。您可以通过 /api/token 取得一个令牌，主要有两种令牌：
+ 密码授权令牌 私人访问令牌  一般情况，后台管理程序推荐使用密码授权令牌。
+基本结构  Notadd 中实现 API 路由的方式，倾向于传统 Laravel 的实现方式，基于 Controller 调用 API Handler 的方式来实现。 Handler 中使用 toResponse 方法返回 ApiResponse 的实例。 Handler 主要实现 DataHandler、SetHandler 两种类型的 Handler。 ApiResponse 为 \Psr\Http\Message\ResponseInterface 契约的一个实现。 ApiResponse 实例所提供的并返回至前端调用的数据主要包含：code、data、message。  所支持的相关API操作  /oauth/access 验证是否拥有 API 访问 Token /oauth/access/authorize /oauth/access/token /oauth/authorize /oauth/clients /oauth/refresh  API Handler 示例 namespace Notadd\Foundation\Setting\Controllers; use Notadd\Foundation\Routing\Abstracts\Controller; use Notadd\Foundation\Setting\Contracts\SettingsRepository; use Notadd\Foundation\Setting\Handlers\AllHandler; use Notadd\Foundation\Setting\Handlers\SetHandler; /** * Class ApiController.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>http://127.0.0.1/develops/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://127.0.0.1/develops/</guid>
+      <description>二次开发 什么是二次开发 所谓二次开发，即是在 Notadd Framework 的基础上，对 Notadd Framework 的原有结构、原有功能进行调整或增强。
+Notadd Framework 支持进行的二次开发内容。 功能性扩展说明列表  Administrator 路由 模块 大功能，诸如商城、文章、微信 插件 功能增强，诸如 全局短信，全局验证码。 拓展 特定环境拓展， 诸如 swoole拓展，PostgreSQL增强拓展  Administrator Administrator 作为唯一的网站管理实例，有着控制管理入口、分配管理职责等功能。
+Notadd 的实现方式：
+类 Administration namespace Notadd\Foundation\Administration; use Illuminate\Container\Container; use Illuminate\Events\Dispatcher; use InvalidArgumentException; use Notadd\Foundation\Administration\Abstracts\Administrator; /** * Class Administration. */ class Administration { /** * @var \Notadd\Foundation\Administration\Abstracts\Administrator */ protected $administrator; /** * @var \Illuminate\Container\Container */ protected $container; /** * @var \Illuminate\Events\Dispatcher */ protected $events; /** * Administration constructor.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>http://127.0.0.1/gettingtarted/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://127.0.0.1/gettingtarted/</guid>
+      <description>环境要求 需要的扩展  PHP 必须大于 7.0.0 必须安装 PHP 扩展 dom 必须安装 PHP 扩展 fileinfo 必须安装 PHP 扩展 gd 必须安装 PHP 扩展 json 必须安装 PHP 扩展 mbstring 必须安装 PHP 扩展 openssl 使用 Mysql 数据库引擎则必须安装PHP扩展 pdo_mysql 使用 Pgsql 数据库引擎则必须安装PHP扩展 pdo_pgsql 使用 Sqlite 数据库引擎则必须安装PHP扩展 pdo_sqlite  需要的函数 exec,system,scandir,shell_exec,proc_open,proc_get_status
+安装说明 系统环境 操作系统： Linux（推荐）/Mac OS/ Windows 2008+
+PHP版本 ： 7.0+
+数据库： PostgreSQL（推荐）/MariaDB/MySQL/SQLite3
+系统需要安装的拓展 独立服务器及VPS安装 虚拟主机安装(暂未提供) Apache、Nginx、Caddy 伪静态/路由配置 编译安装 模块安装 插件安装 Nginx/Apache/Caddy Nginx 配置 location / { try_files $uri $uri/ /index.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>http://127.0.0.1/howtos/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://127.0.0.1/howtos/</guid>
+      <description>HOWTOs 文档  如何基于 Notadd 构建 API 如何开发一个 Notadd 模块 如何开发一个 Notadd 插件 [如何开发一个 Notadd Administration 模块的前端插扩展(frontend.md) 如何用 Vue2 写出 web 单页应用  如何基于 Notadd 构建 API Notadd 底层实现了 passport 机制，有统一的授权管理，主要支持两种方式进行 API 授权，一个是 client，领一个是 passport，这个在其他文档中有做详细的说明。
+这里主要说的是，如何基于 Notadd 进行 API 接口的开发。
+业务逻辑 熟悉 Laravel 的同学都应该知道，Laravel 遵循这样的业务逻辑实现：
+路由(route) -&amp;gt; 控制器(controller) -&amp;gt; 业务逻辑(model) -&amp;gt; 数据输出(view)  而 Notadd 的 API 业务逻辑实现同样遵循类似的流程：
+路由(route) -&amp;gt; 控制器(controller) -&amp;gt; API 处理器(handler) -&amp;gt; 模型(model) -&amp;gt; 数据输出(json)  其中，主要的差异在于，API 处理器提供了对数据输出格式的输出，返回的数据格式统一为：</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>http://127.0.0.1/introductions/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://127.0.0.1/introductions/</guid>
+      <description>关于Notadd Notadd Framework 是基于 Laravel 的一款开源 CMS /商城/微信/论坛，原生支持 PHP 7.0，更加高效。Notadd Framework 不仅完全面向对象，且代码简洁、优雅，是为开发者而生，也是为艺术家而存。此外，Notadd Framework 还引入了许多新的特性，诸如 webp 支持，更加灵活的插件模板机制，使得你可以快速构建出自己所想。通过 pdo，Notadd Framework 可以同时支持多种数据库，大大减少后期项目迁移成本。Notadd Framework 使用 Compeser 管理相关依赖，对于一个生命周期超过3年的项目来说，Notadd Framework 再合适不过。总之，使用Notadd Framework 构建 Web 程序将带给开发者的一场绝妙非凡的体验。
+社群与支持 PHP 全球 500 大网站中，82% 有使用 php。 PHP 能帮人们高效解决问题快速实现想法。
+Laravel 全球最流行的 PHP 框架，没有之一。 为 WEB 艺术家而生。
+性能与体验 PHP 7.0.0+ Notadd Framework 推荐 PHP 7.0。 PHP 7 性能是目前广泛使用的 5.2&amp;frasl;5.3 的 8-10 倍。
+优秀特性 Webp 图片支持，网站访问更快。 后台无刷新，体验更好。
+开源与自由 免费开源 Notadd Framework 基于 Apache 2.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>http://127.0.0.1/standards/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://127.0.0.1/standards/</guid>
+      <description> 技术规范 支持的PSR规范  基于 PSR-4 规范实现 autoload 基于 PSR-1 规范的代码风格  依赖的 Package Notadd Framework 基于 Composer 构建，并使用 Composer 组织代码。
+目录结构说明 整站目录说明 # wwwroot 网站根目录 # extensions 插件根目录 # modules 模块根目录 # public 公共目录 # assets 静态资源目录 # uploads 上传目录 # favicon.ico ICON图标文件 # index.php 入口文件 # storage 缓存目录 # vendor 第三方类库目录  示例插件目录说明 # extensions\vendor\brick-carving BrickCarving插件目录 # src 插件源码目录 # resources 插件静态资源目录 # vendor 第三方类库目录 # composer.json 插件Composer文件  </description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>http://127.0.0.1/technologies/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://127.0.0.1/technologies/</guid>
+      <description>单页Web应用 SPA（single page web application） 什么是SPA单页web应用 单页Web应用无疑是目前网站开发技术的弄潮儿，很多传统网站都在或者已经转型为单页Web应用，新的单页Web应用网站（包括移动平台上的）也如雨后春笋般涌现在人们的面前，如Gmail、Evernote、Trello等。如果你是一名Web开发人员，却还没开发过或者甚至是没有听说过单页应用，那你已经Out很久了。
+查看Demo： https://spa-demo.ibenchu.com/
+为什么这样做  良好的交互体验  用户不需要重新刷新页面，获取数据也是通过Ajax异步获取，页面显示流畅。 也就是页面无刷新，用户可以像操作本地APP 一样操作网页。
+ 良好的前后端工作分离模式  单页Web应用可以和RESTful规约一起使用，通过REST API提供接口数据，并使用Ajax异步获取，这样有助于分离客户端和服务器端工作。更进一步，可以在客户端也可以分解为静态页面和页面交互两个部分。
+换句话说，后端再也不用费劲地套前端模板了，把这些事都扔给前端做吧，只需要做好自己的API接口就行。
+ 减轻服务器压力  服务器只用出数据就可以，不用管展示逻辑和页面合成，吞吐能力会提高几倍。
+前端的页面可以部署在CDN上，进一步提高速度，而后端只需要1-2M的带宽处理API接口
+ 共用一套后端程序代码  不用修改后端程序代码就可以同时用于Web界面、手机、平板甚至智能硬件等多种客户端。 这对于后期的拓展，程序改动（需要调用数据或者开放接口）来说，能够大大减少工作量
+谁在这样做 国内一线互联网企业已经开始这样做， 尤其是BAT, 目前钉钉、滴滴 已经大面积使用。
+我应该如何做 如何基于 Notadd 构建 API
+如何用 Vue2 写出 web 单页应用</description>
+    </item>
+    
+  </channel>
+</rss>
