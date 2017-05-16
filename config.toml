@@ -1,4 +1,4 @@
-baseurl = "http://127.0.0.1/"
+baseurl = "https://docs.notadd.com/"
 languageCode = "zh-cn"
 title = "Notad 官方文档 Docs"
 theme = "hugo-material-docs"
