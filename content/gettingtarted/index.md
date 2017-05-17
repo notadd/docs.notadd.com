@@ -2,8 +2,18 @@
 title: 开始使用
 ---
 
-## 环境要求
+## 安装说明
 
+### 系统环境
+
+操作系统： Linux（推荐）/Mac OS/ Windows 2008+
+
+PHP版本 ： 7.0+
+
+数据库： PostgreSQL（推荐）/MariaDB/MySQL/SQLite3
+
+
+## 环境要求
 
 ### 需要的扩展
 
@@ -21,18 +31,6 @@ title: 开始使用
 ### 需要的函数
 
 `exec`,`system`,`scandir`,`shell_exec`,`proc_open`,`proc_get_status`
-
-
-## 安装说明
-
-### 系统环境
-
-操作系统： Linux（推荐）/Mac OS/ Windows 2008+
-
-PHP版本 ： 7.0+
-
-数据库： PostgreSQL（推荐）/MariaDB/MySQL/SQLite3
-
 
 
 ## Nginx/Apache/Caddy
