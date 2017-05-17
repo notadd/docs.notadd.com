@@ -1,6 +1,6 @@
 baseurl = "https://docs.notadd.com/"
 languageCode = "zh-cn"
-title = "Notad 官方文档 Docs"
+title = "Notadd 官方文档 Docs"
 theme = "hugo-material-docs"
 metadataformat = "yaml"
 canonifyurls = true
