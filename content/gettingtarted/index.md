@@ -89,6 +89,11 @@ RewriteRule ^ index.php [L]
  ```
 ## 编译安装流程
 
+{{< note title="安装前注意" >}}
+安装前请确保已经安装git、php及composer，否则无法执行安装。
+{{< /note >}}
+
+
 ### 1. 下载源代码
 
 ```bash
@@ -116,6 +121,9 @@ $ cd notadd
 $ composer install
 $ php notadd vendor:publish --force
 ```
+{{< note title="如果composer执行慢或者卡住" >}}
+请使用中国镜像 https://pkg.phpcomposer.com/
+{{< /note >}}
 
 将域名绑定到 `notadd/public` 目录，并访问该域名进行安装。
 
@@ -134,7 +142,6 @@ $ php notadd vendor:publish --force
 
 3. 将网站根目录指定到public目录即可。
 
-**`public` 必须为根目录! `public` 必须为根目录! `public` 必须为根目录**
 
 ## 模块的安装
 
