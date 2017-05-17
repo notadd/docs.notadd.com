@@ -28,7 +28,7 @@ googleAnalytics = ""
 	custom_js  = []
 
 	# Syntax highlighting theme
-	highlight_css  = "/stylesheets/highlight/monokai-sublime.css"
+	highlight_css  = "/stylesheets/highlight/atom-one-light.css"
 
 	[params.palette]
     	primary = "teal"
