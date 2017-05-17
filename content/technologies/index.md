@@ -39,7 +39,7 @@ title: 相关技术
 
 ### 我应该如何做
 
-**[如何基于 Notadd 构建 API](../howtos/api.md)** 
+**[如何基于 Notadd 构建 API](/howtos/#如何基于-notadd-构建-api)** 
 
-**[如何用 Vue2 写出 web 单页应用](../howtos/vue2.md)**
+**[如何用 Vue2 写出 web 单页应用](/howtos/#如何用vue2写出web单页应用)**
 
