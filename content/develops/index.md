@@ -607,7 +607,7 @@ class ModuleServiceProvider extends ServiceProvider
 
 Extension 的机制类似于 **Laravel** 中 **Service Provider** 的机制，提供了一种实现组件化的机制，并可以实现传统插件机制中的安装、卸载以及插件启动过程。
 
-### 基本结构
+#### 基本结构
 
 一个完整的 Notadd Extension ，必然是遵循 **Composer** 相关规范的 **Package**。
 
