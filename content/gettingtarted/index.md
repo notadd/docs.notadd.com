@@ -121,6 +121,11 @@ $ php notadd vendor:publish --force
 
 访问后台入口 `http://yourdomain/admin`。
 
+{{< warning title="pulic 必须为网站根目录" >}}
+否则前端资源将请求不到，出现空白页。
+同时，为了网站安全，请务必执行此操作。
+{{< /warning >}}
+
 ## VPS及独立服务器安装
 
 1. [下载安装包](https://downloads.notadd.com/vps/)
