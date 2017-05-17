@@ -603,7 +603,7 @@ class ModuleServiceProvider extends ServiceProvider
 * **composer.json** 中需定义 **type** 为 **notadd-extension**
 * **composer.json** 中需依赖 **package** 为 **notadd/installers**
 
-## Extension 结构
+### Extension 结构
 
 Extension 的机制类似于 **Laravel** 中 **Service Provider** 的机制，提供了一种实现组件化的机制，并可以实现传统插件机制中的安装、卸载以及插件启动过程。
 
