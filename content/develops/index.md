@@ -15,8 +15,8 @@ title: 二次开发
 * [Administrator](#administrator) 
 * [路由](#路由)
 * [模块](#模块)  大功能，诸如商城、文章、微信
-* [插件](/#/v1.0/zh-CN/extensions/extension)  功能增强，诸如 全局短信，全局验证码。
-* [拓展](/#/v1.0/zh-CN/expands)  特定环境拓展， 诸如 swoole拓展，PostgreSQL增强拓展
+* [插件](#插件)  功能增强，诸如 全局短信，全局验证码。
+* [拓展](#拓展)  特定环境拓展， 诸如 swoole拓展，PostgreSQL增强拓展
 
 ## Administrator
 
@@ -689,8 +689,10 @@ Extension 的机制类似于 **Laravel** 中 **Service Provider** 的机制，�
 
 
 
-## 拓展 expand
+## 拓展
 
-拓展一般需要在特定环境下实现，比如swoole拓展，需要安装swoole。
+### expand
+
+拓展一般需要在特定环境下实现，比如workerman拓展，需要安装workerman支持的拓展。
 
 （拓展文档有待更新）
