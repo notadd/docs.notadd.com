@@ -39,12 +39,11 @@ Notadd 像操作系统一样，你可以通过安装“软件”，成为适用�
 - [用户模块](https://github.com/notadd/member)
 - [富文本编辑器](https://github.com/notadd/neditor)
 - [微信模块](https://github.com/notadd/wechat)
-- [通信模块](https://github.com/notadd/socket)
+- [商城模块](https://github.com/notadd/mall)
 
 ## 目前已有插件
 
-- [多说评论](http://git.oschina.net/notadd/duoshuo)
-- [百度搜索](http://git.oschina.net/notadd/baidu)
+- [百度推送](http://git.oschina.net/notadd/baidu-push)
 
 ## 文档
 
@@ -61,20 +60,22 @@ PHP版本 ： 7.0+
 数据库： PostgreSQL（推荐）/MariaDB/MySQL/SQLite3
 
 
-**[系统需要安装的拓展](https://docs.notadd.com/#/v1.0/zh-CN/installations/first)**
+**[环境要求](https://docs.notadd.com/gettingtarted/#环境要求)**
 
 ## 安装
 
-**[独立服务器及VPS安装](https://docs.notadd.com/#/v1.0/zh-CN/installations/vps)**
+**[编译安装流程](https://docs.notadd.com/gettingtarted/#编译安装流程)**
 
-**[虚拟主机安装（暂不支持）](https://docs.notadd.com/#/v1.0/zh-CN/installations/vhost)**
+**[独立服务器及VPS安装](https://docs.notadd.com/gettingtarted/#vps及独立服务器安装)**
 
-**[编译安装](https://docs.notadd.com/#/v1.0/zh-CN/installations/compile)**
+**[虚拟主机安装（暂不支持）](#)**
+
+
 
 
 ## 贡献
 
-**[贡献代码](https://docs.notadd.com/introductions/contributing.html)**
+**[贡献代码](https://docs.notadd.com/introductions/#贡献)**
 
 **[捐赠](https://git.oschina.net/notadd/notadd?donate=true)**
 
@@ -90,14 +91,13 @@ https://git.oschina.net/notadd/notadd
 ## 联系我们
 
 Notadd官方交流群：321735506      
-Notadd官方微博：http://weibo.com/u/5938031702      
+
+Notadd官方微博：http://weibo.com/u/5938031702  
+
 电话：029-86479891       
+
 地址：陕西省西安市高新二路与光泰路十字   
 
 ##加入我们
 
-产品助理   
-UI设计师   
-Web前端工程师   
-PHP高级工程师   
 发送简历至hr@ibenchu.com
