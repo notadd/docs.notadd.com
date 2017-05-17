@@ -12,9 +12,9 @@ title: 二次开发
 
 #### 功能性扩展说明列表
 
-* [Administrator](/#/v1.0/zh-CN/develops/administrator) 
-* [路由](/#/v1.0/zh-CN/develops/router)
-* [模块](/#/v1.0/zh-CN/modules/readme)  大功能，诸如商城、文章、微信
+* [Administrator](#administrator) 
+* [路由](#路由)
+* [模块](#模块)  大功能，诸如商城、文章、微信
 * [插件](/#/v1.0/zh-CN/extensions/extension)  功能增强，诸如 全局短信，全局验证码。
 * [拓展](/#/v1.0/zh-CN/expands)  特定环境拓展， 诸如 swoole拓展，PostgreSQL增强拓展
 
@@ -339,7 +339,7 @@ Notadd 是朝着可扩展功能和可扩展组件的方向发展的，但是这�
 
 **模块**是 Notadd 的功能实体，是区别于 **notadd/framework** 来说的，**notadd/framework** 仅是承载 Notadd 体系的逻辑实现，并没有包含功能性代码。
 
-## 目录结构
+### 目录结构
 
 **模块**位于目录 **modules** 下，每个模块在一个独立的文件夹内，模块内部的目录结构如下：
 
@@ -353,11 +353,9 @@ Notadd 是朝着可扩展功能和可扩展组件的方向发展的，但是这�
     # composer.json                                  Composer 配置文件
 ```
 
-* [Resources](/#/v1.0/zh-CN/modules/resources)
-* [Provider](/#/v1.0/zh-CN/modules/provider)
-* [Composer](/#/v1.0/zh-CN/modules/composer)
 
-## Resources
+
+### Resources
 
 Resources 目录是 Module 的资源类文件放置的目录，包含如下几个类型目录：
 
@@ -365,15 +363,15 @@ Resources 目录是 Module 的资源类文件放置的目录，包含如下几�
 * translations
 * views
 
-### Assets
+#### Assets
 
 assets 目录为前端相关资源或项目的放置目录。
 
-### Translations
+#### Translations
 
 translations 目录为多语言资源文件的放置目录。
 
-### Views
+#### Views
 
 views 目录为视图资源文件的放置目录。
 
@@ -449,7 +447,7 @@ class ModuleServiceProvider extends ServiceProvider
 }
 ```
 
-## ModuleServiceProvider
+### ModuleServiceProvider
 
 ModuleServiceProvider 是 Module 的模块入口文件，也 Module 的所有功能容器示例注册、路由注入等一系列功能注册及组件启动的服务提供者。
 
@@ -569,7 +567,7 @@ class ModuleServiceProvider extends ServiceProvider
 }
 ```
 
-## Extension
+## 插件
 
 ### 说明
 
@@ -605,7 +603,7 @@ class ModuleServiceProvider extends ServiceProvider
 * **composer.json** 中需定义 **type** 为 **notadd-extension**
 * **composer.json** 中需依赖 **package** 为 **notadd/installers**
 
-# Extension 结构
+## Extension 结构
 
 Extension 的机制类似于 **Laravel** 中 **Service Provider** 的机制，提供了一种实现组件化的机制，并可以实现传统插件机制中的安装、卸载以及插件启动过程。
 
@@ -636,7 +634,7 @@ Extension 的机制类似于 **Laravel** 中 **Service Provider** 的机制，�
 
 
 
-## Composer
+### Composer
 
 通过对 Composer 的自定义，可以实现 Composer 自动加载 Extension 定义的依赖项。
 
