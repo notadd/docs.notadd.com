@@ -64,12 +64,10 @@ PHP版本 ： 7.0+
 
 ## 安装
 
-**[编译安装流程](https://docs.notadd.com/gettingtarted/#编译安装流程)**
+**[编译安装](https://docs.notadd.com/gettingtarted/#编译安装流程)**
 
-**[独立服务器及VPS安装](https://docs.notadd.com/gettingtarted/#vps及独立服务器安装)**
 
-**[虚拟主机安装（暂不支持）](#)**
-
+**[在线安装(敬请期待)](#)
 
 
 
