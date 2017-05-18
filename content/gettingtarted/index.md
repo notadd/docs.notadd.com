@@ -119,13 +119,9 @@ $ php notadd vendor:publish --force
 同时，为了网站安全，请务必执行此操作。
 {{< /warning >}}
 
-## VPS及独立服务器安装
+## 在线安装
 
-1. [下载安装包](https://downloads.notadd.com/vps/)
-
-2. 解压文件。 （Linux 下可通过 `tar -Jxvf [文件名]` 解压  ）
-
-3. 将网站根目录指定到public目录即可。
+（暂未提供）
 
 
 ## 模块的安装
@@ -153,18 +149,9 @@ composer install --no-dev
 3、到 **后台/全局/应用管理/模块配置/本地安装** 进行模块的安装。
 
 
-### 压缩包文件安装方式：
+### 应用商店在线安装：
 
-1、获取文件，从 https://pkg.notadd.com/Atlantia/modules/content/content_0.3.21.tar.xz 下载文件，并解压缩到目录 notadd/modules 。
-
-2、模块初始化：
-
-```bash
-cd notadd/modules/content
-composer install --no-dev
-```
-
-3、到 **后台/全局/应用管理/模块配置/本地安装** 进行模块的安装。
+（后期提供）
 
 
 ## 插件安装
@@ -193,18 +180,10 @@ composer install --no-dev
 
 压缩包文件安装方式：
 
-1、获取文件，从 https://pkg.notadd.com/Atlantia/extensions/baidu-push/baidu-push_0.1.3.tar.xz 下载文件，并解压缩到目录 notadd/extensions 。
+### 应用商店在线安装：
 
-解压缩文件后，需确保对应插件目录有两层目录，第一层目录为厂商目录，第二层目录为插件目录，例如百度推送的目录层次为： notadd/extensions/notadd/baidu-push 。
+（后期提供）
 
-2、模块初始化：
-
-```bash
-cd notadd/extensions/notadd/baidu-push
-composer install --no-dev
-```
-
-3、到 **后台/全局/应用管理/插件配置/本地安装** 进行模块的安装。
 
 
 ## 应用商店 Alpha
