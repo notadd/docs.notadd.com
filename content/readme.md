@@ -57,7 +57,7 @@ https://docs.notadd.com/
 
 PHP版本 ： 7.0+
 
-数据库： PostgreSQL（推荐）/MariaDB/MySQL/SQLite3
+数据库： PostgreSQL 9.4+（推荐）/ MySQL 5.7+ / SQLite 3.9+
 
 
 **[环境要求](https://docs.notadd.com/gettingtarted/#环境要求)**
