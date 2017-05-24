@@ -359,7 +359,7 @@ API 结果的数据输出，已经在 控制器(controller) 中做了处理。
     ],
     "homepage": "https://notadd.com",
     "license": "Apache-2.0",
-    "type": "project",
+    "type": "notadd-module",
     "authors": [
         {
             "name": "twilroad",
@@ -779,7 +779,7 @@ class CsrfTokenRegister extends EventSubscriber
 
 而作为一个符合 Notadd 插件定义规范的包，composer.json 需拥有如下信息：
 
-* type 必须为 notadd-module
+* type 必须为 notadd-extension
 * require 中必须添加包 notadd/installers
 
 代码参考如下(来自插件根目录下的文件 composer.json, 文件中不应该包含 // 的注释信息，此处仅作为说明)
