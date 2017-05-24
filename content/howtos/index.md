@@ -558,12 +558,12 @@ class ModuleServiceProvider extends ServiceProvider
 namespace Notadd\Content\Listeners;
 
 use Notadd\Content\Controllers\Api\Article\ArticleController as ArticleApiController;
-use Notadd\Foundation\Routing\Abstracts\RouteRegistrar as AbstractRouteRegistrar;
+use Notadd\Foundation\Routing\Abstracts\RouteRegister as AbstractRouteRegister;
 
 /**
  * Class RouteRegister.
  */
-class RouteRegister extends AbstractRouteRegistrar
+class RouteRegister extends AbstractRouteRegister
 {
     /**
      * Handle Route Registrar.
@@ -897,12 +897,12 @@ class Extension extends AbstractExtension
 namespace Notadd\Duoshuo\Listeners;
 
 use Notadd\Duoshuo\Controllers\DuoshuoController;
-use Notadd\Foundation\Routing\Abstracts\RouteRegistrar as AbstractRouteRegistrar;
+use Notadd\Foundation\Routing\Abstracts\RouteRegister as AbstractRouteRegister;
 
 /**
  * Class RouteRegister.
  */
-class RouteRegister extends AbstractRouteRegistrar
+class RouteRegister extends AbstractRouteRegister
 {
     /**
      * Handle Route Registrar.

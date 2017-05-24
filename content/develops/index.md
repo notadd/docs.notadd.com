@@ -273,12 +273,12 @@ use Notadd\Content\Controllers\ArticleController;
 use Notadd\Content\Controllers\Api\Article\ArticleTypeController as ArticleTypeApiController;
 use Notadd\Content\Controllers\CategoryController;
 use Notadd\Content\Controllers\PageController;
-use Notadd\Foundation\Routing\Abstracts\RouteRegistrar as AbstractRouteRegistrar;
+use Notadd\Foundation\Routing\Abstracts\RouteRegister as AbstractRouteRegister;
 
 /**
  * Class RouteRegister.
  */
-class RouteRegister extends AbstractRouteRegistrar
+class RouteRegister extends AbstractRouteRegister
 {
     /**
      * Handle Route Registrar.
