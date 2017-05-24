@@ -329,7 +329,6 @@ API 结果的数据输出，已经在 控制器(controller) 中做了处理。
 
 至此，一个完整的 API 开发完成。
 
-
 ## 如何开发一个 Notadd 模块
 
 模块代码结构请参考项目 https://github.com/notadd/content
