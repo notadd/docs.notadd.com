@@ -169,6 +169,10 @@ mkdir notadd
 git clone https://github.com/notadd/baidu-push.git
 ```
 
+{{< note title="请确保extensions目录有两层目录" >}}
+例如，baidu-push的目录结构为 notadd/extensions/notadd/baidu-push。 (notadd 为开发者名)
+{{< /note >}}
+
 2、插件初始化：
 
 ```bash
@@ -178,12 +182,9 @@ composer install --no-dev
 
 3、到 **后台/全局/应用管理/插件配置/本地安装** 进行模块的安装。
 
-{{< note title="请确保extensions目录有两层目录" >}}
-例如，baidu-push的目录结构为 notadd/extensions/notadd/baidu-push。 (notadd 为开发者名)
-{{< /note >}}
 
 
-压缩包文件安装方式：
+
 
 ### 应用商店在线安装：
 
