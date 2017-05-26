@@ -107,11 +107,11 @@ vi env-example
 ```
 
 ### env-example 配置说明
-
+``
 APPLICATION=../wwwroot
 
 DATA_SAVE_PATH=../wwwroot/data
-
+```
 
 #### WORKSPACE 配置项
 
