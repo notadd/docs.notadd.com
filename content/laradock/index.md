@@ -224,7 +224,12 @@ docker-compose stop
 
 
 ### 工作空间
-进入工作空间前，请确认环境已经启动
+
+{{< warning title="请先确认环境已经启动" >}}
+在宿主机下无法直接使用php/composer 等命令，必须进入工作空间
+{{< /warning >}}
+
+
 ```
 docker-compose exec workspace bash
 ```
@@ -271,8 +276,89 @@ docker-compose build php-fpm worksapce
 
 {{< /note >}}
 
+## 如何使用Caddy
+caddy 是用go语言开发的轻巧高性能的HTTP服务器，一个文件就能运行，配置也相对简单。
+修改`caddy`下的`Caddyfile`文件后重启caddy即可。
+常见的一些配置
+### HTTP域名
+80端口号，和后面的 `{` 必须有空格
+```
+domain1.com:80  domain2.com:80 {
+  root /home/wwwroot  # 网站目录
+  index index.php # 默认首页
+# 这里是配置
+}
+```
+### HTTPS 域名
+```
+domain.com:443 {
+  root /var/www/notadd/public
+  index index.php
+  tls you@163.com   # 自动申请证书，必须在外网，且域名可访问
+  #  如果你有证书，可如下方式配置
+  # tls /home/ssl/domain.com.crt /home/ssl/domain.com.key
+}
+```
+### 配置PHP转发 （Laravel为例）
+```
+Laravel.com:80 {
+        root /var/www/notadd/public
+        fastcgi / php-fpm:9000 php {
+                index index.php
+        }
+
+        # To handle .html extensions with laravel change ext to
+        # ext / .html
+
+        rewrite {
+                r .*
+                ext /
+                to /index.php?{query}
+        }
+        gzip   # 开启gzip
+        browse # 开启文件浏览
+        #日志
+        log /var/log/caddy/access.log
+        errors /var/log/caddy/error.log
+}
+```
+### markdown 渲染
+caddy 可以直接帮你把md 文件渲染成网页
+
+```
+domian.com:80 {
+  markdown {
+	ext /data # 不进行渲染的目录
+	template [name] path # 模板，可不填，使用默认
+  }
+}
+```
+### 自动从git 同步
+
+```
+domian.com:80 {
+  root /home
+  git https://github.com/notadd/notadd.git /var/www/ {
+      key /home/git/domian.key # key 文件地址，公有库可忽略
+      interval 60 # 间隔60秒
+      # 或者使用钩子同步
+      hook /hook  password # hook地址和密钥，用于 github 等git 仓库推送更新。
+  }
+}
+```
+
+### 创建文件下载服务器
+
+需要说明的是，这个自带界面哦，还能在线编辑文件
+
+```
+domian.com:80 {
+  root /home
+  filemanager
+}
+
+```
+当然还有更多好玩的用法，参考官方文档： https://caddyserver.com/docs
 
 
-
-
-
+### 如遇到问题，欢迎提问：https://bbs.notadd.com/category/8
