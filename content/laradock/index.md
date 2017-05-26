@@ -1,3 +1,7 @@
+---
+title: laradock下部署Notadd环境
+---
+
 {{< note title="划重点" >}}
 熟练使用docker，能够在10分钟内部署好一套PHP环境
 {{< /note >}}
