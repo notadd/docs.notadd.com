@@ -84,6 +84,10 @@ googleAnalytics = ""
 	name   = "技术规范"
 	url    = "standards/"
 	weight = 70
+[[menu.main]]
+	name   = "使用laradock部署"
+	url    = "laradock/"
+	weight = 80
 
 [blackfriday]
 	smartypants	= true
