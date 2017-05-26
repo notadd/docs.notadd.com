@@ -133,7 +133,7 @@ docker run -p 8080:80 --name notadd notadd/notadd
 
 docker 安装相关文档请访问： https://github.com/notadd/docker-notadd
 
-## 使用laradock部署
+### 使用laradock部署
 
 参见 https://docs.notadd.com/laradock/
 
