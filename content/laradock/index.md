@@ -183,8 +183,12 @@ vi Caddyfile
         errors /var/log/caddy/error.log
 }
 ```
-请注意： 容器无法直接访问主机。
-APPLICATION=../wwwroot 设置的 wwwroot目录 会对应容器的/var/www 目录
+{{< note title="容器和宿主机无法相互访问" >}}
+必须通过端口映射或者目录映射的方式
+{{< /note >}}
+
+之前的设置映射了目录：
+APPLICATION=../wwwroot ，所以 wwwroot目录 会对应容器的/var/www 目录
 
 完成后请：
 ```
