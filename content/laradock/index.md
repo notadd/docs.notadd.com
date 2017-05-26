@@ -30,8 +30,9 @@ docker 的性能损失只有1-2%，几乎可以忽略不计。
 ```
 curl -sSL https://get.daocloud.io/docker | sh
 
-#### 安装docker
 ```
+#### 安装docker
+
 Centos7 请执行这步
 ```
 yum install -y docker-engine 
