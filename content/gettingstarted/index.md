@@ -72,7 +72,7 @@ RewriteRule ^ index.php [L]
         to /index.php?{query}
     }
  ```
-## 编译安装流程
+## 编译安装
 
 {{< note title="安装前注意" >}}
 安装前请确保已经安装git、php及composer，否则无法执行安装。
@@ -119,11 +119,11 @@ $ php notadd vendor:publish --force
 同时，为了网站安全，请务必执行此操作。
 {{< /warning >}}
 
-#### 在线安装
+## 在线安装
 
 （暂未提供）
 
-#### Docker 安装
+## Docker 安装
 
 ```
 docker run -p 8080:80 --name notadd notadd/notadd
@@ -132,6 +132,10 @@ docker run -p 8080:80 --name notadd notadd/notadd
 访问 http://localhost:8080
 
 docker 安装相关文档请访问： https://github.com/notadd/docker-notadd
+
+## 使用laradock部署
+
+参见 https://docs.notadd.com/laradock/
 
 
 ## 模块的安装
