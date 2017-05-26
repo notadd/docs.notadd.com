@@ -81,7 +81,7 @@ http://1f637783.m.daocloud.io Copy
 ```
 点击 Apply & Restart 按钮使设置生效。
 
-## 安装laradock 与 Notadd
+## 安装 laradock 与 Notadd
 ### 下载laradock 与 Notadd 
 
 请确保git 可用 (win 建议在Powershell下执行)
@@ -201,6 +201,10 @@ cd .. # 进入laradock 根目录
 docker-compose up caddy postgres pgadmin 
 ```
 第一次运行需要安装环境，需要比较久的时间，请耐心等待
+
+{{< note title="安装notadd需进入workspace" >}}
+参见 laradock常用操作——工作空间相关说明
+{{< /note >}}
 
 ## laradock 常用操作
 
