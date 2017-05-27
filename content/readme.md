@@ -32,42 +32,12 @@ Notadd 像操作系统一样，你可以通过安装“软件”，成为适用�
 - 低耦合度，可“搭积木”
 - 同时支持所有平台（PC/平板/手机/APP/硬件）
 
-## 目前已有模块
-
-- [后台管理模块](https://github.com/notadd/administration)
-- [文章模块](https://github.com/notadd/content)
-- [用户模块](https://github.com/notadd/member)
-- [富文本编辑器](https://github.com/notadd/neditor)
-- [微信模块](https://github.com/notadd/wechat)
-- [商城模块](https://github.com/notadd/mall)
-
-## 目前已有插件
-
-- [百度推送](http://git.oschina.net/notadd/baidu-push)
 
 ## 文档
 
 https://docs.notadd.com/
 
 官方交流Q群：321735506
-
-## 系统环境
-
-操作系统： Linux（推荐）/Mac OS/ Windows 2008+
-
-PHP版本 ： 7.0+
-
-数据库： PostgreSQL 9.4+（推荐）/ MySQL 5.7+ / SQLite 3.9+
-
-
-**[环境要求](https://docs.notadd.com/gettingtarted/#环境要求)**
-
-## 安装
-
-**[编译安装](https://docs.notadd.com/gettingtarted/#编译安装流程)**
-
-
-**[在线安装(敬请期待)](#)
 
 
 
