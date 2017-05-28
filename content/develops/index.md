@@ -550,7 +550,7 @@ class ModuleServiceProvider extends ServiceProvider
     "authors": [
         {
             "name": "twilroad",
-            "email": "269044570@qq.com"
+            "email": "heshudong@ibenchu.com"
         }
     ],
     "require": {
@@ -659,7 +659,7 @@ Extension 的机制类似于 **Laravel** 中 **Service Provider** 的机制，�
     "authors": [
         {
             "name": "twilroad",
-            "email": "269044570@qq.com"
+            "email": "heshudong@ibenchu.com"
         }
     ],
     "autoload": {

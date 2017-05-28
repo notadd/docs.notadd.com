@@ -69,7 +69,7 @@ $this->router->group(['middleware' => ['auth:api', 'cross', 'web'], 'prefix' => 
 /**
  * This file is part of Notadd.
  *
- * @author TwilRoad <269044570@qq.com>
+ * @author TwilRoad <heshudong@ibenchu.com>
  * @copyright (c) 2016, notadd.com
  * @datetime 2016-11-08 17:01
  */
@@ -148,7 +148,7 @@ AllHandler 的代码如下：
 /**
  * This file is part of Notadd.
  *
- * @author TwilRoad <269044570@qq.com>
+ * @author TwilRoad <heshudong@ibenchu.com>
  * @copyright (c) 2016, notadd.com
  * @datetime 2016-11-23 14:44
  */
@@ -235,7 +235,7 @@ SetHandler 的代码如下：
 /**
  * This file is part of Notadd.
  *
- * @author TwilRoad <269044570@qq.com>
+ * @author TwilRoad <heshudong@ibenchu.com>
  * @copyright (c) 2016, notadd.com
  * @datetime 2016-11-23 15:09
  */
@@ -362,7 +362,7 @@ API 结果的数据输出，已经在 控制器(controller) 中做了处理。
     "authors": [
         {
             "name": "twilroad",
-            "email": "269044570@qq.com"
+            "email": "heshudong@ibenchu.com"
         }
     ],
     "autoload": {
@@ -483,7 +483,7 @@ API 结果的数据输出，已经在 控制器(controller) 中做了处理。
 /**
  * This file is part of Notadd.
  *
- * @author TwilRoad <269044570@qq.com>
+ * @author TwilRoad <heshudong@ibenchu.com>
  * @copyright (c) 2016, notadd.com
  * @datetime 2016-10-08 17:12
  */
@@ -521,7 +521,7 @@ class ModuleServiceProvider extends ServiceProvider
 /**
  * This file is part of Notadd.
  *
- * @author TwilRoad <269044570@qq.com>
+ * @author TwilRoad <heshudong@ibenchu.com>
  * @copyright (c) 2016, notadd.com
  * @datetime 2016-10-08 17:12
  */
@@ -550,7 +550,7 @@ class ModuleServiceProvider extends ServiceProvider
 /**
  * This file is part of Notadd.
  *
- * @author TwilRoad <269044570@qq.com>
+ * @author TwilRoad <heshudong@ibenchu.com>
  * @copyright (c) 2016, notadd.com
  * @datetime 2016-10-08 18:30
  */
@@ -592,7 +592,7 @@ class RouteRegister extends AbstractRouteRegister
 /**
  * This file is part of Notadd.
  *
- * @author TwilRoad <269044570@qq.com>
+ * @author TwilRoad <heshudong@ibenchu.com>
  * @copyright (c) 2016, notadd.com
  * @datetime 2016-10-08 17:12
  */
@@ -624,7 +624,7 @@ class ModuleServiceProvider extends ServiceProvider
 /**
  * This file is part of Notadd.
  *
- * @author TwilRoad <269044570@qq.com>
+ * @author TwilRoad <heshudong@ibenchu.com>
  * @copyright (c) 2017, notadd.com
  * @datetime 2017-01-22 12:20
  */
@@ -672,7 +672,7 @@ class FacadeRegister extends EventSubscriber
 /**
  * This file is part of Notadd.
  *
- * @author TwilRoad <269044570@qq.com>
+ * @author TwilRoad <heshudong@ibenchu.com>
  * @copyright (c) 2016, notadd.com
  * @datetime 2016-10-08 17:12
  */
@@ -704,7 +704,7 @@ class ModuleServiceProvider extends ServiceProvider
 /**
  * This file is part of Notadd.
  *
- * @author TwilRoad <269044570@qq.com>
+ * @author TwilRoad <heshudong@ibenchu.com>
  * @copyright (c) 2017, notadd.com
  * @datetime 2017-02-10 11:04
  */
@@ -822,7 +822,7 @@ class CsrfTokenRegister extends EventSubscriber
 /**
  * This file is part of Notadd.
  *
- * @author TwilRoad <269044570@qq.com>
+ * @author TwilRoad <heshudong@ibenchu.com>
  * @copyright (c) 2017, notadd.com
  * @datetime 2017-02-21 11:28
  */
@@ -857,7 +857,7 @@ class Extension extends AbstractExtension
 /**
  * This file is part of Notadd.
  *
- * @author TwilRoad <269044570@qq.com>
+ * @author TwilRoad <heshudong@ibenchu.com>
  * @copyright (c) 2017, notadd.com
  * @datetime 2017-02-21 11:28
  */
@@ -889,7 +889,7 @@ class Extension extends AbstractExtension
 /**
  * This file is part of Notadd.
  *
- * @author TwilRoad <269044570@qq.com>
+ * @author TwilRoad <heshudong@ibenchu.com>
  * @copyright (c) 2017, notadd.com
  * @datetime 2017-02-21 11:50
  */
@@ -928,7 +928,7 @@ class RouteRegister extends AbstractRouteRegister
 /**
  * This file is part of Notadd.
  *
- * @author TwilRoad <269044570@qq.com>
+ * @author TwilRoad <heshudong@ibenchu.com>
  * @copyright (c) 2017, notadd.com
  * @datetime 2017-02-21 11:28
  */
@@ -960,7 +960,7 @@ class Extension extends AbstractExtension
 /**
  * This file is part of Notadd.
  *
- * @author TwilRoad <269044570@qq.com>
+ * @author TwilRoad <heshudong@ibenchu.com>
  * @copyright (c) 2017, notadd.com
  * @datetime 2017-02-23 19:38
  */
@@ -1319,7 +1319,7 @@ export default {
 /**
  * This file is part of Notadd.
  *
- * @author TwilRoad <269044570@qq.com>
+ * @author TwilRoad <heshudong@ibenchu.com>
  * @copyright (c) 2016, notadd.com
  * @datetime 2016-10-08 17:12
  */
@@ -1356,7 +1356,7 @@ class ModuleServiceProvider extends ServiceProvider
 /**
  * This file is part of Notadd.
  *
- * @author TwilRoad <269044570@qq.com>
+ * @author TwilRoad <heshudong@ibenchu.com>
  * @copyright (c) 2016, notadd.com
  * @datetime 2016-10-08 17:12
  */
