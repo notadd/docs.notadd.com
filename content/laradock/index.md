@@ -6,13 +6,13 @@ title: laradock下部署Notadd环境
 熟练使用docker，能够在10分钟内部署好一套PHP环境
 {{< /note >}}
 
-## 为什么使用docker？
+## 为什么使用Docker？
 
 ### 部署快
 只需要几分钟，就能部署好一套PHP环境
 
 ### 性能好
-docker 的性能损失只有1-2%，几乎可以忽略不计。
+Docker 的性能损失只有1-2%，几乎可以忽略不计。
 
 ### 安全性高
 容器与宿主机完全隔离，默认情况下不能相互访问。
@@ -23,7 +23,7 @@ docker 的性能损失只有1-2%，几乎可以忽略不计。
 ### 教程目的
 如何用laradock 在10分钟内 部署 Notadd 与 laradock 环境
 
-## 开始安装docker
+## 开始安装Docker
 
 ### Liunx
 
@@ -31,7 +31,7 @@ docker 的性能损失只有1-2%，几乎可以忽略不计。
 curl -sSL https://get.daocloud.io/docker | sh
 
 ```
-#### 安装docker
+#### 安装Docker
 
 Centos7 请执行这步
 ```
@@ -43,7 +43,7 @@ ubuntu 请执行这步
 ```
 sudo apt-get install -y -q docker-engine
 ```
-#### 安装docker-compose （ubuntu 请注意权限问题）
+#### 安装Docker-compose （ubuntu 请注意权限问题）
 ```
 curl -L https://get.daocloud.io/docker/compose/releases/download/1.13.0/docker-compose-`uname -s`-`uname -m` > /usr/local/bin/docker-compose
 chmod +x /usr/local/bin/docker-compose
@@ -61,7 +61,7 @@ https://get.daocloud.io/docker-install/windows
 
 #### 开启国内镜像加速
 
-在桌面右下角状态栏中右键 docker 图标，修改在 Docker Daemon 标签页中的 json ，把下面的地址:
+在桌面右下角状态栏中右键 Docker 图标，修改在 Docker Daemon 标签页中的 json ，把下面的地址:
 ```
 http://1f637783.m.daocloud.io Copy
 ```
