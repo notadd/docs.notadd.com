@@ -25,7 +25,7 @@ Docker 的性能损失只有1-2%，几乎可以忽略不计。
 
 ## 开始安装Docker
 
-### Linux
+### Linux (先执行这步)
 
 ```
 curl -sSL https://get.daocloud.io/docker | sh
