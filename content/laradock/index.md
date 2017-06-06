@@ -90,11 +90,9 @@ git clone https://github.com/Laradock/laradock.git
 mkdir -p wwwroot/data  # 创建网站目录
 cd wwwroot 
 git clone https://github.com/notadd/notadd.git
-chown -R  www-data:www-data notadd  # 赋予权限
 cd .. # 返回到上级目录
 
 ```
-
 
 
 Linux： (win 和 mac 请直接编辑`env-example` 文件)
@@ -253,7 +251,7 @@ docker-compose exec workspace bash
 #### 安装notadd
 ```
 cd notadd
-compose install
+composer install
 php notadd vendor:publish --force
 ```
 #### 退出工作空间
