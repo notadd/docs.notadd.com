@@ -89,7 +89,7 @@ http://1f637783.m.daocloud.io Copy
 git clone https://github.com/Laradock/laradock.git
 mkdir -p wwwroot/data  # 创建网站目录
 cd wwwroot 
-mkdir -p public   #创建用于 HTTP服务软件的公共目录
+mkdir public   #创建用于 HTTP服务软件的公共目录
 git clone https://github.com/notadd/notadd.git
 cd .. # 返回到上级目录
 
