@@ -270,3 +270,11 @@ class SetHandler extends AbstractSetHandler
     }
 }
 ```
+
+## 模块类 API 文档
+
+* 用户中心：http://apizza.cc/console/project/bf470481050f71459659784d6b23cb6d/browse
+* 内容管理系统：http://apizza.cc/console/project/930c250291c96035452c20b8fc780b54/browse
+* 商城后台：http://apizza.cc/console/project/5b5d5e6bca11f037c8ff6e5e67cb76a1/browse
+* 商家后台：http://apizza.cc/console/project/6c13995a0680cc2fe12a01e12e4cc681/browse
+* 商城店铺：http://apizza.cc/console/project/1a02aacf4cdee2ea9b1074ccd56cca46/browse
