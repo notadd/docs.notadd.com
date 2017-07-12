@@ -59,17 +59,9 @@ RewriteRule ^ index.php [L]
 ### caddy 配置
 
 ```
-    fastcgi / localhost:9000 php {
-        index index.php
-    }
-
-    # To handle .html extensions with laravel change ext to
-    # ext / .html
-
+    fastcgi / 127.0.0.1:9000 php
     rewrite {
-        r .*
-        ext /
-        to /index.php?{query}
+        to {path} {path}/ /index.php?{query}
     }
  ```
 ## 编译安装
