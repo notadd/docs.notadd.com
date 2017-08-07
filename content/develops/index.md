@@ -329,7 +329,7 @@ Notadd 是朝着可扩展功能和可扩展组件的方向发展的，但是这�
 
 ### Notadd 推荐的扩展方式
 
-以独立的 package 形式存在的 Laravel 扩展包，传承了 composer 包管理的思想，但是没有针对可插拔做出实现，而 Notadd 的存在，正式为了解决这个问题。
+以独立的 package 形式存在的 Laravel 扩展包，传承了 composer 包管理的思想，但是没有针对可插拔做出实现，而 Notadd 的存在，正是为了解决这个问题。
 
 * 遵循 composer 包管理规范的 package
 * 不需要对源代码做出过多的修改，即可达到 package 的加载
