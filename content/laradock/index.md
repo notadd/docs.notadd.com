@@ -44,7 +44,8 @@ sudo apt-get install -y -q docker-engine
 ```
 
 {{< note title="如果安装缓慢" >}}
-建议使用![清华大学镜像源](https://mirror.tuna.tsinghua.edu.cn/help/docker/)
+建议使用清华大学镜像源
+https://mirror.tuna.tsinghua.edu.cn/help/docker/
 {{< /note >}}
 
 
