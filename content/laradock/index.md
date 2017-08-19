@@ -28,7 +28,7 @@ Docker 的性能损失只有1-2%，几乎可以忽略不计。
 ### Linux (先执行这步)
 
 ```
-curl -sSL https://get.daocloud.io/docker | sh
+curl -sSL https://get.docker.com | sh
 ```
 #### 安装Docker
 
@@ -44,13 +44,23 @@ sudo apt-get install -y -q docker-engine
 ```
 #### 安装Docker-compose （ubuntu 请注意权限问题）
 ```
-curl -L https://get.daocloud.io/docker/compose/releases/download/1.13.0/docker-compose-`uname -s`-`uname -m` > /usr/local/bin/docker-compose
+curl -L https://get.daocloud.io/docker/compose/releases/download/1.15.0/docker-compose-`uname -s`-`uname -m` > /usr/local/bin/docker-compose
 chmod +x /usr/local/bin/docker-compose
 ```
 #### 开启国内镜像加速
 
 ```
-curl -sSL https://get.daocloud.io/daotools/set_mirror.sh | sh -s http://1f637783.m.daocloud.io
+curl -sSL https://get.daocloud.io/daotools/set_mirror.sh | sh -s https://registry.docker-cn.com
+```
+
+如果系统不支持以上命令，且docker版本在1.13以上，可以使用：
+
+`nano /etc/docker/daemon.json`
+
+```
+{
+  "registry-mirrors": ["https://registry.docker-cn.com"]
+}
 ```
 
 ### Windows10（64位）
