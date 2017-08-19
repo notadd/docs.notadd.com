@@ -85,7 +85,7 @@ https://get.daocloud.io/docker-install/windows
 
 在桌面右下角状态栏中右键 Docker 图标，修改在 Docker Daemon 标签页中的 json ，把下面的地址:
 ```
-http://1f637783.m.daocloud.io
+https://registry.docker-cn.com
 ```
 加到"registry-mirrors"的数组里。点击 Apply 。
 
@@ -99,7 +99,7 @@ https://get.daocloud.io/docker-install/mac
 右键点击桌面顶栏的 docker 图标，选择 Preferences ，在 Daemon 标签（Docker 17.03 之前版本为 Advanced 标签）下的 Registry mirrors 列表中加入下面的镜像地址:
 
 ```
-http://1f637783.m.daocloud.io
+https://registry.docker-cn.com
 ```
 点击 Apply & Restart 按钮使设置生效。
 
