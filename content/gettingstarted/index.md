@@ -24,6 +24,7 @@ PHP版本 ： 7.0+
 * 必须安装 PHP 扩展 json
 * 必须安装 PHP 扩展 mbstring
 * 必须安装 PHP 扩展 openssl
+* 必须安装 PHP 扩展 bc_math
 * 使用 Mysql 数据库引擎则必须安装PHP扩展 pdo_mysql
 * 使用 Pgsql 数据库引擎则必须安装PHP扩展 pdo_pgsql
 * 使用 Sqlite 数据库引擎则必须安装PHP扩展 pdo_sqlite
@@ -39,7 +40,7 @@ PHP版本 ： 7.0+
 
 ```
 location / {
-    try_files $uri $uri/ /index.php?$query_string;
+    try_files /index.php?$query_string;
 }
 ```
 
@@ -52,8 +53,6 @@ Apache 下一般public（服务器）/根目录（虚拟主机） 下都有附�
 Options +FollowSymLinks
 RewriteEngine On
 
-RewriteCond %{REQUEST_FILENAME} !-d
-RewriteCond %{REQUEST_FILENAME} !-f
 RewriteRule ^ index.php [L]
 ```
 ### caddy 配置
@@ -61,7 +60,7 @@ RewriteRule ^ index.php [L]
 ```
     fastcgi / 127.0.0.1:9000 php
     rewrite {
-        to {path} {path}/ /index.php?{query}
+        to /index.php?{query}
     }
  ```
 ## 编译安装
