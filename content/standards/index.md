@@ -23,7 +23,7 @@ Notadd Framework 基于 Composer 构建，并使用 Composer 组织代码。
     # extensions                     插件根目录
     # modules                        模块根目录
     # statics                        静态资源目录
-        # assets                     前端CDN目录
+        # assets                     前端资源目录
         # uploads                    上传目录
         # favicon.ico                ICON图标文件
     # public                         公共目录
