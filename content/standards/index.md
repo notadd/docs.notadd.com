@@ -22,12 +22,14 @@ Notadd Framework 基于 Composer 构建，并使用 Composer 组织代码。
 # wwwroot                            网站根目录
     # extensions                     插件根目录
     # modules                        模块根目录
-    # public                         公共目录
-        # assets                     静态资源目录
-        # uploads                    上传目录
+    # statics                        静态资源目录
+        # assets                     前端CDN目录
+        # uploads                    上传目录
         # favicon.ico                ICON图标文件
+    # public                         公共目录
         # index.php                  入口文件
-    # storage                        缓存目录
+        # .htacess                   Apache Rewrite
+    # storage                        缓存目录
     # vendor                         第三方类库目录
 ```
 
