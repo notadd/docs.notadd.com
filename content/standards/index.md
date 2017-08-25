@@ -30,7 +30,9 @@ Notadd Framework 基于 Composer 构建，并使用 Composer 组织代码。
         # index.php                  入口文件
         # .htacess                   Apache Rewrite
     # storage                        缓存目录
-    # vendor                         第三方类库目录
+        # enviroments                环境变量目录
+        # enviroment.yaml            环境变量文件
+    # vendor                         第三方类库目录
 ```
 
 ### 示例插件目录说明
