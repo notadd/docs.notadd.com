@@ -40,7 +40,7 @@ PHP版本 ： 7.0+
 
 ```
 location / {
-    rewrite /index.php?$query_string;
+    rewrite ^/ /index.php?$query_string;
 }
 ```
 
