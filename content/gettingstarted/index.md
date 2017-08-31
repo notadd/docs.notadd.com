@@ -38,10 +38,10 @@ PHP版本 ： 7.0+
 
 ### Nginx 配置
 
+
 ```
-location / {
   rewrite ^(.*)$ /index.php break;
-}
+
 ```
 
 ### Apache 配置
