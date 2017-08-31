@@ -37,10 +37,11 @@ PHP版本 ： 7.0+
 ## Nginx/Apache/Caddy
 
 ### Nginx 配置
+请放置于location 之外
 
 
 ```
-  rewrite ^(.*)$ /index.php break;
+  rewrite ^ /index.php?query_string;
 
 ```
 
