@@ -37,13 +37,16 @@ PHP版本 ： 7.0+
 ## Nginx/Apache/Caddy
 
 ### Nginx 配置
-请放置于location 之外
-
 
 ```
+location / {
   rewrite ^ /index.php?query_string;
-
+}
 ```
+
+{{< warning title="网页空白或前端资源报错" >}}
+默认图片等静态文件交由 PHP 处理，请将 Nginx 网站 conf 配置中的 localtion ～ 有关图片文件（jpg png）及 css 和 js 相关配置项删除。
+{{< /warning >}}
 
 ### Apache 配置
 
