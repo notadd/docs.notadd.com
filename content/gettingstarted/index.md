@@ -205,6 +205,6 @@ composer install --no-dev
 
 正在开发中...
 
-[点击查看可用扩展](https://bbs.notadd.com/topic/7/notadd-%E6%A8%A1%E5%9D%97%E6%8F%92%E4%BB%B6%E6%A8%A1%E6%9D%BF%E6%8B%93%E5%B1%95-%E8%BF%9B%E5%BA%A6%E8%A1%A8)
+[点击查看可用扩展](https://notadd.store)
 
 
