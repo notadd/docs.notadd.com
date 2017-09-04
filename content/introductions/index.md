@@ -27,9 +27,6 @@ Notadd 像操作系统一样，你可以通过安装“软件”，成为适用�
 - 同时支持所有平台（PC/平板/手机/APP/硬件）
 
 
-
-
-
 ### github地址
 
 https://github.com/notadd/notadd
@@ -112,6 +109,7 @@ Notadd官方微博：http://weibo.com/u/5938031702
 2. 新SEO方案
 3. 简单的消息队列机制
 4. 默认使用Redis缓存 
+5. 基于Laravel 5.5
 
 ### Beta3 fix1（170904）
 
