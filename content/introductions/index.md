@@ -88,12 +88,12 @@ Notadd官方微博：http://weibo.com/u/5938031702
 
 ## 更新记录
 
-### RC2
+### RC2 （即将发布）
 
-1. 加入Notadd Store
+1. 加入Notadd Store （Beta）
 
 
-### RC
+### RC （即将发布）
 
 1. 多Notadd 通信问题
 2. 模块与插件安装、更新机制
