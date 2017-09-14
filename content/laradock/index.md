@@ -54,7 +54,7 @@ https://mirror.tuna.tsinghua.edu.cn/help/docker/
 
 #### 安装Docker-compose （ubuntu 请注意权限问题）
 ```
-curl -L https://get.daocloud.io/docker/compose/releases/download/1.15.0/docker-compose-`uname -s`-`uname -m` > /usr/local/bin/docker-compose
+curl -L https://get.daocloud.io/docker/compose/releases/download/1.16.1/docker-compose-`uname -s`-`uname -m` > /usr/local/bin/docker-compose
 chmod +x /usr/local/bin/docker-compose
 ```
 #### 开启国内镜像加速
