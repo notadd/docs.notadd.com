@@ -8,11 +8,11 @@ title: 技术规范
 ### 支持的PSR规范
 
 * 基于 PSR-4 规范实现 autoload
-* 基于 PSR-1 规范的代码风格
+* 基于 PSR-1/PSR-2 规范的代码风格
 
-## 依赖的 Package
+## 包依赖
 
-Notadd Framework 基于 Composer 构建，并使用 Composer 组织代码。
+Notadd Framework 基于 Composer 构建，并使用 Composer 组织代码，可以轻松的使用来自 Composer 的符合 Laravel 扩展包规范的成千上万的包（Package），并且只需要做很少的改动。
 
 ## 目录结构说明
 
@@ -20,6 +20,7 @@ Notadd Framework 基于 Composer 构建，并使用 Composer 组织代码。
 
 ```
 # wwwroot                            网站根目录
+    # expands                        插件根目录（新特性，开发中...）
     # extensions                     插件根目录
     # modules                        模块根目录
     # statics                        静态资源目录
@@ -31,8 +32,23 @@ Notadd Framework 基于 Composer 构建，并使用 Composer 组织代码。
         # .htacess                   Apache Rewrite
     # storage                        缓存目录
         # enviroments                环境变量目录
-        # enviroment.yaml            环境变量文件
+            # enviroment.yaml        环境变量文件
     # vendor                         第三方类库目录
+```
+
+### 模块目录说明
+
+```
+# modules/administration             Administration 模块目录
+    # resources                      资源目录
+    # src                            源码目录
+        # Controllers                控制器目录
+        # Subscribers                事件订阅者目录（支持自动发现）
+        # ModuleServiceProvider.php  模块的服务提供者
+    # tests                          测试集成目录
+    # composer.json                  Composer 配置文件
+    # configuration.yaml             模块配置文件
+    # readme.md                      模块说明文件
 ```
 
 ### 示例插件目录说明
