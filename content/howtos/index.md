@@ -187,7 +187,7 @@ class AllHandler extends DataHandler
      *
      * @return int
      */
-    public function code()                                                 // 定义 API 操作结果的状态码
+    public function code()                                                             // 定义 API 操作结果的状态码
     {
         return 200;
     }
@@ -197,7 +197,7 @@ class AllHandler extends DataHandler
      *
      * @return array
      */
-    public function data()                                                  // 定义 API 返回的数据
+    public function data()                                                             // 定义 API 返回的数据
     {
         return $this->settings->all()->toArray();
     }
@@ -207,7 +207,7 @@ class AllHandler extends DataHandler
      *
      * @return array
      */
-    public function errors()                                                // 定义 API 操作失败时返回的信息
+    public function errors()                                                           // 定义 API 操作失败时返回的信息
     {
         return [
             '获取全局设置失败！',
@@ -219,7 +219,7 @@ class AllHandler extends DataHandler
      *
      * @return array
      */
-    public function messages()                                             // 定义 API 操作成功时返回的信息
+    public function messages()                                                         // 定义 API 操作成功时返回的信息
     {
         return [
             '获取全局设置成功！',
@@ -274,7 +274,7 @@ class SetHandler extends AbstractSetHandler
      *
      * @return array
      */
-    public function data()                                                                    // 定义 API 返回的数据
+    public function data()                                                             // 定义 API 返回的数据
     {
         return $this->settings->all()->toArray();
     }
@@ -284,7 +284,7 @@ class SetHandler extends AbstractSetHandler
      *
      * @return array
      */
-    public function errors()                                                                  // 定义 API 操作失败时返回的信息
+    public function errors()                                                           // 定义 API 操作失败时返回的信息
     {
         return [
             '修改设置失败！',
@@ -296,7 +296,7 @@ class SetHandler extends AbstractSetHandler
      *
      * @return bool
      */
-    public function execute()                                                                 // 定义 API 执行的修改操作
+    public function execute()                                                          // 定义 API 执行的修改操作
     {
         $this->settings->set('site.enabled', $this->request->input('enabled'));
         $this->settings->set('site.name', $this->request->input('name'));
@@ -314,7 +314,7 @@ class SetHandler extends AbstractSetHandler
      *
      * @return array
      */
-    public function messages()                                                                // 定义 API 操作成功时返回的信息
+    public function messages()                                                         // 定义 API 操作成功时返回的信息
     {
         return [
             '修改设置成功!',
@@ -450,7 +450,7 @@ API 结果的数据输出，已经在 控制器(controller) 中做了处理。
     ],
     "homepage": "https://notadd.com",
     "license": "Apache-2.0",
-    "type": "notadd-module",                                                          // type 必须设置为 notadd-module
+    "type": "notadd-module",                                                           // type 必须设置为 notadd-module
     "authors": [
         {
             "name": "Notadd",
@@ -459,7 +459,7 @@ API 结果的数据输出，已经在 控制器(controller) 中做了处理。
     ],
     "require": {
         "php": ">=7.0",
-        "notadd/installers": "0.5.*"                                                  // 必须依赖包 notadd/installers
+        "notadd/installers": "0.5.*"                                                   // 必须依赖包 notadd/installers
     },
     "autoload": {
         "psr-4": {
@@ -503,7 +503,7 @@ class ModuleServiceProvider extends ServiceProvider
      */
     public function boot()
     {
-        $this->app->make(Dispatcher::class)->subscribe(RouteRegister::class);                // 订阅事件 RouteRegister
+        $this->app->make(Dispatcher::class)->subscribe(RouteRegister::class);          // 订阅事件 RouteRegister
     }
 }
 ```
@@ -569,7 +569,7 @@ class RouteRegister extends AbstractRouteRegister
      */
     public function handle()
     {
-        $this->router->group(['middleware' => ['cross', 'web']], function () {               // 路由的注册
+        $this->router->group(['middleware' => ['cross', 'web']], function () {         // 路由的注册
             $this->router->group(['prefix' => 'api/article'], function () {
                 $this->router->post('find', ArticleApiController::class . '@find');
                 $this->router->post('fetch', ArticleApiController::class . '@fetch');
@@ -787,7 +787,7 @@ class CsrfTokenRegister extends EventSubscriber
 {
     "name": "notadd/duoshuo",
     "description": "Notadd Extension for Duoshuo.",
-    "type": "notadd-extension",                                                      // type 必须设置为 notadd-extension
+    "type": "notadd-extension",                                                        // type 必须设置为 notadd-extension
     "keywords": ["notadd", "duoshuo", "extension"],
     "homepage": "https://notadd.com",
     "license": "Apache-2.0",
@@ -804,7 +804,7 @@ class CsrfTokenRegister extends EventSubscriber
     },
     "require": {
         "php": ">=7.0",
-        "notadd/installers": "0.5.*"                                                // 必须依赖包 notadd/installers
+        "notadd/installers": "0.5.*"                                                   // 必须依赖包 notadd/installers
     }
 }
 ```
@@ -1051,8 +1051,8 @@ var webpackConfig = merge(baseWebpackConfig, {
   output: {
     path: config.build.assetsRoot,
     filename: utils.assetsPath('js/extension.js'),
-    library: 'notadd/content',                                                              // 必须定义 library 别名
-    libraryTarget: "umd"                                                                    // 必须定义 libraryTarget 为 umd
+    library: 'notadd/content',                                                         // 必须定义 library 别名
+    libraryTarget: "umd"                                                               // 必须定义 libraryTarget 为 umd
   },
   plugins: [
     new webpack.DefinePlugin({

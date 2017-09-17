@@ -19,46 +19,46 @@ Notadd Framework 基于 Composer 构建，并使用 Composer 组织代码，可�
 ### 整站目录说明
 
 ```
-# wwwroot                            网站根目录
-    # expands                        插件根目录（新特性，开发中...）
-    # extensions                     插件根目录
-    # modules                        模块根目录
-    # statics                        静态资源目录
-        # assets                     前端资源目录
-        # uploads                    上传目录
-        # favicon.ico                ICON图标文件
-    # public                         入口文件目录
-        # index.php                  入口文件
-        # .htacess                   Apache Rewrite
-    # storage                        缓存目录
-        # enviroments                环境变量目录
-            # enviroment.yaml        环境变量文件
-    # vendor                         第三方类库目录
+# wwwroot                                                                              网站根目录
+    # expands                                                                          插件根目录（新特性，开发中...）
+    # extensions                                                                       插件根目录
+    # modules                                                                          模块根目录
+    # statics                                                                          静态资源目录
+        # assets                                                                       前端资源目录
+        # uploads                                                                      上传目录
+        # favicon.ico                                                                  ICON图标文件
+    # public                                                                           入口文件目录
+        # index.php                                                                    入口文件
+        # .htacess                                                                     Apache Rewrite
+    # storage                                                                          缓存目录
+        # enviroments                                                                  环境变量目录
+            # enviroment.yaml                                                          环境变量文件
+    # vendor                                                                           第三方类库目录
 ```
 
 ### 模块目录说明
 
 ```
-# modules/administration             Administration 模块目录
-    # resources                      资源目录
-    # src                            源码目录
-        # Controllers                控制器目录
-        # Subscribers                事件订阅者目录（支持自动发现）
-        # ModuleServiceProvider.php  模块的服务提供者
-    # tests                          测试集成目录
-    # composer.json                  Composer 配置文件
-    # configuration.yaml             模块配置文件
-    # readme.md                      模块说明文件
+# modules/administration                                                               Administration 模块目录
+    # resources                                                                        资源目录
+    # src                                                                              源码目录
+        # Controllers                                                                  控制器目录
+        # Subscribers                                                                  事件订阅者目录（支持自动发现）
+        # ModuleServiceProvider.php                                                    模块的服务提供者
+    # tests                                                                            测试集成目录
+    # composer.json                                                                    Composer 配置文件
+    # configuration.yaml                                                               模块配置文件
+    # readme.md                                                                        模块说明文件
 ```
 
 ### 示例插件目录说明
 
 ```
-# extensions\vendor\brick-carving    BrickCarving插件目录
-    # src                            插件源码目录
-    # resources                      插件静态资源目录
-    # vendor                         第三方类库目录
-    # composer.json                  插件Composer文件
+# extensions\vendor\brick-carving                                                      BrickCarving插件目录
+    # src                                                                              插件源码目录
+    # resources                                                                        插件静态资源目录
+    # vendor                                                                           第三方类库目录
+    # composer.json                                                                    插件Composer文件
 ```
 
 ## 如何注入中间件

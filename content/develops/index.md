@@ -351,17 +351,17 @@ class RouteRegister extends AbstractRouteRegister
 **模块**位于目录 **modules** 下，每个模块在一个独立的文件夹内，模块内部的目录结构如下：
 
 ```
-# module/administration                              模块目录
-    # resources                                      资源目录
-        # translations                               翻译文件目录
-        # views                                      视图目录
-    # src                                            源码目录
-            # Controllers                            控制器目录
-            # Subscribers                            事件订阅者目录（支持自动发现）
-            # ModuleServiceProvider.php              模块的服务提供者
-    # composer.json                                  Composer 配置文件
-    # configuration.yaml                             模块配置文件
-    # readme.md                      模块说明文件
+# module/administration                                                                模块目录
+    # resources                                                                        资源目录
+        # translations                                                                 翻译文件目录
+        # views                                                                        视图目录
+    # src                                                                              源码目录
+            # Controllers                                                              控制器目录
+            # Subscribers                                                              事件订阅者目录（支持自动发现）
+            # ModuleServiceProvider.php                                                模块的服务提供者
+    # composer.json                                                                    Composer 配置文件
+    # configuration.yaml                                                               模块配置文件
+    # readme.md                                                                        模块说明文件
 ```
 
 ### Resources
@@ -512,18 +512,18 @@ class ModuleServiceProvider extends ServiceProvider
 #### 完整示例
 
 ```yaml
-name: 后台管理                                                                                                           # 模块名称
-identification: notadd/administration                                                                                   # 模块标识，需和 composer.json 的 name 属性一致
-description: 'Notadd 后台管理模块'                                                                                       # 模块描述
-author:                                                                                                                 # 模块作者
+name: 后台管理                                                                             # 模块名称
+identification: notadd/administration                                                     # 模块标识，需和 composer.json 的 name 属性一致
+description: 'Notadd 后台管理模块'                                                         # 模块描述
+author:                                                                                   # 模块作者
     - twilroad
     - 269044570@qq.com
-version: 2.0.0                                                                                                          # 模块版本
-csrf:                                                                                                                   # 模块 CSRF 注入
+version: 2.0.0                                                                            # 模块版本
+csrf:                                                                                     # 模块 CSRF 注入
     - 'admin*'
     - 'api*'
     - 'editor*'
-dashboards:                                                                                                             # 后台仪表盘模块注入
+dashboards:                                                                               # 后台仪表盘模块注入
     -
         identification: systeminfo
         title: 系统信息
@@ -658,7 +658,7 @@ dashboards:                                                                     
                         content:
                             - 怒杀一只鸡
                     - 。
-menus:                                                                                                                  # 后台菜单注入
+menus:                                                                                    # 后台菜单注入
     global:
         icon: settings
         permission:
@@ -710,7 +710,7 @@ menus:                                                                          
                         text: 调试工具
                 icon: stats-bars
                 text: 系统插件
-pages:                                                                                                                  # 后台页面注入
+pages:                                                                                    # 后台页面注入
     configurations:
         initialization:
             name: 参数配置
@@ -784,7 +784,7 @@ pages:                                                                          
                         key: site.statistics
                         required: false
                         type: textarea
-publishes:                                                                                                              # 资源目录映射
+publishes:                                                                                # 资源目录映射
     assets/admin: resources/mixes/administration/dist/assets/admin
 ```
 
@@ -808,15 +808,15 @@ publishes:                                                                      
 **插件**位于目录 **extensions** 下，插件目录结构如下
 
 ```
-# vendor                                             厂商目录
-    # extension                                      插件目录
-        # configuations                              可加载配置文件目录
-        # resources                                  资源目录
-            # translations                           翻译文件目录
-            # views                                  视图目录
-        # src                                        源码目录
-            # Extension                              扩展服务提供者定义文件
-        # composer.json                              Composer 配置文件
+# vendor                                                                               厂商目录
+    # extension                                                                        插件目录
+        # configuations                                                                可加载配置文件目录
+        # resources                                                                    资源目录
+            # translations                                                             翻译文件目录
+            # views                                                                    视图目录
+        # src                                                                          源码目录
+            # Extension                                                                扩展服务提供者定义文件
+        # composer.json                                                                Composer 配置文件
 ```
 
 * [Extension](/#/v1.0/zh-CN/extensions/provider)
@@ -841,15 +841,15 @@ Extension 的机制类似于 **Laravel** 中 **Service Provider** 的机制，�
 **插件**位于目录 **extensions** 下，插件目录结构如下
 
 ```
-# vendor                                                       厂商目录
-    # extension                                                插件目录
-        # configuations                                        可加载配置文件目录
-        # resources                                            资源目录
-            # translations                                     翻译文件目录
-            # views                                            视图目录
-        # src                                                  源码目录
-        # bootstrap.php                                        插件启动脚本
-        # composer.json                                        Composer 配置文件
+# vendor                                                                               厂商目录
+    # extension                                                                        插件目录
+        # configuations                                                                可加载配置文件目录
+        # resources                                                                    资源目录
+            # translations                                                             翻译文件目录
+            # views                                                                    视图目录
+        # src                                                                          源码目录
+        # bootstrap.php                                                                插件启动脚本
+        # composer.json                                                                Composer 配置文件
 ```
 
 ### 其他说明

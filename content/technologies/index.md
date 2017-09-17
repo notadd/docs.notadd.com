@@ -43,3 +43,6 @@ title: 相关技术
 
 **[如何用 Vue2 写出 web 单页应用](/howtos/#如何用vue2写出web单页应用)**
 
+## 基于 Notadd 的 SEO 优化方案
+
+(待撰写...)
