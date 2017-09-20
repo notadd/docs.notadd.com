@@ -59,7 +59,7 @@ googleAnalytics = ""
 	weight = 20
 
 [[menu.main]]
-	name   = "HOWTO文档"
+	name   = "HOWTO 文档"
 	url    = "howtos/"
 	weight = 30
 
