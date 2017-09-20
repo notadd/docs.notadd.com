@@ -94,6 +94,11 @@ googleAnalytics = ""
 	weight = 80
 
 [[menu.main]]
+	name   = "工作流"
+	url    = "workflows/"
+	weight = 80
+
+[[menu.main]]
 	name   = "二次开发"
 	url    = "develops/"
 	weight = 90
