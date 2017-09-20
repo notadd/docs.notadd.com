@@ -45,10 +45,12 @@ title: 模块技术文档
 
 **模块配置文件** (configuration.yaml) 除了包含模块基本信息配置外，还是 Notadd 模块功能注入的一部分，主要实现以下部分的注入：
 
-* csrf
-* dashboards
-* menus
-* pages
-* publishes
+```markdown
+* csrf                                                                         # CSRF 例外
+* dashboards                                                                   # 后台首页仪表盘模块
+* menus                                                                        # 后台菜单
+* pages                                                                        # 后台自定义页面
+* publishes                                                                    # 资源发布
+```
 
 与插件共享配置文档规范，请参阅[**配置文件规范文档**](../configurations/)。
