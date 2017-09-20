@@ -84,8 +84,13 @@ googleAnalytics = ""
     weight = 70
 
 [[menu.main]]
-	name   = "相关技术"
+	name   = "核心技术"
 	url    = "technologies/"
+	weight = 80
+
+[[menu.main]]
+	name   = "其他技术"
+	url    = "others/"
 	weight = 80
 
 [[menu.main]]
