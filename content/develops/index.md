@@ -8,7 +8,6 @@ title: 二次开发
 
 ### Notadd Framework 支持进行的二次开发内容。
 
-
 ## Notadd 推荐的扩展方式
 
 Notadd 的基本特性是，模块化，可扩展，可插拔，故此，和 Laravel 的基于 Composer 的可扩展方式是有区别的。
@@ -33,7 +32,6 @@ Notadd 的基本特性是，模块化，可扩展，可插拔，故此，和 Lar
 * 基于 OAuth2 的 API 验证技术，多平台，多方案实现，为 API 的安全保驾护航
 * 完整的 RESUTFul API 规范，轻松实现对 API 的构建
 * 提供多层次的可扩展架构，拓展(expand)、模块(module)、插件(extension)
-
 
 #### 功能性扩展说明列表
 
@@ -336,9 +334,7 @@ class RouteRegister extends AbstractRouteRegister
 
 ## 拓展
 
-## 拓展
-
-拓展一般需要在特定环境下实现，比如workerman拓展，需要安装 workerman 支持的拓展。
+**拓展**一般需要在特定环境下实现，比如 Workerman 模块，需要安装 Workerman 支持的拓展。
 
 新特性，开发中...
 
