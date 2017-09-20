@@ -9,7 +9,7 @@ title: 插件技术文档
 ## 目录结构
 
 ```
-# modules/vendor/ext-navigation                                                模块目录
+# extensions/vendor/ext-navigation                                                模块目录
     # resources                                                                资源目录
         # mixes                                                                前端资源目录
         # translations                                                         多语言资源目录
