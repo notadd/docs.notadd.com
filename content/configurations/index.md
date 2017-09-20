@@ -12,14 +12,14 @@ title: 配置文件规范文档
 
 具体列表如下：
 
-[name](#name) 
-[identification](#identification) 
-[author](#author) 
-[version](#version) 
-[csrf](#csrf) 
-[dashboards](#dashboards) 
-[menus](#menus) 
-[pages](#pages) 
+[name](#name) ，
+[identification](#identification) ，
+[author](#author) ，
+[version](#version) ，
+[csrf](#csrf) ，
+[dashboards](#dashboards)， 
+[menus](#menus) ，
+[pages](#pages) ，
 [publishes](#publishes) 
 
 ### name
