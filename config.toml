@@ -79,29 +79,34 @@ googleAnalytics = ""
     weight = 60
 
 [[menu.main]]
+    name   = "配置文件规范文档"
+    url    = "expands"
+    weight = 70
+
+[[menu.main]]
 	name   = "相关技术"
 	url    = "technologies/"
-	weight = 70
+	weight = 80
 
 [[menu.main]]
 	name   = "二次开发"
 	url    = "develops/"
-	weight = 80
+	weight = 90
 
 [[menu.main]]
 	name   = "API 文档"
 	url    = "apis/"
-	weight = 90
+	weight = 100
 
 [[menu.main]]
 	name   = "技术规范"
 	url    = "standards/"
-	weight = 100
+	weight = 110
 
 [[menu.main]]
 	name   = "使用laradock部署"
 	url    = "laradock/"
-	weight = 110
+	weight = 120
 
 [blackfriday]
 	smartypants	= true
