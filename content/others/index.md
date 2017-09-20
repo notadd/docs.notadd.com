@@ -35,9 +35,6 @@ title: 相关技术
 
 国内一线互联网企业已经开始这样做， 尤其是BAT, 目前钉钉、滴滴 已经大面积使用。
 
-
-
-
 **[如何基于 Notadd 构建 API](/howtos/#如何基于-notadd-构建-api)** 
 
 **[如何用 Vue2 写出 web 单页应用](/howtos/#如何用vue2写出web单页应用)**
