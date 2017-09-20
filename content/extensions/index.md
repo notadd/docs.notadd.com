@@ -8,6 +8,29 @@ title: 插件技术文档
 
 ## 目录结构
 
+```
+# modules/vendor/ext-navigation                                                模块目录
+    # resources                                                                资源目录
+        # mixes                                                                前端资源目录
+        # translations                                                         多语言资源目录
+        # views                                                                视图目录
+    # src                                                                      源码目录
+        # Controllers                                                          控制器目录
+        # Subscribers                                                          事件订阅者目录（支持自动发现）
+        # Extension.php                                                        插件的服务提供者
+    # composer.json                                                            Composer 配置文件
+    # configuration.yaml                                                       模块配置文件
+    # readme.md                                                                模块说明文件
+```
+
+### 资源目录
+
+**资源目录**包含**前端资源文件**(**mixes**)、**多语言资源文件**(**translations**)和**视图文件**(**views**)。
+
+### 源码目录
+
+**源码目录**包含 PHP 源码。
+
 ### Composer 配置文件
 
 **Composer 配置文件** (composer.json) 是符合 [Composer 官方规范](https://getcomposer.org/doc/04-schema.md) 的JSON格式的文档，Composer 相关规范，可以查阅 [Composer 官方文档](https://getcomposer.org)。

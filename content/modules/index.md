@@ -9,7 +9,7 @@ title: 模块技术文档
 ## 目录结构
 
 ```
-# module/administration                                                        模块目录
+# modules/administration                                                        模块目录
     # resources                                                                资源目录
         # mixes                                                                前端资源目录
         # translations                                                         多语言资源目录
