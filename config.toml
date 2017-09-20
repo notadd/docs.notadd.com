@@ -80,7 +80,7 @@ googleAnalytics = ""
 
 [[menu.main]]
     name   = "配置文件规范文档"
-    url    = "expands"
+    url    = "configurations"
     weight = 70
 
 [[menu.main]]
