@@ -813,7 +813,7 @@ class CsrfTokenRegister extends EventSubscriber
 
 所谓 插件注入 ，是 Notadd 在加载插件的时候，会检索插件目录下的类 Extension，此类必须命名为 Extension，且需放在源码根目录中，且命名空间必须为 composer.json 的中 autoload 节点定义的符合 psr-4 规范的命名空间，否则 Notadd 将不能正确加载插件！
 
-类 Extension 的父类必须为 Notadd\Foundation\Extension\Abstracts\Extension ，且必须包含 boot 方法。
+类 Extension 的父类必须为 Notadd\Foundation\Addon\Abstracts\Extension ，且必须包含 boot 方法。
 
 类 Extension 的代码参考如下：
 
@@ -828,7 +828,7 @@ class CsrfTokenRegister extends EventSubscriber
  */
 namespace Notadd\Duoshuo;
 
-use Notadd\Foundation\Extension\Abstracts\Extension as AbstractExtension;
+use Notadd\Foundation\Addon\Abstracts\Extension as AbstractExtension;
 
 /**
  * Class Extension.
@@ -865,7 +865,7 @@ namespace Notadd\Duoshuo;
 
 use Illuminate\Events\Dispatcher;
 use Notadd\Duoshuo\Listeners\RouteRegister;
-use Notadd\Foundation\Extension\Abstracts\Extension as AbstractExtension;
+use Notadd\Foundation\Addon\Abstracts\Extension as AbstractExtension;
 
 /**
  * Class Extension.
@@ -936,7 +936,7 @@ namespace Notadd\Duoshuo;
 
 use Illuminate\Events\Dispatcher;
 use Notadd\Duoshuo\Listeners\CsrfTokenRegister;
-use Notadd\Foundation\Extension\Abstracts\Extension as AbstractExtension;
+use Notadd\Foundation\Addon\Abstracts\Extension as AbstractExtension;
 
 /**
  * Class Extension.
