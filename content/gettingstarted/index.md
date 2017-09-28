@@ -11,6 +11,7 @@ title: 开始使用
 PHP版本 ： 7.0+
 
 数据库： PostgreSQL 9.4+（推荐）/ MySQL 5.7+ / SQLite 3.9+
+Redis： 3.2+
 
 
 ## 环境要求
@@ -18,6 +19,7 @@ PHP版本 ： 7.0+
 ### 需要的扩展
 
 * PHP 必须大于 7.0.0
+* Composer 大于 1.5.1
 * 必须安装 PHP 扩展 dom
 * 必须安装 PHP 扩展 fileinfo
 * 必须安装 PHP 扩展 gd
@@ -67,6 +69,9 @@ RewriteRule ^ index.php [L]
         to /index.php?{query}
     }
  ```
+ 
+
+
 ## 编译安装
 
 {{< note title="安装前注意" >}}
@@ -116,10 +121,44 @@ $ php notadd vendor:publish --force
 同时，为了网站安全，请务必执行此操作。
 {{< /warning >}}
 
-
 ### 使用laradock部署
 
 参见 https://docs.notadd.com/laradock/
+
+
+## 完整安装包
+
+[完整安装包下载地址](https://www.notadd.com/download/notadd-latest.tar.xz)
+
+### 1. 下载&解压
+命令下载：
+```
+curl -O https://www.notadd.com/download/notadd-latest.tar.xz
+
+tar -xvJf  notadd-latest.tar.xz
+```
+
+### 2. 修改 public、storage 目录权限
+
+设置为 php-fpm 的用户及用户组(部分一键安装包为 `www:www` )，Windows 请跳过此步
+
+```bash
+$ chown -R www-data:www-data notadd
+```
+
+或
+
+```bash
+$ chmod -R 777 notadd/storage notadd/statics
+```
+### 3. 安装
+
+将域名绑定到 `notadd/public` 目录，并访问该域名进行安装。
+
+
+### 4. 完成
+
+访问后台入口 `http://yourdomain/admin`。
 
 
 ## 模块的安装
