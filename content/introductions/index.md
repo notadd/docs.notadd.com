@@ -106,7 +106,7 @@ Notadd官方微博：http://weibo.com/u/5938031702
 3. 大量的BUG修复
 
 
-### Beta5 fix2 （即将发布）
+### Beta5 fix2 （170930）
 
 1. 引入验证码插件，后台默认启用
 2. static 默认生成 config.json 配置文件
