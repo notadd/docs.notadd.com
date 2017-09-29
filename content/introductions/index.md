@@ -112,6 +112,7 @@ Notadd官方微博：http://weibo.com/u/5938031702
 2. static 默认生成 config.json 配置文件
 3. 模块信息注入
 4. 支持更多头部响应
+5. 支持更多缓存
 
 ### Beta5 fix1 （170928）
 
