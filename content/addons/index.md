@@ -9,7 +9,7 @@ title: 插件技术文档
 ## 目录结构
 
 ```
-# extensions/vendor/ext-navigation                                                模块目录
+# addons/vendor/ext-navigation                                                 模块目录
     # resources                                                                资源目录
         # mixes                                                                前端资源目录
         # translations                                                         多语言资源目录
@@ -17,7 +17,7 @@ title: 插件技术文档
     # src                                                                      源码目录
         # Controllers                                                          控制器目录
         # Subscribers                                                          事件订阅者目录（支持自动发现）
-        # Extension.php                                                        插件的服务提供者
+        # Addon.php                                                        插件的服务提供者
     # composer.json                                                            Composer 配置文件
     # configuration.yaml                                                       模块配置文件
     # readme.md                                                                模块说明文件
@@ -37,7 +37,7 @@ title: 插件技术文档
 
 #### Type
 
-将 **type** 设置为 **notadd-extension**，可以将当前模块包（Package）安装到 **extensions/vendor** 目录下，vendor 为厂商名称。
+将 **type** 设置为 **notadd-addon**，可以将当前模块包（Package）安装到 **addons/vendor** 目录下，vendor 为厂商名称。
 
 #### Require
 

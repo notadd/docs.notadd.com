@@ -65,7 +65,7 @@ googleAnalytics = ""
 
 [[menu.main]]
     name   = "拓展技术文档"
-    url    = "expands"
+    url    = "extensions"
     weight = 40
 
 [[menu.main]]
@@ -75,7 +75,7 @@ googleAnalytics = ""
 
 [[menu.main]]
     name   = "插件技术文档"
-    url    = "extensions"
+    url    = "addons"
     weight = 60
 
 [[menu.main]]
