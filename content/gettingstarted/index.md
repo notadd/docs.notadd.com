@@ -129,17 +129,20 @@ $ php notadd vendor:publish --force
 ## 完整安装包
 
 [master 包下载地址](https://www.notadd.com/download/notadd-master.tar.xz)
+
 [develop 包下载地址](https://www.notadd.com/download/notadd-develop.tar.xz)
 
 ### 1. 下载&解压
+
 命令下载：
+
 ```
 curl -O https://www.notadd.com/download/notadd-master.tar.xz
 
-tar -xvJf  notadd-latest.tar.xz
+tar -xvJf  notadd-master.tar.xz
 ```
 
-### 2. 修改 public、storage 目录权限
+### 2. 修改 statics、storage 目录权限
 
 设置为 php-fpm 的用户及用户组(部分一键安装包为 `www:www` )，Windows 请跳过此步
 
