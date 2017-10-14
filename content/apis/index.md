@@ -70,7 +70,7 @@ class SettingController extends Controller
      *
      * @param \Notadd\Foundation\Setting\Handlers\AllHandler $handler
      *
-     * @return \Notadd\Foundation\Passport\Responses\ApiResponse
+     * @return \Notadd\Foundation\Routing\Responses\ApiResponse
      * @throws \Exception
      */
     public function all(AllHandler $handler)
@@ -83,7 +83,7 @@ class SettingController extends Controller
     /**
      * @param \Notadd\Foundation\Setting\Handlers\SetHandler $handler
      *
-     * @return \Notadd\Foundation\Passport\Responses\ApiResponse
+     * @return \Notadd\Foundation\Routing\Responses\ApiResponse
      * @throws \Exception
      */
     public function set(SetHandler $handler)
