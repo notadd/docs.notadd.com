@@ -69,7 +69,48 @@ RewriteRule ^ index.php [L]
         to /index.php?{query}
     }
  ```
- 
+## 完整安装包
+
+[master 包下载地址](https://www.notadd.com/download/notadd-master.tar.xz)
+
+[develop 包下载地址](https://www.notadd.com/download/notadd-develop.tar.xz)
+
+### 1. 下载&解压
+
+命令下载：
+
+```
+curl -O https://www.notadd.com/download/notadd-master.tar.xz
+
+tar -xvJf  notadd-master.tar.xz
+```
+
+### 2. 修改 statics、storage 目录权限
+
+设置为 php-fpm 的用户及用户组(部分一键安装包为 `www:www` )，Windows 请跳过此步
+
+```bash
+$ chown -R www-data:www-data notadd
+```
+
+或
+
+```bash
+$ chmod -R 777 notadd/storage notadd/statics
+```
+### 3. 安装
+
+将域名绑定到 `notadd/public` 目录，并访问该域名进行安装。
+
+{{< warning title="pulic 必须为网站根目录" >}}
+否则前端资源将请求不到，出现空白页。
+同时，为了网站安全，请务必执行此操作。
+{{< /warning >}}
+
+
+### 4. 完成
+
+访问后台入口 `http://yourdomain/admin`。
 
 
 ## 编译安装
@@ -124,45 +165,6 @@ $ php notadd vendor:publish --force
 ### 使用laradock部署
 
 参见 https://docs.notadd.com/laradock/
-
-
-## 完整安装包
-
-[master 包下载地址](https://www.notadd.com/download/notadd-master.tar.xz)
-
-[develop 包下载地址](https://www.notadd.com/download/notadd-develop.tar.xz)
-
-### 1. 下载&解压
-
-命令下载：
-
-```
-curl -O https://www.notadd.com/download/notadd-master.tar.xz
-
-tar -xvJf  notadd-master.tar.xz
-```
-
-### 2. 修改 statics、storage 目录权限
-
-设置为 php-fpm 的用户及用户组(部分一键安装包为 `www:www` )，Windows 请跳过此步
-
-```bash
-$ chown -R www-data:www-data notadd
-```
-
-或
-
-```bash
-$ chmod -R 777 notadd/storage notadd/statics
-```
-### 3. 安装
-
-将域名绑定到 `notadd/public` 目录，并访问该域名进行安装。
-
-
-### 4. 完成
-
-访问后台入口 `http://yourdomain/admin`。
 
 
 ## 模块的安装
