@@ -24,7 +24,7 @@ googleAnalytics = ""
 	logo = "images/logo.png"
 	favicon = "images/favicon.ico"
 
-	permalink = "#"
+	permalink = "https://docs.notadd.com"
 
 	# Custom assets
 	custom_css = []
