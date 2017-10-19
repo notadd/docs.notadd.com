@@ -48,6 +48,7 @@ location / {
 
 {{< warning title="网页空白或前端资源报错" >}}
 默认图片等静态文件交由 PHP 处理，请将 Nginx 网站 conf 配置中的 localtion ～ 有关图片文件（jpg png）及 css 和 js 相关配置项删除。
+LNMP 用户请先添加网站再手动修改网站根路径到 public
 {{< /warning >}}
 
 ### Apache 配置
@@ -73,7 +74,7 @@ RewriteRule ^ index.php [L]
 
 [master 包下载地址](https://www.notadd.com/download/notadd-master.tar.xz)
 
-[develop 包下载地址](https://www.notadd.com/download/notadd-develop.tar.xz)
+[develop 包下载地址(不建议使用)](https://www.notadd.com/download/notadd-develop.tar.xz)
 
 ### 1. 下载&解压
 
