@@ -117,6 +117,7 @@ $ chmod -R 777 notadd/storage notadd/statics
 
 {{< note title="安装前注意" >}}
 安装前请确保已经安装git、php及composer，否则无法执行安装。
+需要PHP7.1+
 {{< /note >}}
 
 
