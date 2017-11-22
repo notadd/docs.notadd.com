@@ -27,6 +27,7 @@ Redis： 3.2+
 * 必须安装 PHP 扩展 mbstring
 * 必须安装 PHP 扩展 openssl
 * 必须安装 PHP 扩展 bc_math
+* win 下必须安装 `extension=php_com_dotnet.dll`
 * 使用 Mysql 数据库引擎则必须安装PHP扩展 pdo_mysql
 * 使用 Pgsql 数据库引擎则必须安装PHP扩展 pdo_pgsql
 * 使用 Sqlite 数据库引擎则必须安装PHP扩展 pdo_sqlite
