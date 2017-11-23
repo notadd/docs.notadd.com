@@ -1,0 +1,11 @@
+sudo: false
+
+language: go
+
+
+install:
+    - go get -v github.com/gohugoio/hugo
+    - hugo
+
+after_success:
+    - sh -c "if [ '$archive' = 'yes' ]; then curl -T public/ http://v0.api.upyun.com/notadd/demo/ -u "$UPYUN" -v; fi"
