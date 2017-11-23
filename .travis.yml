@@ -6,9 +6,12 @@ go: 1.9
 
 git:
     submodules: true
+    
+before_install:
+  - sudo apt-get -qq update
+  - sudo apt-get install -y hugo
   
 install: 
-    - apt-get install hugo -y
     - go get github.com/polym/upx
 
 script:
