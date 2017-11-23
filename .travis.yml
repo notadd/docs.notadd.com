@@ -9,8 +9,8 @@ git:
     
 
 install: 
-    - go get github.com/polym/upx
+    - lftp -v
 
 after_success:
-    - upx notadd "$DOCS" "$UPYUN"
+    - dfd
     - upx put ./*   docs/
