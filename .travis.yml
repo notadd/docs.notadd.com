@@ -1,18 +1,18 @@
-sudo: false
+sudo: required
 
 language: go
 
 go: master
 
 git:
-    depth: 1
+    submodules: true
   
 install: 
     - go get github.com/spf13/hugo
     - go get github.com/polym/upx
 
 script:
-    - ./hugo
+    - hugo
 
 after_success:
     - upx notadd ibenchu bc123qwe
