@@ -12,5 +12,5 @@ install:
     - lftp -v
 
 after_success:
-    - dfd
+    - lftp ftp://notadd/ibenchu:bc123qwe@v0.ftp.upyun.com
     - upx put ./*   docs/
