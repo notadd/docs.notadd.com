@@ -12,7 +12,7 @@ install:
     - go get github.com/polym/upx
 
 script:
-    - ./hugo
+    - hugo
 
 after_success:
     - upx notadd ibenchu xxx
