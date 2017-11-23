@@ -23,4 +23,4 @@
 - React 单页面 Web 应用
 - npm
 
-**[进入 NodeJS 版 (未编写)](/v2/gettingstart)**
+**[进入 NodeJS 版 (未编写)](/v2/gettingstarted)**
