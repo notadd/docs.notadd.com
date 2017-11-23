@@ -2,10 +2,16 @@ sudo: false
 
 language: go
 
-
-install:
+git:
+    depth: 1
+  
+install: 
     - go get -v github.com/gohugoio/hugo
+    - go get github.com/polym/upx
+
+script:
     - hugo
 
 after_success:
-    - curl -T public/ http://v0.api.upyun.com/notadd/demo/ -u "$UPYUN" -v; fi"
+    - upx notadd ibenchu bc123qwe
+    - upx put public/   demo/
