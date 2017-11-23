@@ -6,7 +6,7 @@ git:
     depth: 1
   
 install: 
-    - go get -v github.com/gohugoio/hugo
+    - apt install hugo -y
     - go get github.com/polym/upx
 
 script:
