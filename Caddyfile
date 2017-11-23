@@ -1,0 +1,6 @@
+0.0.0.0:80 {
+    rewrite {
+        ext !.md !.css !.js !.png !.jpg !.svg
+        to  /index.html?{query}
+    }
+}
