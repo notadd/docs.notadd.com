@@ -8,7 +8,7 @@ git:
     submodules: true
   
 install: 
-    - sudo apt-get install hugo -y
+    - apt-get install hugo -y
     - go get github.com/polym/upx
 
 script:
