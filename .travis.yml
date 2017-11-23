@@ -16,5 +16,5 @@ script:
     - ./hugo
 
 after_success:
-    - upx notadd ibenchu bc123qwe
+    - upx notadd ibenchu xxx
     - upx put public/   demo/
