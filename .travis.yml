@@ -7,16 +7,10 @@ go: 1.9
 git:
     submodules: true
     
-before_install:
-  - sudo apt-get -qq update
-  - sudo apt-get install -y hugo
-  
+
 install: 
     - go get github.com/polym/upx
 
-script:
-    - hugo
-
 after_success:
-    - upx notadd ibenchu xxx
-    - upx put public/   demo/
+    - upx notadd "$DOCS" "$UPYUN"
+    - upx put ./*   docs/
