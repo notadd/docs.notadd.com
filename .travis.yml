@@ -8,8 +8,8 @@ git:
     submodules: true
   
 install: 
-    - curl -O https://github.com/gohugoio/hugo/releases/download/v0.31/hugo_0.31_Linux-64bit.tar.gz
-    - tar -zxvf hugo_0.31_Linux-64bit\ .tar.gz
+    - curl -L https://github.com/gohugoio/hugo/releases/download/v0.31/hugo_0.31_Linux-64bit.tar.gz  -o hugo.tar.gz
+    - tar -zxvf hugo.tar.gz
     - go get github.com/polym/upx
 
 script:
