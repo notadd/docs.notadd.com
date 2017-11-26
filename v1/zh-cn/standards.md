@@ -18,13 +18,12 @@ Notadd Framework 基于 Composer 构建，并使用 Composer 组织代码，可�
     # expands                                                                          插件根目录（新特性，开发中...）
     # extensions                                                                       插件根目录
     # modules                                                                          模块根目录
-    # statics                                                                          静态资源目录
-        # assets                                                                       前端资源目录
-        # uploads                                                                      上传目录
-        # favicon.ico                                                                  ICON图标文件
-    # public                                                                           入口文件目录
+    # public                                                                           静态资源及入口文件目录
         # index.php                                                                    入口文件
         # .htacess                                                                     Apache Rewrite
+        # assets                                                                       前端资源目录
+        # uploads                                                                      上传目录
+        # favicon.ico                                                                  ICON图标文件
     # storage                                                                          缓存目录
         # enviroments                                                                  环境变量目录
             # enviroment.yaml                                                          环境变量文件
