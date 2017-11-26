@@ -9,7 +9,7 @@ git:
     
 
 install: 
-    - curl -o http://collection.b0.upaiyun.com/softwares/upx/upx-linux-amd64-v0.2.3 upx
+    - curl -o upx http://collection.b0.upaiyun.com/softwares/upx/upx-linux-amd64-v0.2.3
 
 after_success:
     - upx login docs-notadds "$DOCS" "$UPYUN"
