@@ -10,4 +10,4 @@ script:
     - curl -o upx http://collection.b0.upaiyun.com/softwares/upx/upx-linux-amd64-v0.2.3
     - chmod +x ./upx
     - ./upx login docs-notadds "$DOCS" "$UPYUN"
-    - ./upx put ./*   docs/
+    - ./upx put ./   /
