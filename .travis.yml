@@ -7,8 +7,8 @@ git:
     
 
 script: 
-    - curl -o upx http://collection.b0.upaiyun.com/softwares/upx/upx-linux-amd64-v0.2.3
-    - chmod +x ./upx
+    - sudo curl  -L http://collection.b0.upaiyun.com/softwares/upx/upx-linux-amd64-v0.2.3 -o /usr/bin/upx
+    - chmod +x /usr/bin/upx
     - rm -rf .git
-    - ./upx login docs-notadds "$DOCS" "$UPYUN"
-    - ./upx put ./   /
+    - upx login docs-notadds "$DOCS" "$UPYUN"
+    - upx put ./   /
