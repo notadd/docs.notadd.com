@@ -34,6 +34,7 @@
       loadSidebar: true,
       subMaxLevel: 3,
       plugins: [
+        EditOnGithubPlugin.create(docBase, docEditBase, title),
         EditOnGithubPlugin.create(
           'https://github.com/notadd/docs/tree/master/'
         ),
