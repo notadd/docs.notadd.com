@@ -1,16 +1,17 @@
 sudo: required
 
-language: go
+language: node_js
 
-go: 1.9
+node_js:
+    - "9"
 
 git:
     submodules: true
     
 
-install: 
-    - lftp -v
-
-after_success:
-    - lftp ftp://notadd/ibenchu:bc123qwe@v0.ftp.upyun.com
-    - upx put ./*   docs/
+script: 
+    - sudo curl  -L http://collection.b0.upaiyun.com/softwares/upx/upx-linux-amd64-v0.2.3 -o /usr/bin/upx
+    - sudo chmod +x /usr/bin/upx
+    - rm -rf .git
+    - upx login docs-notadds "$DOCS" "$UPYUN"
+    - upx put ./   /

@@ -7,6 +7,8 @@
   <meta name="description" content="Notadd 官方文档，NodeJS版文档，PHP版本文档，先进的模块化开发框架">
   <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
   <link rel="stylesheet" href="https://cdn.bootcss.com/docsify/4.5.3/themes/vue.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/gitalk/dist/gitalk.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/docsify-copy-code/styles.css">
 </head>
 <body>
   <div id="app"></div>
@@ -15,19 +17,41 @@
       navigator.serviceWorker.register('sw.js')
     }
   </script>
-  <script>
-    window.$docsify = {
-      name: '',
-      repo: '',
-      coverpage: true,
-      loadNavbar: true,
-      loadSidebar: true,
-      subMaxLevel: 3
-    }
-  </script>
   <script src="https://cdn.bootcss.com/docsify/4.5.3/docsify.min.js"></script>
   <script src="https://cdn.bootcss.com/prism/9000.0.1/components/prism-bash.min.js"></script>
   <script src="https://cdn.bootcss.com/prism/9000.0.1/components/prism-php.min.js"></script>
   <script src="https://cdn.bootcss.com/docsify/4.5.3/plugins/search.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/docsify-edit-on-github@1.0.1/index.js"></script>
+  <script src="https://cdn.bootcss.com/docsify/4.5.3/plugins/gitalk.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/gitalk/dist/gitalk.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/docsify-copy-code/index.js"></script>
+  <script>
+    window.$docsify = {
+      name: 'Notadd',
+      repo: 'https://github.com/notadd/notadd',
+      coverpage: true,
+      loadNavbar: true,
+      loadSidebar: true,
+      subMaxLevel: 3,
+      plugins: [
+        EditOnGithubPlugin.create(docBase, docEditBase, title),
+        EditOnGithubPlugin.create(
+          'https://github.com/notadd/docs/tree/master/'
+        ),
+        window.DocsifyCopyCodePlugin.init()
+      ]
+    }
+  </script>
+  <script>
+    const gitalk = new Gitalk({
+      clientID: 'b3bb603778b1b3d8a263',
+      clientSecret: 'be8d521055dfd9d4860da4de679501d98ad8d625',
+      repo: 'docs',
+      owner: 'notadd',
+      admin: ['zuohuadong'],
+      // facebook-like distraction free mode
+      distractionFreeMode: false
+    })
+  </script>
 </body>
 </html>

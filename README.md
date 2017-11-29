@@ -11,7 +11,7 @@
 - VueJS 单页面 Web 应用
 - Composer
 
-**[进入 PHP 版](/v1/gettingstarted)**
+**[进入 PHP 版](/v1/)**
 
 
 ## NodeJS
@@ -23,4 +23,4 @@
 - React 单页面 Web 应用
 - npm
 
-**[进入 NodeJS 版 (未编写)](/v2/gettingstarted)**
+**[进入 NodeJS 版 (未编写)](/v2/)**

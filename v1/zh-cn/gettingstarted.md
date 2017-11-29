@@ -40,7 +40,7 @@ Redis： 3.2+
 
 ```
 location / {
-  rewrite ^ /index.php?query_string;
+    try_files $uri $uri/ /index.php?$query_string;
 }
 ```
 
@@ -58,14 +58,17 @@ Apache 下一般public（服务器）/根目录（虚拟主机） 下都有附�
 Options +FollowSymLinks
 RewriteEngine On
 
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME} !-f
 RewriteRule ^ index.php [L]
 ```
 ## caddy 配置
 
 ```
     fastcgi / 127.0.0.1:9000 php
+    fastcgi / 127.0.0.1:9000 php
     rewrite {
-        to /index.php?{query}
+        to {path} {path}/ /index.php?{query}
     }
  ```
 # 完整安装包
@@ -95,7 +98,7 @@ $ chown -R www-data:www-data notadd
 或
 
 ```bash
-$ chmod -R 777 notadd/storage notadd/statics
+$ chmod -R 777 notadd/storage notadd/public
 ```
 ## 3. 安装
 
@@ -134,7 +137,7 @@ $ chown -R www-data:www-data notadd
 或
 
 ```bash
-$ chmod -R 777 notadd/storage notadd/statics
+$ chmod -R 777 notadd/storage notadd/public
 ```
 
 ## 3. 安装
