@@ -44,11 +44,6 @@ location / {
 }
 ```
 
-!> 网页空白或前端资源报错     
-默认图片等静态文件交由 PHP 处理，请将 Nginx 网站 conf 配置中的 localtion ～ 有关图片文件（jpg png）及 css 和 js 相关配置项删除。
-LNMP 用户请先添加网站再手动修改网站根路径到 public
-
-
 ## Apache 配置
 
 Apache 下一般public（服务器）/根目录（虚拟主机） 下都有附带的 `.htaccess` 文件，
