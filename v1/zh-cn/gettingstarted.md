@@ -157,7 +157,7 @@ $ php notadd vendor:publish --force
 
 ## 使用laradock部署
 
-参见 https://docs.notadd.com/laradock/
+参见 https://docs.notadd.com/#/v1/zh-cn/laradock
 
 
 # 模块的安装
