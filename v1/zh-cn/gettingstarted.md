@@ -7,7 +7,8 @@
 
 PHP版本 ： 7.0+
 
-数据库： PostgreSQL 9.4+（推荐）/ MySQL 5.7+ / SQLite 3.9+
+数据库： PostgreSQL 9.4+（推荐）/ MySQL 5.7+ / SQLite 3.9+    
+
 Redis： 3.2+
 
 
