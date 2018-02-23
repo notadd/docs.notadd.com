@@ -26,18 +26,6 @@ Docker 的性能损失只有1-2%，几乎可以忽略不计。
 ```
 curl -sSL https://get.docker.com | sh
 ```
-### 安装Docker
-
-Centos7 请执行这步
-```
-yum install -y docker-engine 
-```
-
-ubuntu 请执行这步
-
-```
-sudo apt-get install -y -q docker-engine
-```
 
 !> 建议使用清华大学镜像源
 !> https://mirror.tuna.tsinghua.edu.cn/help/docker/
@@ -48,7 +36,7 @@ sudo apt-get install -y -q docker-engine
 
 ### 安装Docker-compose （ubuntu 请注意权限问题）
 ```
-curl -L https://get.daocloud.io/docker/compose/releases/download/1.16.1/docker-compose-`uname -s`-`uname -m` > /usr/local/bin/docker-compose
+curl -L https://get.daocloud.io/docker/compose/releases/download/1.19.0/docker-compose-`uname -s`-`uname -m` > /usr/local/bin/docker-compose
 chmod +x /usr/local/bin/docker-compose
 ```
 ### 开启国内镜像加速
