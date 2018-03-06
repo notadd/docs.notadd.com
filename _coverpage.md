@@ -8,6 +8,6 @@
 
 - [又拍云](https://www.notadd.com/src/upyun.svg "又拍云")提供 CDN 赞助
 
-[2.x NodeJS版](#NodeJS)
+[2.x NodeJS版](/v2/)
 [1.x PHP版](/v1/)
 [GitHub](https://github.com/notadd/notadd)
