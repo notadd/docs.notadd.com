@@ -119,7 +119,7 @@ $ chmod -R 777 notadd/storage notadd/public
 ## 1. 下载源代码
 
 ```bash
-$ git clone https://github.com/notadd/notadd.git
+$ git clone https://github.com/notadd/notadd.git --branch=php-master
 ```
 
 ## 2. 修改 public、storage 目录权限
@@ -173,7 +173,7 @@ $ php notadd vendor:publish --force
 
 ```bash
 cd notadd/modules
-git clone https://github.com/notadd/content.git
+git clone https://github.com/notadd/content.git --branch=php-dev
 ```
 
 2、模块初始化：
