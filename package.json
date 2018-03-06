@@ -1,10 +1,15 @@
 {
   "name": "notadd-docs",
   "version": "v2.0",
+  "author": "notadd",
+  "description": "document for notadd, v1 and v2",
+  "main": "server.js",
+  "license": "Apache-2.0",
   "scripts": {
     "dev": "node server.js"
   },
   "dependencies": {
-    "express": "^4.16.2"
+    "express": "^4.16.2",
+    "ip": "^1.1.5"
   }
 }
