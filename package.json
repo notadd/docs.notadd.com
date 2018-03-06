@@ -1,0 +1,10 @@
+{
+  "name": "notadd-docs",
+  "version": "v2.0",
+  "scripts": {
+    "dev": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.16.2"
+  }
+}
