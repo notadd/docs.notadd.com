@@ -19,8 +19,6 @@
 > NodeJS 版本目前基于以下技术构建
 
 - NodeJS 8
-- AdonisJS 4.0
-- React 单页面 Web 应用
-- npm
+- NestJS
 
 **[进入 NodeJS 版 (未编写)](/v2/)**
