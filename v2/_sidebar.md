@@ -1,4 +1,5 @@
 - [关于](/v2/zh-cn/introductions)
+- [快速开始](/v2/zh-cn/gettingstarted)
 - [开发环境](/v2/zh-cn/developments)
 - [线上环境](/v2/zh-cn/online)
 - [技术栈](/v2/zh-cn/stacks)
