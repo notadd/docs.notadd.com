@@ -1,5 +1,6 @@
 - [关于](/v2/zh-cn/introductions)
 - [快速开始](/v2/zh-cn/gettingstarted)
+- [使用 Lerna 发布包](/v2/zh-cn/lerna)
 - [开发环境](/v2/zh-cn/developments)
 - [线上环境](/v2/zh-cn/online)
 - [技术栈](/v2/zh-cn/stacks)
