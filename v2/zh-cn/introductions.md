@@ -18,14 +18,11 @@ Notadd 是基于 Nest.js 的模块化敏捷开发系统架构， 技术栈新，
 
 [2017年 7月](https://blog.notadd.com/2017/08/01/2017-07/)
 
-
-
 ## 贡献
 
 欢迎使用 Pull requests。对于重大变更，请先提出 Issue，和我们一起来讨论你想改变的内容。
 
 > 感谢你考虑为 Notadd 作出贡献！具体贡献指南可以在 [Notadd 文档-贡献](https://docs.notadd.com/#/v1/?id=%e8%b4%a1%e7%8c%ae) 中查看。
-
 
 ## 赞助
 
@@ -34,7 +31,6 @@ Notadd 是基于 Nest.js 的模块化敏捷开发系统架构， 技术栈新，
 - [西安 · 本初网络](https://www.ibenchu.com)
 - [杭州 · 又拍云](https://www.upyun.com)
 - [西安 · 马达信息](#)
-
 
 ## 交流
 
@@ -52,12 +48,10 @@ QQ 群：[321735506](https://jq.qq.com/?_wv=1027&k=5qVzRh4)
 
 ## 感谢
 
-
 ### 贡献者
 
 感谢所有已经为notadd做出贡献的人！
 <a href="graphs/contributors"><img src="https://opencollective.com/notadd/contributors.svg?width=890&button=false" /></a>
-
 
 ### 支持者
 
