@@ -9,7 +9,7 @@
         "dev": "node server.js"
     },
     "dependencies": {
-        "@already/open-in-browser": "^1.0.1",
+        "@already/open-in-browser": "^1.0.2",
         "express": "^4.16.2",
         "ip": "^1.1.5"
     }
