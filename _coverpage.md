@@ -1,13 +1,15 @@
 ![logo](https://www.notadd.com/src/notado_logo420x96.svg)
 
-# 模块化敏捷开发系统架构
+# 开源模块化敏捷开发系统
 
-## 查看文档前，请确认，您已经足够了解 Laravel 或 NestJS
 
-> 像搭积木一样快速定制 Web 应用
+
+> 像搭积木一样快速开发业务
 
 - [又拍云](https://www.notadd.com/src/upyun.svg "又拍云")提供 CDN 赞助
 
-[2.x NodeJS版](/v2/)
-[1.x PHP版](/v1/)
-[GitHub](https://github.com/notadd/notadd)
+
+
+[English](/v2/en/)
+[开始使用](/v2/zh-cn/)
+

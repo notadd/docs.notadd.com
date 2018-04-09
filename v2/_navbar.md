@@ -1,2 +1,2 @@
-- 语言
+- Language
     - [中文](v2/zh-cn/)

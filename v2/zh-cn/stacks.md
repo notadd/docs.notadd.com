@@ -5,7 +5,3 @@
 ## NestJS
 
 ## NPM Packages
-
-## React
-
-## Material-UI

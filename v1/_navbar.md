@@ -1,2 +1,6 @@
-- 语言
-    - [中文](v1/zh-cn/)
+- Language
+    - [中文](/v1/zh-cn/)
+    - [English](/v1/en/)
+- Version
+    - [1.0](/v1/zh-cn/)
+    - [2.0](/v2/zh-cn/)
