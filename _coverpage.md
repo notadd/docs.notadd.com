@@ -1,13 +1,12 @@
 ![logo](https://www.notadd.com/src/notado_logo420x96.svg)
 
-# 开源模块化敏捷开发系统
+# 开源模块化开发系统
 
+- 【开发快】像搭积木一样快速满足自己的开发需求
 
+- 【高性能】基于 Nest.js 单机并发轻松上万
 
-> 像搭积木一样快速开发业务
-
-- [又拍云](https://www.notadd.com/src/upyun.svg "又拍云")提供 CDN 赞助
-
+- 【易维护】面向切面编程（AOP），便于维护和二次开发
 
 
 [English](/v2/en/)
