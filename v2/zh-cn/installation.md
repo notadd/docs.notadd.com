@@ -4,7 +4,7 @@
 
 先找到所需要的模块或扩展，并找到对应的包名称(```Package Name```)，例如：```@notadd/cms```。
 
-暂停程序服务，使用 ```Yarn``` 工具添加包依赖：```yarn add @notadd/cms```。
+暂停程序服务，在Notadd 根目录下 使用 ```Yarn``` 工具添加包依赖：```yarn add @notadd/cms```。
 
 # 第二步
 
