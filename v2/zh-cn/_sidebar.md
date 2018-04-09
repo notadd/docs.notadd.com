@@ -3,7 +3,7 @@
 - [使用 Lerna 发布包](/v2/zh-cn/lerna)
 - [开发环境](/v2/zh-cn/developments)
 - [线上环境](/v2/zh-cn/online)
-- [应用安装](/v2/zh-cn/installation)
+- [应用商店（未上线）](/v2/zh-cn/appstore)
 - [技术栈](/v2/zh-cn/stacks)
 - [扩展开发](/v2/zh-cn/extensions)
 - [模块开发](/v2/zh-cn/modules)
