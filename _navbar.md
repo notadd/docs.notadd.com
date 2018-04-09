@@ -1,2 +1,2 @@
-- [PHP版](/v1/)
-- [NodeJS版](/v2/)
+- [中文版](/v2/zh-cn)
+- [English](#)
